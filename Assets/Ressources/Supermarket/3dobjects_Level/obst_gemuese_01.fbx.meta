@@ -1,0 +1,144 @@
+fileFormatVersion: 2
+guid: f06206b2358dafd41865426aba4f1a5f
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Camera
+    100002: //RootNode
+    100004: obst_gemuese_aepfel
+    100006: obst_gemuese_birnen
+    100008: obst_gemuese_karotten
+    100010: obst_gemuese_kartoffeln
+    100012: obst_gemuese_kohl1
+    100014: obst_gemuese_kohl2
+    100016: obst_gemuese_kohl3
+    100018: obst_gemuese_melonen1
+    100020: obst_gemuese_melonen2
+    100022: obst_gemuese_orangen1
+    100024: obst_gemuese_orangen2
+    100026: obst_gemuese_salat
+    100028: obst_gemuese_salat1
+    100030: obst_gemuese_weintrauben
+    400000: Camera
+    400002: //RootNode
+    400004: obst_gemuese_aepfel
+    400006: obst_gemuese_birnen
+    400008: obst_gemuese_karotten
+    400010: obst_gemuese_kartoffeln
+    400012: obst_gemuese_kohl1
+    400014: obst_gemuese_kohl2
+    400016: obst_gemuese_kohl3
+    400018: obst_gemuese_melonen1
+    400020: obst_gemuese_melonen2
+    400022: obst_gemuese_orangen1
+    400024: obst_gemuese_orangen2
+    400026: obst_gemuese_salat
+    400028: obst_gemuese_salat1
+    400030: obst_gemuese_weintrauben
+    2300000: obst_gemuese_aepfel
+    2300002: obst_gemuese_birnen
+    2300004: obst_gemuese_karotten
+    2300006: obst_gemuese_kartoffeln
+    2300008: obst_gemuese_kohl1
+    2300010: obst_gemuese_kohl2
+    2300012: obst_gemuese_kohl3
+    2300014: obst_gemuese_melonen1
+    2300016: obst_gemuese_melonen2
+    2300018: obst_gemuese_orangen1
+    2300020: obst_gemuese_orangen2
+    2300022: obst_gemuese_salat
+    2300024: obst_gemuese_salat1
+    2300026: obst_gemuese_weintrauben
+    3300000: obst_gemuese_aepfel
+    3300002: obst_gemuese_birnen
+    3300004: obst_gemuese_karotten
+    3300006: obst_gemuese_kartoffeln
+    3300008: obst_gemuese_kohl1
+    3300010: obst_gemuese_kohl2
+    3300012: obst_gemuese_kohl3
+    3300014: obst_gemuese_melonen1
+    3300016: obst_gemuese_melonen2
+    3300018: obst_gemuese_orangen1
+    3300020: obst_gemuese_orangen2
+    3300022: obst_gemuese_salat
+    3300024: obst_gemuese_salat1
+    3300026: obst_gemuese_weintrauben
+    4300000: obst_gemuese_karotten
+    4300002: obst_gemuese_kartoffeln
+    4300004: obst_gemuese_salat1
+    4300006: obst_gemuese_weintrauben
+    4300008: obst_gemuese_birnen
+    4300010: obst_gemuese_orangen1
+    4300012: obst_gemuese_aepfel
+    4300014: obst_gemuese_orangen2
+    4300016: obst_gemuese_kohl1
+    4300018: obst_gemuese_melonen1
+    4300020: obst_gemuese_melonen2
+    4300022: obst_gemuese_kohl2
+    4300024: obst_gemuese_salat
+    4300026: obst_gemuese_kohl3
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 84
+    normalImportMode: 1
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

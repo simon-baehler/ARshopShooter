@@ -1,0 +1,139 @@
+fileFormatVersion: 2
+guid: 681223ec7c44d354fb39e1fb2c53164f
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Camera
+    100002: eier_5er_01a
+    100004: eier_5er_01b
+    100006: eier_5er_02a
+    100008: eier_5er_02b
+    100010: eier_5er_03a
+    100012: eier_5er_03b
+    100014: eier_6er_01a
+    100016: eier_6er_01b
+    100018: 'eier_6er_01b '
+    100020: eier_6er_01c
+    100022: eier_6er_02a
+    100024: eier_6er_03a
+    100026: eierkarton_leer
+    100028: //RootNode
+    400000: Camera
+    400002: eier_5er_01a
+    400004: eier_5er_01b
+    400006: eier_5er_02a
+    400008: eier_5er_02b
+    400010: eier_5er_03a
+    400012: eier_5er_03b
+    400014: eier_6er_01a
+    400016: eier_6er_01b
+    400018: 'eier_6er_01b '
+    400020: eier_6er_01c
+    400022: eier_6er_02a
+    400024: eier_6er_03a
+    400026: eierkarton_leer
+    400028: //RootNode
+    2300000: eier_5er_01a
+    2300002: eier_5er_01b
+    2300004: eier_5er_02a
+    2300006: eier_5er_02b
+    2300008: eier_5er_03a
+    2300010: eier_5er_03b
+    2300012: eier_6er_01a
+    2300014: eier_6er_01b
+    2300016: 'eier_6er_01b '
+    2300018: eier_6er_01c
+    2300020: eier_6er_02a
+    2300022: eier_6er_03a
+    2300024: eierkarton_leer
+    3300000: eier_5er_01a
+    3300002: eier_5er_01b
+    3300004: eier_5er_02a
+    3300006: eier_5er_02b
+    3300008: eier_5er_03a
+    3300010: eier_5er_03b
+    3300012: eier_6er_01a
+    3300014: eier_6er_01b
+    3300016: 'eier_6er_01b '
+    3300018: eier_6er_01c
+    3300020: eier_6er_02a
+    3300022: eier_6er_03a
+    3300024: eierkarton_leer
+    4300000: eier_6er_01b
+    4300002: eier_6er_01a
+    4300004: eier_6er_02a
+    4300006: eier_6er_03a
+    4300008: eier_6er_01c
+    4300010: eierkarton_leer
+    4300012: 'eier_6er_01b '
+    4300014: eier_5er_01a
+    4300016: eier_5er_02a
+    4300018: eier_5er_03a
+    4300020: eier_5er_01b
+    4300022: eier_5er_02b
+    4300024: eier_5er_03b
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 75
+    normalImportMode: 1
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,149 @@
+fileFormatVersion: 2
+guid: 9367c3555cb5fc34ca52efb65004112c
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: boden
+    100002: Camera
+    100004: colmesh_boden
+    100006: colmesh_waende
+    100008: dach
+    100010: fensterscheiben_dach
+    100012: fensterscheiben_halle
+    100014: fensterscheiben_vordach
+    100016: //RootNode
+    100018: mauer_gelaende
+    100020: tuere1
+    100022: tuere1_glass
+    100024: tuere2
+    100026: tuere2_glass
+    100028: vordach_metal
+    100030: vordach_streben
+    100032: waende
+    400000: boden
+    400002: Camera
+    400004: colmesh_boden
+    400006: colmesh_waende
+    400008: dach
+    400010: fensterscheiben_dach
+    400012: fensterscheiben_halle
+    400014: fensterscheiben_vordach
+    400016: //RootNode
+    400018: mauer_gelaende
+    400020: tuere1
+    400022: tuere1_glass
+    400024: tuere2
+    400026: tuere2_glass
+    400028: vordach_metal
+    400030: vordach_streben
+    400032: waende
+    2300000: boden
+    2300002: colmesh_boden
+    2300004: colmesh_waende
+    2300006: dach
+    2300008: fensterscheiben_dach
+    2300010: fensterscheiben_halle
+    2300012: fensterscheiben_vordach
+    2300014: mauer_gelaende
+    2300016: tuere1
+    2300018: tuere1_glass
+    2300020: tuere2
+    2300022: tuere2_glass
+    2300024: vordach_metal
+    2300026: vordach_streben
+    2300028: waende
+    3300000: boden
+    3300002: colmesh_boden
+    3300004: colmesh_waende
+    3300006: dach
+    3300008: fensterscheiben_dach
+    3300010: fensterscheiben_halle
+    3300012: fensterscheiben_vordach
+    3300014: mauer_gelaende
+    3300016: tuere1
+    3300018: tuere1_glass
+    3300020: tuere2
+    3300022: tuere2_glass
+    3300024: vordach_metal
+    3300026: vordach_streben
+    3300028: waende
+    4300000: vordach_metal
+    4300002: vordach_streben
+    4300004: boden
+    4300006: waende
+    4300008: dach
+    4300010: mauer_gelaende
+    4300012: fensterscheiben_halle
+    4300014: fensterscheiben_dach
+    4300016: colmesh_boden
+    4300018: colmesh_waende
+    4300020: fensterscheiben_vordach
+    4300022: tuere1_glass
+    4300024: tuere1
+    4300026: tuere2
+    4300028: tuere2_glass
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 35
+    normalImportMode: 1
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

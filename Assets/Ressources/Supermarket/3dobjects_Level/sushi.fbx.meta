@@ -1,0 +1,114 @@
+fileFormatVersion: 2
+guid: 8f095b71984ed7249b31d868cf1d2c5f
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Camera
+    100002: //RootNode
+    100004: sushi_01
+    100006: sushi_02
+    100008: sushi_03
+    100010: sushi_04
+    100012: sushi_05
+    100014: sushi_06
+    100016: sushi_07
+    100018: sushi_08
+    400000: Camera
+    400002: //RootNode
+    400004: sushi_01
+    400006: sushi_02
+    400008: sushi_03
+    400010: sushi_04
+    400012: sushi_05
+    400014: sushi_06
+    400016: sushi_07
+    400018: sushi_08
+    2300000: sushi_01
+    2300002: sushi_02
+    2300004: sushi_03
+    2300006: sushi_04
+    2300008: sushi_05
+    2300010: sushi_06
+    2300012: sushi_07
+    2300014: sushi_08
+    3300000: sushi_01
+    3300002: sushi_02
+    3300004: sushi_03
+    3300006: sushi_04
+    3300008: sushi_05
+    3300010: sushi_06
+    3300012: sushi_07
+    3300014: sushi_08
+    4300000: sushi_01
+    4300002: sushi_02
+    4300004: sushi_03
+    4300006: sushi_04
+    4300008: sushi_05
+    4300010: sushi_06
+    4300012: sushi_07
+    4300014: sushi_08
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 34
+    normalImportMode: 1
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: cdbe1c3cc6b2760469a1bee96d9b1bf0
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Camera
+    100002: //RootNode
+    100004: tierfutter_01a
+    100006: tierfutter_01b
+    100008: tierfutter_02a
+    100010: tierfutter_02b
+    100012: tierfutter_03a
+    100014: tierfutter_03b
+    100016: tierfutter_04a
+    100018: tierfutter_04b
+    100020: tierfutter_05a
+    100022: tierfutter_05b
+    100024: tierfutter_06a
+    100026: tierfutter_06b
+    100028: tierfutter_07a
+    100030: tierfutter_07b
+    100032: tierfutter_08a
+    100034: tierfutter_08b
+    400000: Camera
+    400002: //RootNode
+    400004: tierfutter_01a
+    400006: tierfutter_01b
+    400008: tierfutter_02a
+    400010: tierfutter_02b
+    400012: tierfutter_03a
+    400014: tierfutter_03b
+    400016: tierfutter_04a
+    400018: tierfutter_04b
+    400020: tierfutter_05a
+    400022: tierfutter_05b
+    400024: tierfutter_06a
+    400026: tierfutter_06b
+    400028: tierfutter_07a
+    400030: tierfutter_07b
+    400032: tierfutter_08a
+    400034: tierfutter_08b
+    2300000: tierfutter_01a
+    2300002: tierfutter_01b
+    2300004: tierfutter_02a
+    2300006: tierfutter_02b
+    2300008: tierfutter_03a
+    2300010: tierfutter_03b
+    2300012: tierfutter_04a
+    2300014: tierfutter_04b
+    2300016: tierfutter_05a
+    2300018: tierfutter_05b
+    2300020: tierfutter_06a
+    2300022: tierfutter_06b
+    2300024: tierfutter_07a
+    2300026: tierfutter_07b
+    2300028: tierfutter_08a
+    2300030: tierfutter_08b
+    3300000: tierfutter_01a
+    3300002: tierfutter_01b
+    3300004: tierfutter_02a
+    3300006: tierfutter_02b
+    3300008: tierfutter_03a
+    3300010: tierfutter_03b
+    3300012: tierfutter_04a
+    3300014: tierfutter_04b
+    3300016: tierfutter_05a
+    3300018: tierfutter_05b
+    3300020: tierfutter_06a
+    3300022: tierfutter_06b
+    3300024: tierfutter_07a
+    3300026: tierfutter_07b
+    3300028: tierfutter_08a
+    3300030: tierfutter_08b
+    4300000: tierfutter_01a
+    4300002: tierfutter_02a
+    4300004: tierfutter_03a
+    4300006: tierfutter_04a
+    4300008: tierfutter_05a
+    4300010: tierfutter_06a
+    4300012: tierfutter_07a
+    4300014: tierfutter_08a
+    4300016: tierfutter_01b
+    4300018: tierfutter_02b
+    4300020: tierfutter_03b
+    4300022: tierfutter_04b
+    4300024: tierfutter_05b
+    4300026: tierfutter_06b
+    4300028: tierfutter_07b
+    4300030: tierfutter_08b
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 88
+    normalImportMode: 1
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

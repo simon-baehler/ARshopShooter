@@ -1,0 +1,164 @@
+fileFormatVersion: 2
+guid: 54b7ed5d524947747b231dd6f57faba4
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Camera
+    100002: fleisch_01a
+    100004: fleisch_01b
+    100006: fleisch_01c
+    100008: fleisch_02a
+    100010: fleisch_02b
+    100012: fleisch_02c
+    100014: fleisch_02d
+    100016: fleisch_02e
+    100018: fleisch_02f
+    100020: fleisch_02g
+    100022: fleisch_bundle_01a
+    100024: fleisch_bundle_02a
+    100026: fleisch_bundle_02b
+    100028: fleisch_bundle_02c
+    100030: fleisch_bundle_02d
+    100032: fleisch_bundle_02e
+    100034: fleisch_bundle_02f
+    100036: fleisch_bundle_02g
+    100038: //RootNode
+    400000: Camera
+    400002: fleisch_01a
+    400004: fleisch_01b
+    400006: fleisch_01c
+    400008: fleisch_02a
+    400010: fleisch_02b
+    400012: fleisch_02c
+    400014: fleisch_02d
+    400016: fleisch_02e
+    400018: fleisch_02f
+    400020: fleisch_02g
+    400022: fleisch_bundle_01a
+    400024: fleisch_bundle_02a
+    400026: fleisch_bundle_02b
+    400028: fleisch_bundle_02c
+    400030: fleisch_bundle_02d
+    400032: fleisch_bundle_02e
+    400034: fleisch_bundle_02f
+    400036: fleisch_bundle_02g
+    400038: //RootNode
+    2300000: fleisch_01a
+    2300002: fleisch_01b
+    2300004: fleisch_01c
+    2300006: fleisch_02a
+    2300008: fleisch_02b
+    2300010: fleisch_02c
+    2300012: fleisch_02d
+    2300014: fleisch_02e
+    2300016: fleisch_02f
+    2300018: fleisch_02g
+    2300020: fleisch_bundle_01a
+    2300022: fleisch_bundle_02a
+    2300024: fleisch_bundle_02b
+    2300026: fleisch_bundle_02c
+    2300028: fleisch_bundle_02d
+    2300030: fleisch_bundle_02e
+    2300032: fleisch_bundle_02f
+    2300034: fleisch_bundle_02g
+    3300000: fleisch_01a
+    3300002: fleisch_01b
+    3300004: fleisch_01c
+    3300006: fleisch_02a
+    3300008: fleisch_02b
+    3300010: fleisch_02c
+    3300012: fleisch_02d
+    3300014: fleisch_02e
+    3300016: fleisch_02f
+    3300018: fleisch_02g
+    3300020: fleisch_bundle_01a
+    3300022: fleisch_bundle_02a
+    3300024: fleisch_bundle_02b
+    3300026: fleisch_bundle_02c
+    3300028: fleisch_bundle_02d
+    3300030: fleisch_bundle_02e
+    3300032: fleisch_bundle_02f
+    3300034: fleisch_bundle_02g
+    4300000: fleisch_01a
+    4300002: fleisch_01b
+    4300004: fleisch_01c
+    4300006: fleisch_02a
+    4300008: fleisch_02b
+    4300010: fleisch_02c
+    4300012: fleisch_02d
+    4300014: fleisch_02e
+    4300016: fleisch_02f
+    4300018: fleisch_02g
+    4300020: fleisch_bundle_01a
+    4300022: fleisch_bundle_02a
+    4300024: fleisch_bundle_02b
+    4300026: fleisch_bundle_02c
+    4300028: fleisch_bundle_02d
+    4300030: fleisch_bundle_02e
+    4300032: fleisch_bundle_02f
+    4300034: fleisch_bundle_02g
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 76
+    normalImportMode: 1
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

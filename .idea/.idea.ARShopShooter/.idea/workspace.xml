@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7936bfaa-6a55-4a03-b9fa-8c39ee4540da" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/Prototyping/Scenes/ClickThroughExample.unity" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/Prototyping/Scenes/ClickThroughExample.unity.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/SharingWithUNET/Scripts/GenericNetworkTransmitter.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/SharingWithUNET/Scripts/GenericNetworkTransmitter.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/SharingWithUNET/Scripts/SharedAnchorDebugText.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/SharingWithUNET/Scripts/SharedAnchorDebugText.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/SharingWithUNET/Scripts/UNetAnchorManager.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/SharingWithUNET/Scripts/UNetAnchorManager.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/SpatialUnderstanding.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/SpatialUnderstanding/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/SpatialUnderstanding/README.md.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/SpatialUnderstanding/SpatialUnderstanding-FeatureOverview.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/SpatialUnderstanding/SpatialUnderstanding-FeatureOverview/Materials.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/SpatialUnderstanding/SpatialUnderstanding-FeatureOverview/Materials/QueryVisLines.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/SpatialUnderstanding/SpatialUnderstanding-FeatureOverview/Materials/QueryVisLines.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/SpatialUnderstanding/SpatialUnderstanding-FeatureOverview/Prefabs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/SpatialUnderstanding/SpatialUnderstanding-FeatureOverview/Prefabs/Button.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/SpatialUnderstanding/SpatialUnderstanding-FeatureOverview/Prefabs/Button.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/SpatialUnderstanding/SpatialUnderstanding-FeatureOverview/Scenes.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/SpatialUnderstanding/SpatialUnderstanding-FeatureOverview/Scenes/SpatialUnderstandingExample.unity" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/SpatialUnderstanding/SpatialUnderstanding-FeatureOverview/Scenes/SpatialUnderstandingExample.unity.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/SpatialUnderstanding/SpatialUnderstanding-FeatureOverview/Scripts.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/SpatialUnderstanding/SpatialUnderstanding-FeatureOverview/Scripts/AppState.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/SpatialUnderstanding/SpatialUnderstanding-FeatureOverview/Scripts/AppState.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/SpatialUnderstanding/SpatialUnderstanding-FeatureOverview/Scripts/LevelSolver.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/SpatialUnderstanding/SpatialUnderstanding-FeatureOverview/Scripts/LevelSolver.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/SpatialUnderstanding/SpatialUnderstanding-FeatureOverview/Scripts/LineDrawer.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/SpatialUnderstanding/SpatialUnderstanding-FeatureOverview/Scripts/LineDrawer.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/SpatialUnderstanding/SpatialUnderstanding-FeatureOverview/Scripts/ShapeDefinition.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/SpatialUnderstanding/SpatialUnderstanding-FeatureOverview/Scripts/ShapeDefinition.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/SpatialUnderstanding/SpatialUnderstanding-FeatureOverview/Scripts/SpaceVisualizer.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/SpatialUnderstanding/SpatialUnderstanding-FeatureOverview/Scripts/SpaceVisualizer.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/SpatialUnderstanding/SpatialUnderstanding-FeatureOverview/Scripts/SpatialUnderstandingBasicCursor.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/SpatialUnderstanding/SpatialUnderstanding-FeatureOverview/Scripts/SpatialUnderstandingBasicCursor.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/SpatialUnderstanding/SpatialUnderstanding-FeatureOverview/Scripts/SpatialUnderstandingCursor.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/SpatialUnderstanding/SpatialUnderstanding-FeatureOverview/Scripts/SpatialUnderstandingCursor.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/SpatialUnderstanding/SpatialUnderstanding-FeatureOverview/Scripts/UI.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/SpatialUnderstanding/SpatialUnderstanding-FeatureOverview/Scripts/UI.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialMapping/Scripts/ObjectSurfaceObserver.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialMapping/Scripts/ObjectSurfaceObserver.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialMapping/Scripts/RemoteMapping/FileSurfaceObserver.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialMapping/Scripts/RemoteMapping/FileSurfaceObserver.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialMapping/Scripts/RemoteMapping/MeshSaver.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialMapping/Scripts/RemoteMapping/MeshSaver.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialMapping/Scripts/RemoteMapping/RemoteMappingManager.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialMapping/Scripts/RemoteMapping/RemoteMappingManager.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialMapping/Scripts/RemoteMapping/RemoteMeshTarget.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialMapping/Scripts/RemoteMapping/RemoteMeshTarget.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialMapping/Scripts/SpatialMappingManager.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialMapping/Scripts/SpatialMappingManager.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialMapping/Scripts/SpatialMappingObserver.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialMapping/Scripts/SpatialMappingObserver.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialMapping/Scripts/SpatialMappingSource.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialMapping/Scripts/SpatialMappingSource.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialMapping/Scripts/SpatialProcessing/RemoveSurfaceVertices.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialMapping/Scripts/SpatialProcessing/RemoveSurfaceVertices.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialMapping/Scripts/SpatialProcessing/SurfaceMeshesToPlanes.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialMapping/Scripts/SpatialProcessing/SurfaceMeshesToPlanes.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialMapping/Scripts/SpatialProcessing/SurfacePlane.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialMapping/Scripts/SpatialProcessing/SurfacePlane.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialMapping/Scripts/TapToPlace.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialMapping/Scripts/TapToPlace.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialUnderstanding/Scripts/SpatialUnderstanding.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialUnderstanding/Scripts/SpatialUnderstanding.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialUnderstanding/Scripts/SpatialUnderstandingCustomMesh.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialUnderstanding/Scripts/SpatialUnderstandingCustomMesh.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialUnderstanding/Scripts/SpatialUnderstandingDll.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialUnderstanding/Scripts/SpatialUnderstandingDll.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialUnderstanding/Scripts/SpatialUnderstandingDllObjectPlacement.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialUnderstanding/Scripts/SpatialUnderstandingDllObjectPlacement.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialUnderstanding/Scripts/SpatialUnderstandingDllShapes.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialUnderstanding/Scripts/SpatialUnderstandingDllShapes.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialUnderstanding/Scripts/SpatialUnderstandingSourceMesh.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialUnderstanding/Scripts/SpatialUnderstandingSourceMesh.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Huge Mocap Library.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Holograms.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Holograms/AstroMan.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Holograms/AstroMan.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Holograms/AstroMan_Expanded.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Holograms/AstroMan_Expanded.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Holograms/DirectionalIndicator.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Holograms/DirectionalIndicator.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Holograms/Fitbox.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Holograms/Fitbox.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Holograms/Lights.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Holograms/Lights.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Holograms/SpaceAudioSource.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Holograms/SpaceAudioSource.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Holograms/SpaceBackground.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Holograms/SpaceBackground.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Holograms/Support.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Holograms/Support/AstroMan.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Holograms/Support/AstroMan/SetRendererSettings.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Holograms/Support/AstroMan/SetRendererSettings.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Holograms/Support/Fitbox.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Holograms/Support/Fitbox/Fitbox.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Holograms/Support/Fitbox/Fitbox.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Holograms/Support/Fitbox/HoloAcad_Border_mat.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Holograms/Support/Fitbox/HoloAcad_Border_mat.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Holograms/Support/Fitbox/HoloAcad_Logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Holograms/Support/Fitbox/HoloAcad_Logo.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Holograms/Support/Fitbox/Interpolator.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Holograms/Support/Fitbox/Interpolator.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Holograms/Support/Fitbox/Materials.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Holograms/Support/Fitbox/Materials/HoloAcad_Logo.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Holograms/Support/Fitbox/Materials/HoloAcad_Logo.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Holograms/Tagalong.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Holograms/Tagalong.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Lens Flares.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Lens Flares/Art Assets.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Lens Flares/Art Assets/clearsun.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Lens Flares/Art Assets/clearsun.psd.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Lens Flares/Subtle4.flare" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Lens Flares/Subtle4.flare.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Materials.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Materials/No Name.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Materials/No Name.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Materials/StarMat.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Materials/StarMat.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Materials/UnlitDiffuse.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Materials/UnlitDiffuse.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Materials/expanded_ui_bg.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Materials/expanded_ui_bg.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Materials/expanded_ui_fg.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Materials/expanded_ui_fg.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Materials/expanded_ui_mg.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Materials/expanded_ui_mg.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Materials/plasma_mtl.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Materials/plasma_mtl.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Materials/sphere.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Materials/sphere.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/AN_RIG_ExplodeX.fbx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/AN_RIG_ExplodeX.fbx.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/AN_RIG_Float.fbx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/AN_RIG_Float.fbx.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Controllers.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Controllers/AN_RIG_ExplodeX.controller" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Controllers/AN_RIG_ExplodeX.controller.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Controllers/astroMan.controller" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Controllers/astroMan.controller.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Controllers/holoComm.controller" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Controllers/holoComm.controller.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Materials.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Materials/astroMan_head_mtl.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Materials/astroMan_head_mtl.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Materials/astroMan_helmet_blue_metal_mtl.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Materials/astroMan_helmet_blue_metal_mtl.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Materials/astroMan_helmet_mtl.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Materials/astroMan_helmet_mtl.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Materials/astroMan_helmet_mtl2.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Materials/astroMan_helmet_mtl2.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Materials/astroMan_suit_blue_metal_mtl.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Materials/astroMan_suit_blue_metal_mtl.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Materials/astroMan_suit_mtl.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Materials/astroMan_suit_mtl.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Materials/astroMan_visor_glass_mtl.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Materials/astroMan_visor_glass_mtl.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Materials/holoComm_fx_mtl.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Materials/holoComm_fx_mtl.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Materials/holoComm_mtl.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Materials/holoComm_mtl.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Materials/holoComm_parts_mtl.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Materials/holoComm_parts_mtl.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Materials/holoComm_screen_mtl.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Materials/holoComm_screen_mtl.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Materials/jet_particle_v001.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Materials/jet_particle_v001.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Materials/jetpack_UI_mtl.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Materials/jetpack_UI_mtl.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Materials/lambert1.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Materials/lambert1.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Materials/suitui_s1_idle_1024.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Materials/suitui_s1_idle_1024.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Materials/torus_mtl.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Materials/torus_mtl.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Textures.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Textures/AN_Helmet_Collar_In_tx.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Textures/AN_Helmet_Collar_In_tx.jpg.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Textures/Face_Light_Tx_02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Textures/Face_Light_Tx_02.jpg.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Textures/Head_color.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Textures/Head_color.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Textures/Head_occlusion.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Textures/Head_occlusion.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Textures/Helmet_color.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Textures/Helmet_color.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Textures/Helmet_normals.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Textures/Helmet_normals.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Textures/Suit_color.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Textures/Suit_color.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Textures/Suit_incan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Textures/Suit_incan.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Textures/Suit_normals.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Textures/Suit_normals.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Textures/Suit_occlusion.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Textures/Suit_occlusion.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Textures/chest_bttn_IDLE_1024.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Textures/chest_bttn_IDLE_1024.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Textures/expanded_ui_BG_017_x1024.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Textures/expanded_ui_BG_017_x1024.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Textures/head_normals.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Textures/head_normals.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Textures/holoComm_Emission.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Textures/holoComm_Emission.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Textures/holoComm_MetallicSmoothness.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Textures/holoComm_MetallicSmoothness.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Textures/holoComm_parts_color.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Textures/holoComm_parts_color.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Textures/holoRays_mask.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Textures/holoRays_mask.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Textures/holoScreen_color.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Textures/holoScreen_color.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Textures/jetpack_bttn_IDLE_1024.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/Textures/jetpack_bttn_IDLE_1024.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/backpack_btn.fbx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/backpack_btn.fbx.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/holoComm.fbx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/AstroMan/holoComm.fbx.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/StarBackground.fbx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/StarBackground.fbx.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/cone.fbx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/cone.fbx.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/video_player_mesh.fbx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Models/video_player_mesh.fbx.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Shaders.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Shaders/SpecularHighlight.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Shaders/SpecularHighlight.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Shaders/StandardFastBackFaceCulling.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Shaders/StandardFastBackFaceCulling.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Shaders/UITransparent.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Shaders/UITransparent.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Sounds.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Sounds/Click_Suit_Button.aif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Sounds/Click_Suit_Button.aif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Sounds/Dismiss_UI.aif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Sounds/Dismiss_UI.aif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Sounds/ExpandModel.aif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Sounds/ExpandModel.aif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Sounds/FingerPressed.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Sounds/FingerPressed.wav.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Sounds/Space_Atmospheric.aif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Sounds/Space_Atmospheric.aif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Textures.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Textures/StarCard.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Textures/StarCard.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Textures/TagalongCard.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Textures/TagalongCard.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Textures/generic_ripple_normal.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Textures/generic_ripple_normal.jpg.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Textures/jet_particle_v001.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Textures/jet_particle_v001.jpg.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Textures/movie_streamer_holder.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Textures/movie_streamer_holder.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Textures/plasma_v001.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Resources/Textures/plasma_v001.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Scenes.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Scenes/ModelExplorer.unity" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit/ModelExplorer/Assets/Scenes/ModelExplorer.unity.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Raw Mocap Data.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/human.physicMaterial" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/human.physicMaterial.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/scripts/AIClasses/AIAnimatorExtension.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/scripts/AIClasses/AIAnimatorExtension.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/scripts/GazeGestureManager.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/scripts/GazeGestureManager.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/scripts/SceneSwitcher.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/scripts/SceneSwitcher.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll.mdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/00/000fc200c9c0f004787dcc4ddb6e6bf4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/00/000fc200c9c0f004787dcc4ddb6e6bf4.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/00/00c39b1e2062c8047bd48a78a9b46c68" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/00/00c39b1e2062c8047bd48a78a9b46c68.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/02/026ad6633e9b4e9408dfce89dfb4b16d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/02/026ad6633e9b4e9408dfce89dfb4b16d.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/02/026ad6633e9b4e9408dfce89dfb4b16d.resource" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/02/02e82967e4ad65f40aa78ecd8545657c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/02/02e82967e4ad65f40aa78ecd8545657c.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/05/051fa600085a95d46855e3f425c7dcd3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/05/051fa600085a95d46855e3f425c7dcd3.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/07/07836b5dab3b9ea4f8d2e74499663462" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/07/07836b5dab3b9ea4f8d2e74499663462.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/07/07901215a9bc9c646851c29862ca7d27" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/07/07901215a9bc9c646851c29862ca7d27.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/08/08098fc4a6a79ad40b62629aca76ec63" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/08/08098fc4a6a79ad40b62629aca76ec63.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/0b/0b2aea7ded672a64098963767fe72f78" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/0b/0b2aea7ded672a64098963767fe72f78.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/0d/0d8d6d85105dd6c4d9160110c0ab227b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/0d/0d8d6d85105dd6c4d9160110c0ab227b.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/0e/0e92e0b0ba13e7943a4a4a1071841eb7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/0e/0e92e0b0ba13e7943a4a4a1071841eb7.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/0e/0e92e0b0ba13e7943a4a4a1071841eb7.resource" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/0f/0f5e447e22596a243a91ec34048628d1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/0f/0f5e447e22596a243a91ec34048628d1.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/0f/0f62a77f272c44a4489b72f427febef9" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/0f/0f62a77f272c44a4489b72f427febef9.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/10/10afb1c945dd7c14faebbad683888b12" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/10/10afb1c945dd7c14faebbad683888b12.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/11/11eafa1bdf8dea24d9e13d6b9231ec79" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/11/11eafa1bdf8dea24d9e13d6b9231ec79.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/13/13f28fdb9dc6d5046a14b14e15d12752" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/13/13f28fdb9dc6d5046a14b14e15d12752.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/15/151f6c8331938644a8cc9cada0ea6f73" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/15/151f6c8331938644a8cc9cada0ea6f73.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/16/16f3457e8a1e63f4490e18b4cf959cf8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/16/16f3457e8a1e63f4490e18b4cf959cf8.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/17/17641fa8fe421b24fbeaf1a8c85b67b2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/17/17641fa8fe421b24fbeaf1a8c85b67b2.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/18/182ea4c529276084389a7bfd7b2bf0b0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/18/182ea4c529276084389a7bfd7b2bf0b0.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/1b/1b6c9d1f121483c4da64f19294587443" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/1b/1b6c9d1f121483c4da64f19294587443.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/1c/1c64dcdb3dd75464794d8eb62b657a18" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/1c/1c64dcdb3dd75464794d8eb62b657a18.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/1c/1cd726023d95a4d4998aa24e8d4d92d8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/1c/1cd726023d95a4d4998aa24e8d4d92d8.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/20/20167915f5b4c4249a20843a26506b8f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/20/20167915f5b4c4249a20843a26506b8f.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/21/2173b5aee0603904e9ac93fca006f869" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/21/2173b5aee0603904e9ac93fca006f869.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/21/2173b5aee0603904e9ac93fca006f869.resource" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/24/24b395ed40d641d438776f84f0261901" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/24/24b395ed40d641d438776f84f0261901.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/30/304e816128a02b8409f14601c49a5e17" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/30/304e816128a02b8409f14601c49a5e17.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/34/34483995ae9514e49a36bff2a6923a37" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/34/34483995ae9514e49a36bff2a6923a37.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/37/378920d453693674a83e7db0e28fd3fb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/37/378920d453693674a83e7db0e28fd3fb.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/39/393f43c84d127f243bb13ccc36d03240" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/39/393f43c84d127f243bb13ccc36d03240.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/3a/3a12315d89491a840911e03c4173b154" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/3a/3a12315d89491a840911e03c4173b154.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/3b/3bda607589966704186615fcdbe26eae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/3b/3bda607589966704186615fcdbe26eae.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/3c/3ce269bb6419b8b40b03ed605eb3ea07" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/3c/3ce269bb6419b8b40b03ed605eb3ea07.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/42/4206da363bd713148adf4e6f92ca25f2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/42/4206da363bd713148adf4e6f92ca25f2.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/45/45ec69764d84809408509bb17c00a474" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/45/45ec69764d84809408509bb17c00a474.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/51/519e702c83332cc4c82873a664af9d62" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/51/519e702c83332cc4c82873a664af9d62.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/52/52d5136a268f1a44b807caf934f2af35" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/52/52d5136a268f1a44b807caf934f2af35.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/53/5372a23dea4a49f4c8c27da6292a2e34" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/53/5372a23dea4a49f4c8c27da6292a2e34.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/56/5651d955b2803b24da95b357e21af661" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/56/5651d955b2803b24da95b357e21af661.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/58/58bcba0ca60ea8a42b837bcad838f4ad" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/58/58bcba0ca60ea8a42b837bcad838f4ad.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/59/59f495a0a5e6b8a43a97a9231e21346e" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/59/59f495a0a5e6b8a43a97a9231e21346e.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/5e/5e283f22e69ca004b8c4fc6cc3a53aca" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/5e/5e283f22e69ca004b8c4fc6cc3a53aca.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/60/604d3361bf8ce5a449cab6365160b0eb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/60/604d3361bf8ce5a449cab6365160b0eb.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/62/62adf19d62d644144bba4200d845566a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/62/62adf19d62d644144bba4200d845566a.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/65/65178bd055982c34e9a670211cf6e86f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/65/65178bd055982c34e9a670211cf6e86f.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/68/683b794cc8e83ef41831765ae3cf4f3b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/68/683b794cc8e83ef41831765ae3cf4f3b.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/6a/6a7716d9e473a6142a7fb53df0dd20d5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/6a/6a7716d9e473a6142a7fb53df0dd20d5.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/6b/6b87d8e618432384596704b9472a8b50" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/6b/6b87d8e618432384596704b9472a8b50.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/6c/6c4f5114d420aca4284bb09c58ad6d49" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/6c/6c4f5114d420aca4284bb09c58ad6d49.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/6d/6d4ff44bc37138d41ab203ddbda1855e" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/6d/6d4ff44bc37138d41ab203ddbda1855e.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/6d/6d64d6b7970634d4a8317b9d4b157800" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/6d/6d64d6b7970634d4a8317b9d4b157800.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/6d/6d6d8b1c52df0f84a82d5ad35c50559b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/6d/6d6d8b1c52df0f84a82d5ad35c50559b.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/6d/6da8019b1155e4a4a81c82beee52d59d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/6d/6da8019b1155e4a4a81c82beee52d59d.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/6d/6da8019b1155e4a4a81c82beee52d59d.resource" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/6d/6dfd26bb81b3e8749a724e4912321af9" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/6d/6dfd26bb81b3e8749a724e4912321af9.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/6e/6e34930bbea53654585432248eeeb464" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/6e/6e34930bbea53654585432248eeeb464.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/72/725098138b6f4b849a9e6c10cc511627" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/72/725098138b6f4b849a9e6c10cc511627.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/75/75353488488fb48c6b8c345857e5c9e4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/75/75353488488fb48c6b8c345857e5c9e4.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/78/786de6324232f6c4d80b76c06f7433bc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/78/786de6324232f6c4d80b76c06f7433bc.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/82/82a48db9bd03aee409c076e689f32a60" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/82/82a48db9bd03aee409c076e689f32a60.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/82/82ac801e723c0d7488db324ad4aecd65" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/82/82ac801e723c0d7488db324ad4aecd65.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/83/833ed7680048e3442b613c46bad38557" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/83/833ed7680048e3442b613c46bad38557.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/84/8447ef6120bd5844abcea80ee98f4066" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/84/8447ef6120bd5844abcea80ee98f4066.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/84/84a8c2a1699cd364c85854fcbcc5447d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/84/84a8c2a1699cd364c85854fcbcc5447d.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/88/88a2e5496cb41904cb2f80a28611f6f4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/88/88a2e5496cb41904cb2f80a28611f6f4.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/89/89ce9ec451a6b4542b7c7ff441b74daa" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/89/89ce9ec451a6b4542b7c7ff441b74daa.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/8b/8b7c2b15adb7d8d48b2082631e2a3b58" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/8b/8b7c2b15adb7d8d48b2082631e2a3b58.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/8d/8d88be7f62ff86140b4d58071380bb93" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/8d/8d88be7f62ff86140b4d58071380bb93.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/8d/8ddbea04a72ece547881d2dca90a87f2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/8d/8ddbea04a72ece547881d2dca90a87f2.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/98/986eb9aac6a478c4ea47028930568f98" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/98/986eb9aac6a478c4ea47028930568f98.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/99/990e6fc677ceff6468f0b5370d75e116" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/99/990e6fc677ceff6468f0b5370d75e116.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/9a/9aa1ac8e19f21014aae8882de916e00a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/9a/9aa1ac8e19f21014aae8882de916e00a.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/9c/9c0ace72966b7234b9d9f946da8b666d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/9c/9c0ace72966b7234b9d9f946da8b666d.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/9c/9c0ace72966b7234b9d9f946da8b666d.resource" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/9c/9c6bd80ebc49421479962e0ac3f701a5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/9c/9c6bd80ebc49421479962e0ac3f701a5.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/a0/a0308b049ed88c1499ea449bcb306b55" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/a0/a0308b049ed88c1499ea449bcb306b55.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/a0/a03983cdfcd6eca458bca4e80400a3b4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/a0/a03983cdfcd6eca458bca4e80400a3b4.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/a6/a619727feff37db40a818a4ec36c8426" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/a6/a619727feff37db40a818a4ec36c8426.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/a9/a99cd4c586260eb4dbcb1c00cd0309cd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/a9/a99cd4c586260eb4dbcb1c00cd0309cd.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/b1/b1122310c2e61dd4abfa1f4891828bae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/b1/b1122310c2e61dd4abfa1f4891828bae.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/b4/b491dd996eda5d44d8e16d5e505d1fbd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/b4/b491dd996eda5d44d8e16d5e505d1fbd.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/b7/b798ea7fe7280904f8b88601d848cfb5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/b7/b798ea7fe7280904f8b88601d848cfb5.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/b9/b9a79318939cc634f969448061972034" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/b9/b9a79318939cc634f969448061972034.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/b9/b9d24a961e24a5d4aba36abdc88d47af" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/b9/b9d24a961e24a5d4aba36abdc88d47af.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/be/bec600db64eb02b4bbf72d6959fe32c8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/be/bec600db64eb02b4bbf72d6959fe32c8.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/c4/c4b3aecf7915fb048b59e237cb330436" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/c4/c4b3aecf7915fb048b59e237cb330436.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/c5/c5de03522e633db45876562307a31786" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/c5/c5de03522e633db45876562307a31786.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/c8/c86cef2b5255fc743a2f2319b9cac145" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/c8/c86cef2b5255fc743a2f2319b9cac145.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/c9/c9f840eb9bde0124b98d1039990850a9" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/c9/c9f840eb9bde0124b98d1039990850a9.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/cb/cb5bc49a99f30e741a80cf57c75ef3df" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/cb/cb5bc49a99f30e741a80cf57c75ef3df.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/ce/ce9c745984919be4e88ada1efe34db3a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/ce/ce9c745984919be4e88ada1efe34db3a.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/d0/d0aa21ec4c7ce42448707887c67cf2c1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/d0/d0aa21ec4c7ce42448707887c67cf2c1.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/d3/d34745753fdb41a49a4b3726e8e9b1fb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/d3/d34745753fdb41a49a4b3726e8e9b1fb.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/d4/d47236fa83461704cb5b7f341398c0f4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/d4/d47236fa83461704cb5b7f341398c0f4.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/d8/d80f6b1df98d233488154419818505bd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/d8/d80f6b1df98d233488154419818505bd.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/db/db5d50d60b0863341be4ce64455775a8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/db/db5d50d60b0863341be4ce64455775a8.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/e1/e123cce6ed201f447a1a4b3346f242e9" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/e1/e123cce6ed201f447a1a4b3346f242e9.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/e3/e319ca6ca28755a419e4ed558edc2754" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/e3/e319ca6ca28755a419e4ed558edc2754.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/e3/e3775e86fa4b21d4e8f8960e6564f8b2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/e3/e3775e86fa4b21d4e8f8960e6564f8b2.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/e4/e479168dfdfb19248a685bc98134692a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/e4/e479168dfdfb19248a685bc98134692a.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/e6/e65aaf01fd9f1c740a6f50e115f62717" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/e6/e65aaf01fd9f1c740a6f50e115f62717.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/e8/e866435b0ef730540860efcd8a49bcc2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/e8/e866435b0ef730540860efcd8a49bcc2.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/ea/ea8dffe9dc41f6844bc1ea381675a982" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/ea/ea8dffe9dc41f6844bc1ea381675a982.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/f1/f1338cf550277a245b9dd139937ba4f0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/f1/f1338cf550277a245b9dd139937ba4f0.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/f3/f326278a838e87c499393f30a8e72127" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/f3/f326278a838e87c499393f30a8e72127.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/f8/f87a2946053717d459cd7669b71065cd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/f8/f87a2946053717d459cd7669b71065cd.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/fd/fd7cb871930ba40b398d61cf4a3cd04d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/fd/fd7cb871930ba40b398d61cf4a3cd04d.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Projet-3.Editor.csproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Projet-3.csproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Projet-3.sln" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/LastBuild.buildreport" afterPath="$PROJECT_DIR$/Library/LastBuild.buildreport" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-Boo-Editor.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-Boo-Editor.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-Boo-Editor.dll.mdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-Boo-Editor.dll.mdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-UnityScript-Editor.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-UnityScript-Editor.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-UnityScript-Editor.dll.mdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-UnityScript-Editor.dll.mdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ShaderCache.db" afterPath="$PROJECT_DIR$/Library/ShaderCache.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/assetDatabase3" afterPath="$PROJECT_DIR$/Library/assetDatabase3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/expandedItems" afterPath="$PROJECT_DIR$/Library/expandedItems" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000003000000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000003000000000000000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000004000000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000004000000000000000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000008000000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000008000000000000000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/00/0000000000000000a100000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/0000000000000000a100000000000000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/00/0000000000000000b000000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/0000000000000000b000000000000000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/0c/0c522e2dea4dd214684d850d80628c05" afterPath="$PROJECT_DIR$/Library/metadata/0c/0c522e2dea4dd214684d850d80628c05" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/0c/0c522e2dea4dd214684d850d80628c05.info" afterPath="$PROJECT_DIR$/Library/metadata/0c/0c522e2dea4dd214684d850d80628c05.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/27/27bdbc251483ef547b6193bb312653e8.info" afterPath="$PROJECT_DIR$/Library/metadata/27/27bdbc251483ef547b6193bb312653e8.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/34/34d70e6a3eae5c94fb2c70ca0c2896b4" afterPath="$PROJECT_DIR$/Library/metadata/34/34d70e6a3eae5c94fb2c70ca0c2896b4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/34/34d70e6a3eae5c94fb2c70ca0c2896b4.info" afterPath="$PROJECT_DIR$/Library/metadata/34/34d70e6a3eae5c94fb2c70ca0c2896b4.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/52/52a206b72a8f4f749c28d8b18b42dd19" afterPath="$PROJECT_DIR$/Library/metadata/52/52a206b72a8f4f749c28d8b18b42dd19" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/5a/5aeebc4b37f320a42a3ae51c1e560487.info" afterPath="$PROJECT_DIR$/Library/metadata/5a/5aeebc4b37f320a42a3ae51c1e560487.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/5d/5df1097228319b94aaaad36d24d3ff90" afterPath="$PROJECT_DIR$/Library/metadata/5d/5df1097228319b94aaaad36d24d3ff90" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/66/6694970c6210dc1429f315488c01aaee" afterPath="$PROJECT_DIR$/Library/metadata/66/6694970c6210dc1429f315488c01aaee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/67/67e9dad5654047ebbe623cce9dbf7b38" afterPath="$PROJECT_DIR$/Library/metadata/67/67e9dad5654047ebbe623cce9dbf7b38" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/83/83b0a6089ae4cc14792b56c9230a0c42" afterPath="$PROJECT_DIR$/Library/metadata/83/83b0a6089ae4cc14792b56c9230a0c42" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/8a/8a51623209217c5499fde42d99620d5e" afterPath="$PROJECT_DIR$/Library/metadata/8a/8a51623209217c5499fde42d99620d5e" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/8e/8ec567ab5cc989b42a735dc6ad894bf0" afterPath="$PROJECT_DIR$/Library/metadata/8e/8ec567ab5cc989b42a735dc6ad894bf0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/8e/8ec567ab5cc989b42a735dc6ad894bf0.info" afterPath="$PROJECT_DIR$/Library/metadata/8e/8ec567ab5cc989b42a735dc6ad894bf0.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/97/97b43c8213411b6488e469a2be5b6da4.info" afterPath="$PROJECT_DIR$/Library/metadata/97/97b43c8213411b6488e469a2be5b6da4.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/bd/bd4dfab7b97f95348ac0403320e20d4a.info" afterPath="$PROJECT_DIR$/Library/metadata/bd/bd4dfab7b97f95348ac0403320e20d4a.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/ca/ca9fe4294ba19bb428baeaccc7854cd6" afterPath="$PROJECT_DIR$/Library/metadata/ca/ca9fe4294ba19bb428baeaccc7854cd6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/d3/d39a85f9f65f9534ba33d1a7aea41872" afterPath="$PROJECT_DIR$/Library/metadata/d3/d39a85f9f65f9534ba33d1a7aea41872" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/d3/d39a85f9f65f9534ba33d1a7aea41872.info" afterPath="$PROJECT_DIR$/Library/metadata/d3/d39a85f9f65f9534ba33d1a7aea41872.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/d9/d93cd938f5bbf3440bd28e5c103771c0" afterPath="$PROJECT_DIR$/Library/metadata/d9/d93cd938f5bbf3440bd28e5c103771c0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/d9/d93cd938f5bbf3440bd28e5c103771c0.info" afterPath="$PROJECT_DIR$/Library/metadata/d9/d93cd938f5bbf3440bd28e5c103771c0.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/dc/dcfff29e15ef0304dbfabcb30a37ad97.info" afterPath="$PROJECT_DIR$/Library/metadata/dc/dcfff29e15ef0304dbfabcb30a37ad97.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/e3/e3614b053e3b0bd4b8efece8f50c21ad.info" afterPath="$PROJECT_DIR$/Library/metadata/e3/e3614b053e3b0bd4b8efece8f50c21ad.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/f4/f48df919adea4fa095a7407e773e5aa4" afterPath="$PROJECT_DIR$/Library/metadata/f4/f48df919adea4fa095a7407e773e5aa4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.Projet-3 - Copie/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Projet-3 - Copie/.idea/contentModel.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.Projet-3 - Copie/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Projet-3 - Copie/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.Projet-3 - Copie/riderModule.iml" afterPath="$PROJECT_DIR$/.idea/.idea.Projet-3 - Copie/riderModule.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/AI/BehaviorTrees/C06.txt" afterPath="$PROJECT_DIR$/Assets/AI/BehaviorTrees/C06.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/AI/BehaviorTrees/shopShooter.txt" afterPath="$PROJECT_DIR$/Assets/AI/BehaviorTrees/shopShooter.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/AI/Cache/BTEditorWindowState.asset" afterPath="$PROJECT_DIR$/Assets/AI/Cache/BTEditorWindowState.asset" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Animations/LaraAnimator.controller" afterPath="$PROJECT_DIR$/Assets/Animations/LaraAnimator.controller" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/InteractiveElements/Scripts/Interactive.cs" afterPath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/InteractiveElements/Scripts/Interactive.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/WorldAnchorManager.cs" afterPath="$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/WorldAnchorManager.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit.meta" afterPath="$PROJECT_DIR$/Assets/Microsoft HoloToolKit.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scene/scene_01_grosshandel.unity" afterPath="$PROJECT_DIR$/Assets/Scene/scene_01_grosshandel.unity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/scripts/Civillian.cs" afterPath="$PROJECT_DIR$/Assets/scripts/Civillian.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/scripts/HumanAI.cs" afterPath="$PROJECT_DIR$/Assets/scripts/HumanAI.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/scripts/SaveZone.cs" afterPath="$PROJECT_DIR$/Assets/scripts/SaveZone.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/scripts/SaveZone.cs.meta" afterPath="$PROJECT_DIR$/Assets/scripts/SaveZone.cs.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/scripts/ShopShooter.cs" afterPath="$PROJECT_DIR$/Assets/scripts/ShopShooter.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ProjectSettings.asset" afterPath="$PROJECT_DIR$/Library/ProjectSettings.asset" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe3.log" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe3.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/WorldAnchorManager.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ARShopShooter (3 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Unity Debug.Attach to Unity Editor">
+    <configuration default="true" type="DotNetProject" factoryName=".NET Project">
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug">
+      <method />
+    </configuration>
+    <configuration default="false" name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug">
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Unity Debug.Attach to Unity Editor" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7936bfaa-6a55-4a03-b9fa-8c39ee4540da" name="Default" comment="" />
+      <created>1498224425982</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1498224425982</updated>
+      <workItem from="1498224462016" duration="813000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="813000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/WorldAnchorManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="664">
+          <caret line="170" column="13" lean-forward="false" selection-start-line="170" selection-start-column="13" selection-end-line="170" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

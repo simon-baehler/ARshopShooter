@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: 8527fbf8abab82846aba9cc25cbd6e09
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Camera
+    100002: cornflakes_01
+    100004: cornflakes_02
+    100006: cornflakes_03
+    100008: cornflakes_04
+    100010: cornflakes_05
+    100012: cornflakes_06
+    100014: cornflakes_07
+    100016: cornflakes_08
+    100018: cornflakes_09
+    100020: cornflakes_10
+    100022: milch_01
+    100024: milch_02
+    100026: muesli_01
+    100028: muesli_02
+    100030: muesli_03
+    100032: muesli_04
+    100034: //RootNode
+    400000: Camera
+    400002: cornflakes_01
+    400004: cornflakes_02
+    400006: cornflakes_03
+    400008: cornflakes_04
+    400010: cornflakes_05
+    400012: cornflakes_06
+    400014: cornflakes_07
+    400016: cornflakes_08
+    400018: cornflakes_09
+    400020: cornflakes_10
+    400022: milch_01
+    400024: milch_02
+    400026: muesli_01
+    400028: muesli_02
+    400030: muesli_03
+    400032: muesli_04
+    400034: //RootNode
+    2300000: cornflakes_01
+    2300002: cornflakes_02
+    2300004: cornflakes_03
+    2300006: cornflakes_04
+    2300008: cornflakes_05
+    2300010: cornflakes_06
+    2300012: cornflakes_07
+    2300014: cornflakes_08
+    2300016: cornflakes_09
+    2300018: cornflakes_10
+    2300020: milch_01
+    2300022: milch_02
+    2300024: muesli_01
+    2300026: muesli_02
+    2300028: muesli_03
+    2300030: muesli_04
+    3300000: cornflakes_01
+    3300002: cornflakes_02
+    3300004: cornflakes_03
+    3300006: cornflakes_04
+    3300008: cornflakes_05
+    3300010: cornflakes_06
+    3300012: cornflakes_07
+    3300014: cornflakes_08
+    3300016: cornflakes_09
+    3300018: cornflakes_10
+    3300020: milch_01
+    3300022: milch_02
+    3300024: muesli_01
+    3300026: muesli_02
+    3300028: muesli_03
+    3300030: muesli_04
+    4300000: cornflakes_01
+    4300002: cornflakes_02
+    4300004: cornflakes_03
+    4300006: cornflakes_04
+    4300008: cornflakes_05
+    4300010: cornflakes_06
+    4300012: cornflakes_07
+    4300014: cornflakes_08
+    4300016: cornflakes_09
+    4300018: cornflakes_10
+    4300020: muesli_01
+    4300022: muesli_02
+    4300024: muesli_03
+    4300026: muesli_04
+    4300028: milch_01
+    4300030: milch_02
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 35
+    normalImportMode: 1
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

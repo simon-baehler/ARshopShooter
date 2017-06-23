@@ -1,0 +1,164 @@
+fileFormatVersion: 2
+guid: 3fd0551b15dc8f64590132b7ffedc6ea
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Camera
+    100002: molkedrink_01a
+    100004: molkedrink_01b
+    100006: molkedrink_02a
+    100008: molkedrink_02b
+    100010: molkedrink_03a
+    100012: molkedrink_03b
+    100014: molkedrink_04a
+    100016: molkedrink_04b
+    100018: molkedrink_05a
+    100020: molkedrink_05b
+    100022: molkedrink_06a
+    100024: molkedrink_06b
+    100026: molkedrink_07a
+    100028: molkedrink_07b
+    100030: molkedrink_08a
+    100032: molkedrink_08b
+    100034: molkedrink_09a
+    100036: molkedrink_09b
+    100038: //RootNode
+    400000: Camera
+    400002: molkedrink_01a
+    400004: molkedrink_01b
+    400006: molkedrink_02a
+    400008: molkedrink_02b
+    400010: molkedrink_03a
+    400012: molkedrink_03b
+    400014: molkedrink_04a
+    400016: molkedrink_04b
+    400018: molkedrink_05a
+    400020: molkedrink_05b
+    400022: molkedrink_06a
+    400024: molkedrink_06b
+    400026: molkedrink_07a
+    400028: molkedrink_07b
+    400030: molkedrink_08a
+    400032: molkedrink_08b
+    400034: molkedrink_09a
+    400036: molkedrink_09b
+    400038: //RootNode
+    2300000: molkedrink_01a
+    2300002: molkedrink_01b
+    2300004: molkedrink_02a
+    2300006: molkedrink_02b
+    2300008: molkedrink_03a
+    2300010: molkedrink_03b
+    2300012: molkedrink_04a
+    2300014: molkedrink_04b
+    2300016: molkedrink_05a
+    2300018: molkedrink_05b
+    2300020: molkedrink_06a
+    2300022: molkedrink_06b
+    2300024: molkedrink_07a
+    2300026: molkedrink_07b
+    2300028: molkedrink_08a
+    2300030: molkedrink_08b
+    2300032: molkedrink_09a
+    2300034: molkedrink_09b
+    3300000: molkedrink_01a
+    3300002: molkedrink_01b
+    3300004: molkedrink_02a
+    3300006: molkedrink_02b
+    3300008: molkedrink_03a
+    3300010: molkedrink_03b
+    3300012: molkedrink_04a
+    3300014: molkedrink_04b
+    3300016: molkedrink_05a
+    3300018: molkedrink_05b
+    3300020: molkedrink_06a
+    3300022: molkedrink_06b
+    3300024: molkedrink_07a
+    3300026: molkedrink_07b
+    3300028: molkedrink_08a
+    3300030: molkedrink_08b
+    3300032: molkedrink_09a
+    3300034: molkedrink_09b
+    4300000: molkedrink_01a
+    4300002: molkedrink_02a
+    4300004: molkedrink_04a
+    4300006: molkedrink_03a
+    4300008: molkedrink_05a
+    4300010: molkedrink_06a
+    4300012: molkedrink_07a
+    4300014: molkedrink_08a
+    4300016: molkedrink_09a
+    4300018: molkedrink_02b
+    4300020: molkedrink_01b
+    4300022: molkedrink_03b
+    4300024: molkedrink_04b
+    4300026: molkedrink_05b
+    4300028: molkedrink_06b
+    4300030: molkedrink_07b
+    4300032: molkedrink_08b
+    4300034: molkedrink_09b
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 87
+    normalImportMode: 1
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,149 @@
+fileFormatVersion: 2
+guid: f1abf34f08f44bc498cbf9141608b786
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Camera
+    100002: //RootNode
+    100004: regal1_colmesh
+    100006: regal1_details
+    100008: regal1_main
+    100010: regal2_colmesh
+    100012: regal2_details
+    100014: regal2_main
+    100016: regal3_colmesh
+    100018: regal3_details
+    100020: regal3_main
+    100022: regal4_colmesh
+    100024: regal4_details
+    100026: regal4_main
+    100028: regal5_colmesh
+    100030: regal5_details
+    100032: regal5_main
+    400000: Camera
+    400002: //RootNode
+    400004: regal1_colmesh
+    400006: regal1_details
+    400008: regal1_main
+    400010: regal2_colmesh
+    400012: regal2_details
+    400014: regal2_main
+    400016: regal3_colmesh
+    400018: regal3_details
+    400020: regal3_main
+    400022: regal4_colmesh
+    400024: regal4_details
+    400026: regal4_main
+    400028: regal5_colmesh
+    400030: regal5_details
+    400032: regal5_main
+    2300000: regal1_colmesh
+    2300002: regal1_details
+    2300004: regal1_main
+    2300006: regal2_colmesh
+    2300008: regal2_details
+    2300010: regal2_main
+    2300012: regal3_colmesh
+    2300014: regal3_details
+    2300016: regal3_main
+    2300018: regal4_colmesh
+    2300020: regal4_details
+    2300022: regal4_main
+    2300024: regal5_colmesh
+    2300026: regal5_details
+    2300028: regal5_main
+    3300000: regal1_colmesh
+    3300002: regal1_details
+    3300004: regal1_main
+    3300006: regal2_colmesh
+    3300008: regal2_details
+    3300010: regal2_main
+    3300012: regal3_colmesh
+    3300014: regal3_details
+    3300016: regal3_main
+    3300018: regal4_colmesh
+    3300020: regal4_details
+    3300022: regal4_main
+    3300024: regal5_colmesh
+    3300026: regal5_details
+    3300028: regal5_main
+    4300000: regal1_main
+    4300002: regal1_details
+    4300004: regal4_main
+    4300006: regal1_colmesh
+    4300008: regal2_main
+    4300010: regal2_details
+    4300012: regal2_colmesh
+    4300014: regal3_details
+    4300016: regal3_main
+    4300018: regal3_colmesh
+    4300020: regal4_details
+    4300022: regal5_main
+    4300024: regal5_details
+    4300026: regal4_colmesh
+    4300028: regal5_colmesh
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 42
+    normalImportMode: 1
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
