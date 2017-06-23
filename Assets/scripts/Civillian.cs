@@ -67,17 +67,12 @@ public class Civillian :  HumanAI, IInputClickHandler
     }
     private void OnPolice()
     {
-        
         if (tRig.AI.WorkingMemory.GetItem("varPlayer") == null ||
             (getState() == "panic" || getState() == "dead" || getState() == "saved")) return;
-        print("OnPolice");
         setState("run");
-        Destroy(gameObject);
-        Destroy(this);
     }
     private void OnSelect()
     {
-        print("lol2");
         if (getState() == "dead")
         {
             setState("run");
@@ -89,14 +84,10 @@ public class Civillian :  HumanAI, IInputClickHandler
             anim.SetBool("panic", false);
             setState("run");
         }
-
     }
 
     public void OnInputClicked(InputClickedEventData eventData)
     {
-        Destroy(gameObject);
-        Destroy(this);
-        print("lol");
         OnSelect();
     }
 }

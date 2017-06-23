@@ -23,10 +23,6 @@ public class SaveZone : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        if (IA.Count == 2)
-        {
-            SceneManager.LoadScene(1);
-        }
         if (civilList != null && IA.Count == ts.childCount)
         {
             //fin de la partie 
@@ -36,7 +32,6 @@ public class SaveZone : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.layer != AILayerID) return;
-        print("In");
         other.gameObject.SendMessage("InSafeZone");
         IA.Add(other.gameObject);
     }

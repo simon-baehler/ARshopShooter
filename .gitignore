@@ -9,6 +9,7 @@ UnityGenerated/
 Library/
 Assets/AssetStoreTools*
 App/
+.idea/
 UWP/
 /WindowsStoreApp
 /WindowsStoreApp2
