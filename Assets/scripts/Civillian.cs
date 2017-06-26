@@ -12,8 +12,8 @@ public class Civillian :  HumanAI, IInputClickHandler
         HP = 100;
         speed = 1;
         tRig.AI.WorkingMemory.SetItem<float>("speed", speed);
-        tRig.AI.WorkingMemory.SetItem<string>("state", "normal");
-        tRig.AI.WorkingMemory.SetItem<bool>("action", true);
+        tRig.AI.WorkingMemory.SetItem<string>("state", "run");
+        tRig.AI.WorkingMemory.SetItem<string>("moveESC", "ESC");
         tRig.AI.WorkingMemory.SetItem<int>("HP", HP);
         anim.SetFloat("Speed", speedAnim);
     }

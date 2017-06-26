@@ -13,6 +13,7 @@ public class HumanAI : MonoBehaviour, IInputClickHandler, IFocusable
     protected int HP;
     protected Vector3 oldLocation = new Vector3();
     protected string state = "";
+    public GameObject NavTargetsGO;
 
     private const float THRESHHOLD = 0.01f;
 
@@ -83,7 +84,6 @@ public class HumanAI : MonoBehaviour, IInputClickHandler, IFocusable
     public void OnInputClicked(InputClickedEventData eventData)
     {
         //throw new System.NotImplementedException();
-        //print("lop");
     }
 
     public void OnFocusEnter()

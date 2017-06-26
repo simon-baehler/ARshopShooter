@@ -12,6 +12,7 @@ public class ShopShooter : HumanAI, IInputClickHandler
     private int AILayerID;
     private GameObject goCivil;
     
+    
 
     // Use this for initialization
     private void Start()
@@ -23,7 +24,7 @@ public class ShopShooter : HumanAI, IInputClickHandler
         isAggressive = false;
         nbrSceenPoliceForSurrender = 3;
         tRig.AI.WorkingMemory.SetItem<int>("nbrSeenPoliceForSurr", nbrSceenPoliceForSurrender);
-        tRig.AI.WorkingMemory.SetItem<bool>("chasingMode", false);
+        //tRig.AI.WorkingMemory.SetItem<bool>("chasingMode", false);
         tRig.AI.WorkingMemory.SetItem<int>("speed", 2);
         nbrSceenPolice = 0;
         oldLocation = transform.position;
@@ -86,7 +87,7 @@ public class ShopShooter : HumanAI, IInputClickHandler
         print("lolll3l");
         tRig.AI.WorkingMemory.SetItem<string>("state", "arrested");
     }
-    private void OnChasingModeOn()
+    /*private void OnChasingModeOn()
     {
         if (state == "arrested" || state == "stopped" || isAggressive == false) return;
         anim.SetFloat("Speed", speed);
@@ -100,7 +101,7 @@ public class ShopShooter : HumanAI, IInputClickHandler
         tRig.AI.WorkingMemory.SetItem<bool>("chasingMode", false);
         tRig.AI.WorkingMemory.SetItem<GameObject>("follow", null);
         tRig.AI.WorkingMemory.SetItem<GameObject>("varCivil", null);
-    }
+    }*/
 
     private void OnCollisionEnter(Collision collision)
     {

@@ -25,12 +25,12 @@ public class SaveZone : MonoBehaviour
     {
         if (civilList != null && IA.Count == ts.childCount)
         {
-            //fin de la partie 
             SceneManager.LoadScene(1);
         }
     }
     private void OnTriggerEnter(Collider other)
     {
+        print("IN");
         if (other.gameObject.layer != AILayerID) return;
         other.gameObject.SendMessage("InSafeZone");
         IA.Add(other.gameObject);
