@@ -16,8 +16,8 @@ MonoBehaviour:
   - AssetPath: .currentai
     BehaviorTreeName: (No AI Selected)
     BehaviorTreeID: 1
-    LastUpdate: 636340931156219573
-    LastModified: 636340917880710445
+    LastUpdate: 636342675210168863
+    LastModified: 636342675220334183
     Errored: 0
   - AssetPath: .createxml
     BehaviorTreeName: Create New Behavior Tree
@@ -34,8 +34,8 @@ MonoBehaviour:
   - AssetPath: Assets/AI/BehaviorTrees/shopShooter.txt
     BehaviorTreeName: shopShooter
     BehaviorTreeID: 1
-    LastUpdate: 636340931156219573
-    LastModified: 636340917880710445
+    LastUpdate: 636342675210168863
+    LastModified: 636342675220334183
     Errored: 0
   TreeState:
     _branchRepo:
@@ -83,7 +83,7 @@ MonoBehaviour:
       _type: 4
       _stateIndex: 1
       _parent: 0
-      _lastUpdate: 636340931156219573
+      _lastUpdate: 636342675210168863
       _children: 02000000
       _variables: 
       _focused: 0
@@ -905,7 +905,7 @@ MonoBehaviour:
         _recordChange: 1
         _changed: 0
       - _field: movespeed
-        _currentValue: 0
+        _currentValue: 2
         _recordChange: 1
         _changed: 0
       - _field: facetarget
@@ -927,7 +927,7 @@ MonoBehaviour:
       _type: 15
       _stateIndex: 19
       _parent: 17
-      _lastUpdate: 0
+      _lastUpdate: 636342674088795348
       _children: 
       _variables: 
       _focused: 0
@@ -1249,7 +1249,7 @@ MonoBehaviour:
         _recordChange: 1
         _changed: 0
       - _field: movespeed
-        _currentValue: 0
+        _currentValue: 2
         _recordChange: 1
         _changed: 0
       - _field: facetarget
@@ -1271,7 +1271,7 @@ MonoBehaviour:
       _type: 15
       _stateIndex: 26
       _parent: 23
-      _lastUpdate: 0
+      _lastUpdate: 636342675046368342
       _children: 
       _variables: 
       _focused: 0
@@ -2029,7 +2029,7 @@ MonoBehaviour:
         _recordChange: 1
         _changed: 0
       - _field: movespeed
-        _currentValue: 0
+        _currentValue: 5
         _recordChange: 1
         _changed: 0
       - _field: facetarget
@@ -2051,10 +2051,10 @@ MonoBehaviour:
       _type: 15
       _stateIndex: 43
       _parent: 42
-      _lastUpdate: 0
+      _lastUpdate: 636342675131908851
       _children: 
       _variables: 
-      _focused: 0
+      _focused: 1
     - _fields:
       - _field: name
         _currentValue: expression
@@ -2177,7 +2177,7 @@ MonoBehaviour:
         _recordChange: 1
         _changed: 0
       - _field: movespeed
-        _currentValue: 0
+        _currentValue: 5
         _recordChange: 1
         _changed: 0
       - _field: facetarget
@@ -2199,7 +2199,7 @@ MonoBehaviour:
       _type: 15
       _stateIndex: 46
       _parent: 45
-      _lastUpdate: 0
+      _lastUpdate: 636342675175268857
       _children: 
       _variables: 
       _focused: 0
@@ -2325,7 +2325,7 @@ MonoBehaviour:
         _recordChange: 1
         _changed: 0
       - _field: movespeed
-        _currentValue: 0
+        _currentValue: 5
         _recordChange: 1
         _changed: 0
       - _field: facetarget
@@ -2347,7 +2347,7 @@ MonoBehaviour:
       _type: 15
       _stateIndex: 49
       _parent: 48
-      _lastUpdate: 0
+      _lastUpdate: 636342675210168863
       _children: 
       _variables: 
       _focused: 0
