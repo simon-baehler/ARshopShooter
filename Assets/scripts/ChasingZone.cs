@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ChasingZone : MonoBehaviour {
+public class ChasingZone : MonoBehaviour
+{
 
+	public GameObject Shooter;
 	// Use this for initialization
 	private void Start () {
 		
@@ -15,13 +17,13 @@ public class ChasingZone : MonoBehaviour {
 	}
     private void OnTriggerEnter(Collider other)
     {
-	    if (other.gameObject.name != "suitF01") return;
+	    if (other.gameObject != Shooter) return;
 	    print("ON");
 	    other.gameObject.SendMessage("OnChasingModeOn");
     }
     private void OnTriggerExit(Collider other)
     {
-	    if (other.gameObject.name != "suitF01") return;
+	    if (other.gameObject != Shooter) return;
 	    print("OFF");
 	    other.gameObject.SendMessage("OnChasingModeOff");
     }

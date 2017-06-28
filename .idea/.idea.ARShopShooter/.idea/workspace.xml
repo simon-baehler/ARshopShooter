@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7936bfaa-6a55-4a03-b9fa-8c39ee4540da" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeMap1.dgml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.ARShopShooter/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.ARShopShooter/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/AI/Actions/RandomWayPoint.cs" afterPath="$PROJECT_DIR$/Assets/AI/Actions/RandomWayPoint.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/AI/BehaviorTrees/shopShooter.txt" afterPath="$PROJECT_DIR$/Assets/AI/BehaviorTrees/shopShooter.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/AI/Cache/BTEditorWindowState.asset" afterPath="$PROJECT_DIR$/Assets/AI/Cache/BTEditorWindowState.asset" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scene/scene_01_grosshandel.unity" afterPath="$PROJECT_DIR$/Assets/Scene/scene_01_grosshandel.unity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/scripts/Civillian.cs" afterPath="$PROJECT_DIR$/Assets/scripts/Civillian.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/scripts/HumanAI.cs" afterPath="$PROJECT_DIR$/Assets/scripts/HumanAI.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/scripts/ShopShooter.cs" afterPath="$PROJECT_DIR$/Assets/scripts/ShopShooter.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/scripts/ChasingZone.cs" afterPath="$PROJECT_DIR$/Assets/scripts/ChasingZone.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/scripts/SaveZone.cs" afterPath="$PROJECT_DIR$/Assets/scripts/SaveZone.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,15 +40,49 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RandomWayPoint.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RandomWayPoint.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/AI/Actions/RandomWayPoint.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="20" column="57" lean-forward="false" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+            <state relative-caret-position="85">
+              <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="27" />
               <folding>
                 <marker date="1498641177145" expanded="false" signature="6:37" ph="..." />
                 <marker date="1498641177145" expanded="true" signature="94:723" ph="{...}" />
                 <marker date="1498641177145" expanded="true" signature="250:721" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SaveZone.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/scripts/SaveZone.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+              <folding>
+                <marker date="1498643058801" expanded="false" signature="6:87" ph="..." />
+                <marker date="1498643058801" expanded="true" signature="126:892" ph="{...}" />
+                <marker date="1498643058801" expanded="true" signature="372:433" ph="{...}" />
+                <marker date="1498643058801" expanded="true" signature="498:666" ph="{...}" />
+                <marker date="1498643058801" expanded="true" signature="601:660" ph="{...}" />
+                <marker date="1498643058801" expanded="true" signature="714:890" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChasingZone.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/scripts/ChasingZone.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <folding>
+                <marker date="1498643151736" expanded="false" signature="6:78" ph="..." />
+                <marker date="1498643151736" expanded="true" signature="120:644" ph="{...}" />
+                <marker date="1498643151736" expanded="true" signature="207:214" ph="{...}" />
+                <marker date="1498643151736" expanded="true" signature="277:284" ph="{...}" />
+                <marker date="1498643151736" expanded="true" signature="332:462" ph="{...}" />
+                <marker date="1498643151736" expanded="true" signature="509:641" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -130,11 +157,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/WorldAnchorManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/scripts/SaveZone.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/HumanAI.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/ShopShooter.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/Civillian.cs" />
         <option value="$PROJECT_DIR$/Assets/AI/Actions/RandomWayPoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/SaveZone.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/ChasingZone.cs" />
       </list>
     </option>
   </component>
@@ -382,12 +410,12 @@
       <option name="presentableId" value="Default" />
       <updated>1498224425982</updated>
       <workItem from="1498224462016" duration="813000" />
-      <workItem from="1498228143062" duration="16882000" />
+      <workItem from="1498228143062" duration="17942000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17695000" />
+    <option name="totallyTimeSpent" value="18755000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -480,21 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/scripts/SaveZone.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <marker date="1498477393494" expanded="false" signature="6:87" ph="..." />
-            <marker date="1498477393494" expanded="true" signature="126:1011" ph="{...}" />
-            <marker date="1498477393494" expanded="true" signature="349:588" ph="{...}" />
-            <marker date="1498477393494" expanded="true" signature="654:785" ph="{...}" />
-            <marker date="1498477393494" expanded="true" signature="720:779" ph="{...}" />
-            <marker date="1498477393494" expanded="true" signature="833:1009" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/scripts/ShopShooter.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="427">
@@ -513,6 +526,18 @@
             <marker date="1498637786721" expanded="true" signature="3518:3836" ph="/* if (collision.gameObject.layer == AILayerID &amp;&amp; isAggressive == true) ... */" />
             <marker date="1498637786721" expanded="true" signature="3906:3938" ph="{...}" />
             <marker date="1498637786721" expanded="true" signature="3968:4043" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AI/Actions/RandomWayPoint.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="27" />
+          <folding>
+            <marker date="1498641177145" expanded="false" signature="6:37" ph="..." />
+            <marker date="1498641177145" expanded="true" signature="94:723" ph="{...}" />
+            <marker date="1498641177145" expanded="true" signature="250:721" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -564,14 +589,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/AI/Actions/RandomWayPoint.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/scripts/SaveZone.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="57" lean-forward="false" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+        <state relative-caret-position="272">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding>
-            <marker date="1498641177145" expanded="false" signature="6:37" ph="..." />
-            <marker date="1498641177145" expanded="true" signature="94:723" ph="{...}" />
-            <marker date="1498641177145" expanded="true" signature="250:721" ph="{...}" />
+            <marker date="1498643058801" expanded="false" signature="6:87" ph="..." />
+            <marker date="1498643058801" expanded="true" signature="126:892" ph="{...}" />
+            <marker date="1498643058801" expanded="true" signature="372:433" ph="{...}" />
+            <marker date="1498643058801" expanded="true" signature="498:666" ph="{...}" />
+            <marker date="1498643058801" expanded="true" signature="601:660" ph="{...}" />
+            <marker date="1498643058801" expanded="true" signature="714:890" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/scripts/ChasingZone.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <marker date="1498643151736" expanded="false" signature="6:78" ph="..." />
+            <marker date="1498643151736" expanded="true" signature="120:644" ph="{...}" />
+            <marker date="1498643151736" expanded="true" signature="207:214" ph="{...}" />
+            <marker date="1498643151736" expanded="true" signature="277:284" ph="{...}" />
+            <marker date="1498643151736" expanded="true" signature="332:462" ph="{...}" />
+            <marker date="1498643151736" expanded="true" signature="509:641" ph="{...}" />
           </folding>
         </state>
       </provider>

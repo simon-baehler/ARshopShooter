@@ -7,7 +7,8 @@ public class SaveZone : MonoBehaviour
 
 
     private HashSet<GameObject> IA = new HashSet<GameObject>();
-    private GameObject civilList = null;
+    public GameObject civilList;
+    public GameObject shooter;
     private Transform ts;
     private int AILayerID;
 
@@ -15,15 +16,11 @@ public class SaveZone : MonoBehaviour
     private void Start()
     {
         AILayerID = LayerMask.NameToLayer("IA");
-        civilList = GameObject.Find("civils");
-        if(civilList != null && civilList.GetComponent<Transform>() != null)
-            ts = civilList.GetComponent<Transform>();
     }
-
     // Update is called once per frame
     private void Update()
     {
-        if (civilList != null && IA.Count == ts.childCount)
+        if (civilList != null && IA.Count == civilList.GetComponent<Transform>().childCount + 1)
         {
             SceneManager.LoadScene(1);
         }
