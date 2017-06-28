@@ -13,21 +13,12 @@ public class randomWayPoint : RAINAction
     public override ActionResult Execute(RAIN.Core.AI ai)
     {
         parentGO = ai.Body;
+        //get the list of nav target of the IA
         WayPointStops = parentGO.GetComponent<HumanAI>().NavTargetsGO;
-        if (WayPointStops != null)
-        {
-            Transform[] ts = WayPointStops.GetComponentsInChildren<Transform>();
-            int randomInt = Random.Range(1, ts.Length);
-            if (WayPointStops.name == "ShoppingStops")
-            {
-                rand = "T" + randomInt;
-            }
-            else
-            {
-                rand = "TS" + randomInt;
-            }
+        Transform[] ts = WayPointStops.GetComponentsInChildren<Transform>();
+        int randomInt = Random.Range(1, ts.Length);
+        rand = WayPointStops.transform.GetChild(randomInt).name;
         ai.WorkingMemory.SetItem<string>("target", rand);
-        }
         base.Start(ai);
         return ActionResult.SUCCESS;
     }

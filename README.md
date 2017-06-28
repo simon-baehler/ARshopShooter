@@ -6,5 +6,5 @@ Date de dernière modification : 26 juin 2017
 
 ## Documentation
 TB_Hololens.pdf
- 
-L'ensebmle des fichiers du rapport se trouve dans : TB-Hololens.zip
+
+L'ensebmle des fichiers du rapport se trouvent dans : TB-Hololens.zip

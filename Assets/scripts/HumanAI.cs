@@ -9,11 +9,11 @@ public class HumanAI : MonoBehaviour, IInputClickHandler, IFocusable
     protected Animator anim = null;
     protected Rigidbody rigidbody = null;
     protected AIRig tRig = null;
-    protected float speed;
     protected int HP;
     protected Vector3 oldLocation = new Vector3();
-    protected string state = "";
     public GameObject NavTargetsGO;
+    
+   
 
     private const float THRESHHOLD = 0.01f;
 
@@ -25,15 +25,13 @@ public class HumanAI : MonoBehaviour, IInputClickHandler, IFocusable
     protected void init()
     {
         HP = 100;
-        speed = 2;
-        state = "normal";
         anim = GetComponent<Animator>();
         tRig = gameObject.GetComponentInChildren<AIRig>();
         rigidbody = gameObject.GetComponent<Rigidbody>();
-        tRig.AI.WorkingMemory.SetItem<float>("speed", speed);
-        tRig.AI.WorkingMemory.SetItem<string>("state", state);
+        tRig.AI.WorkingMemory.SetItem<float>("speed", 2.0f);
+        tRig.AI.WorkingMemory.SetItem<string>("state","normal");
         tRig.AI.WorkingMemory.SetItem<int>("HP", HP);
-        anim.SetFloat("Speed", speed);
+        anim.SetFloat("Speed", 1);
         oldLocation = transform.position;
     }
     protected bool isMoving()
