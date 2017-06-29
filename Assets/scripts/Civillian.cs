@@ -16,7 +16,7 @@ public class Civillian : HumanAI, IInputClickHandler
         init();
         HP = 100;
         tRig.AI.WorkingMemory.SetItem<float>("speed", 1);
-        tRig.AI.WorkingMemory.SetItem<string>("state", "normal");
+        tRig.AI.WorkingMemory.SetItem<string>("state", "run");
         tRig.AI.WorkingMemory.SetItem<string>("moveESC", "ESC");
         tRig.AI.WorkingMemory.SetItem<int>("HP", HP);
         anim.SetFloat("Speed", ANIM_SPEED);
@@ -25,7 +25,6 @@ public class Civillian : HumanAI, IInputClickHandler
     // Update is called once per frame
     private void Update()
     {
-       print(tRig.AI.WorkingMemory.GetItem<string>("target"));
         if (HP == 0)
         {
             setState("dead");
@@ -52,6 +51,7 @@ public class Civillian : HumanAI, IInputClickHandler
                 tRig.AI.WorkingMemory.SetItem<float>("speed", randomSpeed);
                 break;
             case "saved":
+                
                 if (!isMoving())
                 {
                     anim.SetFloat("Speed", 0);
