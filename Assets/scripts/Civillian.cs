@@ -16,7 +16,7 @@ public class Civillian : HumanAI, IInputClickHandler
         init();
         HP = 100;
         tRig.AI.WorkingMemory.SetItem<float>("speed", 1);
-        tRig.AI.WorkingMemory.SetItem<string>("state", "run");
+        tRig.AI.WorkingMemory.SetItem<string>("state", "panic");
         tRig.AI.WorkingMemory.SetItem<string>("moveESC", "ESC");
         tRig.AI.WorkingMemory.SetItem<int>("HP", HP);
         anim.SetFloat("Speed", ANIM_SPEED);
@@ -40,6 +40,11 @@ public class Civillian : HumanAI, IInputClickHandler
                 {
                     anim.SetFloat("Speed", 0);
                 }
+                else
+                {
+                    anim.SetFloat("Speed", ANIM_SPEED);
+                }
+
                 break;
             case "panic":
                 //print("panic");
@@ -68,8 +73,9 @@ public class Civillian : HumanAI, IInputClickHandler
     private void InSafeZone()
     {
         var randomDist = Random.Range(0.1f, 6);
-        setState("saved");
         tRig.AI.Motor.CloseEnoughDistance = randomDist;
+        setState("saved");
+        
     }
 
     private void OnPolice()

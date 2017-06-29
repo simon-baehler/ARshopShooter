@@ -2,6 +2,11 @@
 using HoloToolkit.Unity.InputModule;
 using UnityEngine;
 using RAIN.Core;
+using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+using RAIN.Action;
+using RAIN.Core;
 
 
 public class HumanAI : MonoBehaviour, IInputClickHandler, IFocusable
@@ -43,16 +48,17 @@ public class HumanAI : MonoBehaviour, IInputClickHandler, IFocusable
             ? oldLocation.z - transform.position.z
             : transform.position.z - oldLocation.z;
         var res = resultZ + resultX;
+        print(res);
         oldLocation = transform.position;
         return THRESHHOLD < res;
     } 
    
-    protected string getState()
+    public string getState()
     {
         return tRig.AI.WorkingMemory.GetItem<string>("state");
     }
 
-    protected void setState(string state)
+    public void setState(string state)
     {
         tRig.AI.WorkingMemory.SetItem<string>("state", state);
     }
