@@ -1,4 +1,8 @@
-﻿using HoloToolkit.Unity.InputModule;
+﻿using System.Collections;
+using HoloToolkit.Unity.InputModule;
+using RAIN.Entities;
+using RAIN.Entities.Aspects;
+using RAIN.Perception.Sensors;
 using UnityEngine;
 
 
@@ -9,17 +13,43 @@ public class Civillian : HumanAI, IInputClickHandler
     private const int NORMAL_SPEED = 1;
     private const int RUN_SPEED_MIN = 4;
     private const int RUN_SPEED_MAX = 6;
+    
+    private const float MASS_MIN = 1;
+    private const float MASS_MAX = 10;
 
     // Use this for initialization
     private void Start()
     {
+       
+        
+        //Adding gameObject Named Entity
+        GameObject entity = new GameObject("Entity");
+        entity.transform.parent = gameObject.transform;
+        entity.AddComponent<EntityRig>();
+        
+        //Initialisation
         init();
         HP = 100;
+        rigidbody.mass = Random.Range(MASS_MIN, MASS_MAX);
         tRig.AI.WorkingMemory.SetItem<float>("speed", 1);
-        tRig.AI.WorkingMemory.SetItem<string>("state", "panic");
+        tRig.AI.WorkingMemory.SetItem<string>("state", "run");
         tRig.AI.WorkingMemory.SetItem<string>("moveESC", "ESC");
         tRig.AI.WorkingMemory.SetItem<int>("HP", HP);
         anim.SetFloat("Speed", ANIM_SPEED);
+
+        // Creation of the Sensor
+        tRig.AI.Body = gameObject;
+        tRig.AI.Senses.AddSensor(createVisualSensor(true, "eyes", 120, new Vector3(0,1.6f ,0), true));
+
+   
+        //creation of the aspect
+        tEntity = entity.GetComponentInChildren<EntityRig>();
+        entity.GetComponentInChildren<EntityRig>().Entity.Form = gameObject;
+        tEntity.Entity.AddAspect(createRAINAspect("aCivil"));
+        if (NavTargetsGO == null)
+        {
+            NavTargetsGO =  GameObject.FindWithTag("ShoppingStops");
+        }
     }
 
     // Update is called once per frame
