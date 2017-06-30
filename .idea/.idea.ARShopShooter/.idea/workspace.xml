@@ -2,423 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7936bfaa-6a55-4a03-b9fa-8c39ee4540da" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body/style1.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body/style1/car_body_albedo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body/style1/car_body_albedo.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body/style1/car_body_occlusion.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body/style1/car_body_occlusion.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body/style1/car_body_specular.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body/style1/car_body_specular.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body/style1/car_body_style1.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body/style1/car_body_style1.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body/style1/car_style_normal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body/style1/car_style_normal.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body/style1/hood_other.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body/style1/hood_other.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body/style1/hood_wipers.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body/style1/hood_wipers.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body/style2.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body/style2/body_style2.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body/style2/body_style2.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body/style2/car_style2_albedo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body/style2/car_style2_albedo.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body/style2/car_style2_normal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body/style2/car_style2_normal.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body/style2/car_style2_occlusion.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body/style2/car_style2_occlusion.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body/style2/car_style2_specular.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body/style2/car_style2_specular.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body/style2/hood_other_style2.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body/style2/hood_other_style2.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body/style2/hood_wipers_style2.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body/style2/hood_wipers_style2.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body/style3.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body/style3/body_style3.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body/style3/body_style3.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body/style3/body_style3_albedo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body/style3/body_style3_albedo.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body/style3/body_style3_specular.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body/style3/body_style3_specular.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body/style3/car_style3_normal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body/style3/car_style3_normal.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body/style3/car_style3_occlusion.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body/style3/car_style3_occlusion.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body/style3/hood_other_style3.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body/style3/hood_other_style3.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body/style3/hood_wipers_style3.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_body/style3/hood_wipers_style3.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_door.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_door/style1.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_door/style1/car_door.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_door/style1/car_door.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_door/style1/car_door_albedo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_door/style1/car_door_albedo.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_door/style1/car_door_normal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_door/style1/car_door_normal.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_door/style1/car_door_occlusion.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_door/style1/car_door_occlusion.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_door/style1/car_door_specular.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_door/style1/car_door_specular.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_door/style2.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_door/style2/car_door_style2_albedo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_door/style2/car_door_style2_albedo.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_door/style2/car_door_style2_normal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_door/style2/car_door_style2_normal.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_door/style2/car_door_style2_occlusion.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_door/style2/car_door_style2_occlusion.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_door/style2/car_door_style2_specular.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_door/style2/car_door_style2_specular.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_door/style2/door_style2.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_door/style2/door_style2.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_door/style3.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_door/style3/car_door_style3_albedo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_door/style3/car_door_style3_albedo.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_door/style3/car_door_style3_normal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_door/style3/car_door_style3_normal.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_door/style3/car_door_style3_specular.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_door/style3/car_door_style3_specular.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_door/style3/door_style3.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_door/style3/door_style3.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_glass.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_glass/car_glass.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_glass/car_glass.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_trunk_door.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_trunk_door/style1.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_trunk_door/style1/car_trunk_door_albedo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_trunk_door/style1/car_trunk_door_albedo.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_trunk_door/style1/car_trunk_door_mat.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_trunk_door/style1/car_trunk_door_mat.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_trunk_door/style1/car_trunk_door_normal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_trunk_door/style1/car_trunk_door_normal.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_trunk_door/style1/car_trunk_door_spec.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_trunk_door/style1/car_trunk_door_spec.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_trunk_door/style2.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_trunk_door/style2/car_bagajnik_texturedFacets1_AlbedoTransparency.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_trunk_door/style2/car_bagajnik_texturedFacets1_AlbedoTransparency.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_trunk_door/style2/car_bagajnik_texturedFacets1_Normal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_trunk_door/style2/car_bagajnik_texturedFacets1_Normal.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_trunk_door/style2/car_bagajnik_texturedFacets1_SpecularSmoothness.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_trunk_door/style2/car_bagajnik_texturedFacets1_SpecularSmoothness.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_trunk_door/style2/car_trunk_style2_albedo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_trunk_door/style2/car_trunk_style2_albedo.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_trunk_door/style2/car_trunk_style2_metallic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_trunk_door/style2/car_trunk_style2_metallic.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_trunk_door/style2/car_trunk_style2_normal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_trunk_door/style2/car_trunk_style2_normal.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_trunk_door/style2/trunk_style2.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_trunk_door/style2/trunk_style2.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_trunk_door/style3.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_trunk_door/style3/car_trunk_style3_albedo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_trunk_door/style3/car_trunk_style3_albedo.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_trunk_door/style3/car_trunk_style3_normal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_trunk_door/style3/car_trunk_style3_normal.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_trunk_door/style3/car_trunk_style3_specular.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_trunk_door/style3/car_trunk_style3_specular.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_trunk_door/style3/trunk_style3.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_exterior/car_trunk_door/style3/trunk_style3.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/car_steering_wheel.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/car_steering_wheel/style1.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/car_steering_wheel/style1/car_steering_wheel.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/car_steering_wheel/style1/car_steering_wheel.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/car_steering_wheel/style1/steering_wheel_albedo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/car_steering_wheel/style1/steering_wheel_albedo.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/car_steering_wheel/style1/steering_wheel_normal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/car_steering_wheel/style1/steering_wheel_normal.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/car_steering_wheel/style1/steering_wheel_occlusion.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/car_steering_wheel/style1/steering_wheel_occlusion.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/car_steering_wheel/style1/steering_wheel_specular.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/car_steering_wheel/style1/steering_wheel_specular.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/car_steering_wheel/style2.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/car_steering_wheel/style2/steering_wheel_style2.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/car_steering_wheel/style2/steering_wheel_style2.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/car_steering_wheel/style2/steering_wheel_style2_albedo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/car_steering_wheel/style2/steering_wheel_style2_albedo.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/car_steering_wheel/style2/steering_wheel_style2_normal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/car_steering_wheel/style2/steering_wheel_style2_normal.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/car_steering_wheel/style2/steering_wheel_style2_occlusion.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/car_steering_wheel/style2/steering_wheel_style2_occlusion.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/car_steering_wheel/style2/steering_wheel_style2_specular.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/car_steering_wheel/style2/steering_wheel_style2_specular.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/car_steering_wheel/style3.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/car_steering_wheel/style3/steering_wheel_style3.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/car_steering_wheel/style3/steering_wheel_style3.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/car_steering_wheel/style3/steering_wheel_style3_albedo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/car_steering_wheel/style3/steering_wheel_style3_albedo.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/car_steering_wheel/style3/steering_wheel_style3_normal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/car_steering_wheel/style3/steering_wheel_style3_normal.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/car_steering_wheel/style3/steering_wheel_style3_occlusion.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/car_steering_wheel/style3/steering_wheel_style3_occlusion.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/car_steering_wheel/style3/steering_wheel_style3_specular.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/car_steering_wheel/style3/steering_wheel_style3_specular.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/style1.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/style1/car_carpet.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/style1/car_carpet.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/style1/car_interior.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/style1/car_interior.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/style1/car_interior_albedo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/style1/car_interior_albedo.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/style1/car_interior_normal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/style1/car_interior_normal.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/style1/car_interior_occlusion.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/style1/car_interior_occlusion.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/style1/car_interior_specular.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/style1/car_interior_specular.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/style1/interior_other.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/style1/interior_other.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/style2.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/style2/car_interior_style2_albedo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/style2/car_interior_style2_albedo.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/style2/car_interior_style2_normal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/style2/car_interior_style2_normal.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/style2/car_interior_style2_occlusion.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/style2/car_interior_style2_occlusion.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/style2/car_interior_style2_specular.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/style2/car_interior_style2_specular.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/style2/interior_carpet_style2.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/style2/interior_carpet_style2.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/style2/interior_other_style2.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/style2/interior_other_style2.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/style2/interior_style2.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/style2/interior_style2.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/style3.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/style3/car_interior_style3_albedo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/style3/car_interior_style3_albedo.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/style3/car_interior_style3_normal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/style3/car_interior_style3_normal.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/style3/car_interior_style3_occlusion.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/style3/car_interior_style3_occlusion.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/style3/car_interior_style3_specular.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/style3/car_interior_style3_specular.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/style3/interior_carpet_style3.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/style3/interior_carpet_style3.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/style3/interior_other_style3.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/style3/interior_other_style3.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/style3/interior_style3.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_interior/style3/interior_style3.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_wheel.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_wheel/style1.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_wheel/style1/car_wheel.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_wheel/style1/car_wheel.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_wheel/style1/car_wheel_albedo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_wheel/style1/car_wheel_albedo.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_wheel/style1/car_wheel_normal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_wheel/style1/car_wheel_normal.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_wheel/style1/car_wheel_occlusion.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_wheel/style1/car_wheel_occlusion.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_wheel/style1/car_wheel_specular.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_wheel/style1/car_wheel_specular.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_wheel/style2.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_wheel/style2/car_wheel_style2_albedo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_wheel/style2/car_wheel_style2_albedo.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_wheel/style2/car_wheel_style2_normal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_wheel/style2/car_wheel_style2_normal.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_wheel/style2/car_wheel_style2_occlusion.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_wheel/style2/car_wheel_style2_occlusion.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_wheel/style2/car_wheel_style2_specular.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_wheel/style2/car_wheel_style2_specular.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_wheel/style2/wheel_style2.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_wheel/style2/wheel_style2.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_wheel/style3.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_wheel/style3/car_wheel_style3__normal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_wheel/style3/car_wheel_style3__normal.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_wheel/style3/car_wheel_style3_albedo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_wheel/style3/car_wheel_style3_albedo.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_wheel/style3/car_wheel_style3_occlusion.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_wheel/style3/car_wheel_style3_occlusion.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_wheel/style3/car_wheel_style3_specular.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_wheel/style3/car_wheel_style3_specular.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_wheel/style3/wheel_style3.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_materials/car_wheel/style3/wheel_style3.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/Car_body_Car_L_glass_Light_glassMat.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/Car_body_Car_L_glass_Light_glassMat.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/Car_body_Car_L_small_glass_Small_light_glass_back_back_bumperMat.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/Car_body_Car_L_small_glass_Small_light_glass_back_back_bumperMat.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/Car_body_Car_L_small_glass_Small_light_glass_front_front_bumperMat.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/Car_body_Car_L_small_glass_Small_light_glass_front_front_bumperMat.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/Car_body_Car_Light_glass_R_glassMat.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/Car_body_Car_Light_glass_R_glassMat.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/Car_body_Car_Small_light_glass_back_back_bumper_L_small_glass2Mat.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/Car_body_Car_Small_light_glass_back_back_bumper_L_small_glass2Mat.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/Car_body_Car_Small_light_glass_front_front_bumper_L_small_glass1Mat.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/Car_body_Car_Small_light_glass_front_front_bumper_L_small_glass1Mat.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/L_hood_other_hood_other_Car_body_CarMat.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/L_hood_other_hood_other_Car_body_CarMat.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/L_interior_carpet_interior_CarMat.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/L_interior_carpet_interior_CarMat.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/L_wiper_part_1Mat.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/L_wiper_part_1Mat.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/R_wiper_part_1Mat.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/R_wiper_part_1Mat.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/Windows_Car_body_Car_back_windowMat.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/Windows_Car_body_Car_back_windowMat.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/Windows_Car_body_Car_left_window_smallMat.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/Windows_Car_body_Car_left_window_smallMat.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/Windows_Car_body_Car_right_window_smallMat.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/Windows_Car_body_Car_right_window_smallMat.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/_ar_interior_controlWheelrul_lp_uv_car_interior_lp_RetopoGroup1Mat.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/_ar_interior_controlWheelrul_lp_uv_car_interior_lp_RetopoGroup1Mat.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/baggage_doorMat.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/baggage_doorMat.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/car_body_lp_uv_RetopoGroup1Mat.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/car_body_lp_uv_RetopoGroup1Mat.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/car_interior_lp_uv_car_interior_lp_uv_car_interior_lp_car_interior_lp_car_interior_lp_RetopoGroup1Mat.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/car_interior_lp_uv_car_interior_lp_uv_car_interior_lp_car_interior_lp_car_interior_lp_RetopoGroup1Mat.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/car_left_wheel_lp_uv_RetopoGroup1Mat.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/car_left_wheel_lp_uv_RetopoGroup1Mat.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/car_steering_wheel_new_steeringwheel_car_steering_wheel__ar_interior_controlWheelrul_lp_uv_car_interior_lp_RetopoGroup1_polySurface2Mat.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/car_steering_wheel_new_steeringwheel_car_steering_wheel__ar_interior_controlWheelrul_lp_uv_car_interior_lp_RetopoGroup1_polySurface2Mat.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/front_window_Windows_Car_body_CarMat.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/front_window_Windows_Car_body_CarMat.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/interior_Car_other_1Mat.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/interior_Car_other_1Mat.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/interior_Car_other_3Mat.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/interior_Car_other_3Mat.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/interior_Car_other_4Mat.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/interior_Car_other_4Mat.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/new_steeringwheel_car_steering_wheel__ar_interior_controlWheelrul_lp_uv_car_interior_lp_RetopoGroup1Mat.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/new_steeringwheel_car_steering_wheel__ar_interior_controlWheelrul_lp_uv_car_interior_lp_RetopoGroup1Mat.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/polySurface1_car_steering_wheel_new_steeringwheel_car_steering_wheel__ar_interior_controlWheelrul_lp_uv_car_interior_lp_RetopoGroup1Mat.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/polySurface1_car_steering_wheel_new_steeringwheel_car_steering_wheel__ar_interior_controlWheelrul_lp_uv_car_interior_lp_RetopoGroup1Mat.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/polySurface3_polySurface1Mat.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/polySurface3_polySurface1Mat.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/polySurface4_polySurface1_polySurface7Mat.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/polySurface4_polySurface1_polySurface7Mat.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/polySurface4_polySurface1_polySurface8Mat.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/polySurface4_polySurface1_polySurface8Mat.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/polySurface4_polySurface1_polySurface9Mat.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/polySurface4_polySurface1_polySurface9Mat.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/polySurface5_polySurface4_polySurface1Mat.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/polySurface5_polySurface4_polySurface1Mat.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/polySurface6_polySurface4_polySurface1Mat.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/Materials/polySurface6_polySurface4_polySurface1Mat.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/car_body.obj.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/car_door.obj.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/car_door_other.obj.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/car_hood_other.obj.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/car_hood_other_wipers.obj.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/car_interior.obj.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/car_other_carpet_treadle.obj.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/car_other_glass.obj.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/car_steering_wheel.obj.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/car_trunk_door.obj.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Car_obj/car_wheel.obj.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Light_control.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Light_control/Flares.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Light_control/Flares/FlareSmall.flare" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Light_control/Flares/FlareSmall.flare.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Light_control/Flares/FlareStar.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Light_control/Flares/FlareStar.psd.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Light_control/car_light_control.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Light_control/car_light_control.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Prefabs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Prefabs/Classic_car_1955_style1.prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Prefabs/Classic_car_1955_style1.prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Prefabs/Classic_car_1955_style2.prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Prefabs/Classic_car_1955_style2.prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Prefabs/Classic_car_1955_style3.prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Prefabs/Classic_car_1955_style3.prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_animations.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_animations/L_door_handle.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_animations/L_door_handle.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_animations/L_door_handle_2.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_animations/L_door_handle_2.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_animations/L_door_open.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_animations/L_door_open.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_animations/L_window_down.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_animations/L_window_down.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_animations/L_wiper_move.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_animations/L_wiper_move.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_animations/R_door_handle.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_animations/R_door_handle.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_animations/R_door_handle_2.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_animations/R_door_handle_2.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_animations/R_door_open.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_animations/R_door_open.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_animations/R_window_down.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_animations/R_window_down.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_animations/R_wiper_move.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_animations/R_wiper_move.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_animations/trunk_open.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_animations/trunk_open.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/big.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/big.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/icon.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/icon.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/mid.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/mid.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style1.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style1/style1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style1/style1.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style1/style1_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style1/style1_1.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style1/style1_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style1/style1_2.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style1/style1_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style1/style1_3.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style1/style1_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style1/style1_4.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style1/style1_5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style1/style1_5.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style1/style1_6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style1/style1_6.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style1/style1_7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style1/style1_7.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style1/style1_8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style1/style1_8.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style2.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style2/style2_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style2/style2_1.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style2/style2_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style2/style2_2.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style2/style2_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style2/style2_3.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style2/style2_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style2/style2_4.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style2/style2_5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style2/style2_5.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style2/style2_6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style2/style2_6.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style2/style2_7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style2/style2_7.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style2/style2_8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style2/style2_8.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style2/style2_9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style2/style2_9.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style3.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style3/style3_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style3/style3_1.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style3/style3_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style3/style3_2.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style3/style3_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style3/style3_3.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style3/style3_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style3/style3_4.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style3/style3_5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style3/style3_5.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style3/style3_6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style3/style3_6.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style3/style3_7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style3/style3_7.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style3/style3_8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style3/style3_8.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style3/style3_9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/style3/style3_9.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/together.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/Promo_images/together.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/car_scene.unity" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Ressources/Classic_car_1955/car_scene.unity.meta" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.ARShopShooter/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.ARShopShooter/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Ressources/Models/Materials.meta" afterPath="$PROJECT_DIR$/Assets/Ressources/Models/Materials.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/scripts/Civillian.cs" afterPath="$PROJECT_DIR$/Assets/scripts/Civillian.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/scripts/HumanAI.cs" afterPath="$PROJECT_DIR$/Assets/scripts/HumanAI.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/AI/BehaviorTrees/shopShooter.txt" afterPath="$PROJECT_DIR$/Assets/AI/BehaviorTrees/shopShooter.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/scripts/ShopShooter.cs" afterPath="$PROJECT_DIR$/Assets/scripts/ShopShooter.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -430,33 +15,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RandomWayPoint.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/AI/Actions/RandomWayPoint.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="16" column="70" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="70" />
-              <folding>
-                <marker date="1498659198957" expanded="false" signature="6:37" ph="..." />
-                <marker date="1498659198957" expanded="true" signature="94:725" ph="{...}" />
-                <marker date="1498659198957" expanded="true" signature="250:723" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SaveZone.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/scripts/SaveZone.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="306">
               <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-              <folding>
-                <marker date="1498643058801" expanded="false" signature="6:87" ph="..." />
-                <marker date="1498643058801" expanded="true" signature="126:892" ph="{...}" />
-                <marker date="1498643058801" expanded="true" signature="372:433" ph="{...}" />
-                <marker date="1498643058801" expanded="true" signature="498:666" ph="{...}" />
-                <marker date="1498643058801" expanded="true" signature="601:660" ph="{...}" />
-                <marker date="1498643058801" expanded="true" signature="714:890" ph="{...}" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -481,11 +45,10 @@
       <file leaf-file-name="HumanAI.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/scripts/HumanAI.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
+            <state relative-caret-position="799">
               <caret line="47" column="50" lean-forward="false" selection-start-line="47" selection-start-column="50" selection-end-line="47" selection-end-column="50" />
               <folding>
                 <marker date="1498751536390" expanded="true" signature="7:188" ph="..." />
-                <marker date="1498751536390" expanded="true" signature="259:2555" ph="{...}" />
                 <marker date="1498751536390" expanded="true" signature="562:597" ph="{...}" />
                 <marker date="1498751536390" expanded="true" signature="628:1073" ph="{...}" />
                 <marker date="1498751536390" expanded="true" signature="1103:1571" ph="{...}" />
@@ -510,7 +73,6 @@
               <caret line="17" column="81" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="17" selection-end-column="81" />
               <folding>
                 <marker date="1498749814880" expanded="true" signature="6:157" ph="..." />
-                <marker date="1498749814880" expanded="true" signature="208:840" ph="{...}" />
                 <marker date="1498749814880" expanded="true" signature="329:838" ph="{...}" />
                 <marker date="1498749814880" expanded="true" signature="562:693" ph="{...}" />
                 <marker date="1498749814880" expanded="true" signature="706:795" ph="{...}" />
@@ -526,7 +88,6 @@
               <caret line="17" column="61" lean-forward="false" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
               <folding>
                 <marker date="1498751095020" expanded="true" signature="6:114" ph="..." />
-                <marker date="1498751095020" expanded="true" signature="172:615" ph="{...}" />
                 <marker date="1498751095020" expanded="true" signature="335:530" ph="{...}" />
                 <marker date="1498751095020" expanded="true" signature="578:613" ph="{...}" />
               </folding>
@@ -534,19 +95,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Adam.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Adam.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/scripts/Adam.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
               <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShopShooter.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/scripts/ShopShooter.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
               <folding>
-                <marker date="1498751582825" expanded="true" signature="7:85" ph="..." />
-                <marker date="1498751582825" expanded="true" signature="137:653" ph="{...}" />
-                <marker date="1498751582825" expanded="true" signature="220:234" ph="{...}" />
-                <marker date="1498751582825" expanded="true" signature="289:395" ph="{...}" />
-                <marker date="1498751582825" expanded="true" signature="309:347" ph="{...}" />
-                <marker date="1498751582825" expanded="true" signature="354:392" ph="{...}" />
-                <marker date="1498751582825" expanded="true" signature="424:651" ph="{...}" />
+                <marker date="1498819933997" expanded="false" signature="7:56" ph="..." />
+                <marker date="1498819933997" expanded="true" signature="113:4046" ph="{...}" />
+                <marker date="1498819933997" expanded="true" signature="120:255" ph="/* private bool isAggressive; ... */" />
+                <marker date="1498819933997" expanded="true" signature="503:964" ph="{...}" />
+                <marker date="1498819933997" expanded="true" signature="1030:2707" ph="{...}" />
+                <marker date="1498819933997" expanded="true" signature="1064:2701" ph="{...}" />
+                <marker date="1498819933997" expanded="true" signature="1172:2169" ph="/* if (tRig.AI.WorkingMemory.GetItem&lt;GameObject&gt;(&quot;varCivil&quot;) != null) ... */" />
+                <marker date="1498819933997" expanded="true" signature="2736:2816" ph="{...}" />
+                <marker date="1498819933997" expanded="true" signature="2821:3448" ph="/* private void OnChasingModeOn() ... */" />
+                <marker date="1498819933997" expanded="true" signature="3504:3843" ph="{...}" />
+                <marker date="1498819933997" expanded="true" signature="3519:3837" ph="/* if (collision.gameObject.layer == AILayerID &amp;&amp; isAggressive == true) ... */" />
+                <marker date="1498819933997" expanded="true" signature="3907:3939" ph="{...}" />
+                <marker date="1498819933997" expanded="true" signature="3969:4044" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -557,24 +134,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1649">
               <caret line="97" column="16" lean-forward="false" selection-start-line="97" selection-start-column="12" selection-end-line="97" selection-end-column="16" />
-              <folding>
-                <marker date="1498748961959" expanded="true" signature="6:55" ph="..." />
-                <marker date="1498748961959" expanded="true" signature="110:2977" ph="{...}" />
-                <marker date="1498748961959" expanded="true" signature="380:712" ph="{...}" />
-                <marker date="1498748961959" expanded="true" signature="778:2156" ph="{...}" />
-                <marker date="1498748961959" expanded="true" signature="805:895" ph="{...}" />
-                <marker date="1498748961959" expanded="true" signature="923:2150" ph="{...}" />
-                <marker date="1498748961959" expanded="true" signature="1157:1240" ph="{...}" />
-                <marker date="1498748961959" expanded="true" signature="1261:1353" ph="{...}" />
-                <marker date="1498748961959" expanded="true" signature="1840:1923" ph="{...}" />
-                <marker date="1498748961959" expanded="true" signature="1944:2117" ph="{...}" />
-                <marker date="1498748961959" expanded="true" signature="2187:2339" ph="{...}" />
-                <marker date="1498748961959" expanded="true" signature="2368:2565" ph="{...}" />
-                <marker date="1498748961959" expanded="true" signature="2594:2878" ph="{...}" />
-                <marker date="1498748961959" expanded="true" signature="2634:2746" ph="{...}" />
-                <marker date="1498748961959" expanded="true" signature="2781:2872" ph="{...}" />
-                <marker date="1498748961959" expanded="true" signature="2943:2975" ph="{...}" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -582,11 +142,10 @@
       <file leaf-file-name="EnemyShooting.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../VRKinectAmokShooter/Assets/Scripts/EnemyShooting.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
+            <state relative-caret-position="1479">
               <caret line="88" column="73" lean-forward="false" selection-start-line="88" selection-start-column="73" selection-end-line="88" selection-end-column="73" />
               <folding>
                 <marker date="1498747627246" expanded="false" signature="6:44" ph="..." />
-                <marker date="1498747627246" expanded="true" signature="88:4101" ph="{...}" />
                 <marker date="1498747627246" expanded="true" signature="1283:2052" ph="{...}" />
                 <marker date="1498747627246" expanded="true" signature="1836:2000" ph="/* aSources = GetComponents&lt;AudioSource&gt;();         // The AudioSources are taken in the order they appear in the ... */" />
                 <marker date="1498747627246" expanded="true" signature="2073:2767" ph="{...}" />
@@ -604,11 +163,10 @@
       <file leaf-file-name="PlayerHealth.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../VRKinectAmokShooter/Assets/Scripts/PlayerHealth.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
+            <state relative-caret-position="527">
               <caret line="32" column="22" lean-forward="false" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
               <folding>
                 <marker date="1498742507536" expanded="false" signature="6:44" ph="..." />
-                <marker date="1498742507536" expanded="true" signature="87:2876" ph="{...}" />
                 <marker date="1498742507536" expanded="true" signature="1081:1441" ph="{...}" />
                 <marker date="1498742507536" expanded="true" signature="1087:1206" ph="/* Setting up the references. ... */" />
                 <marker date="1498742507536" expanded="true" signature="1461:1877" ph="{...}" />
@@ -645,7 +203,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/WorldAnchorManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/scripts/ShopShooter.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/SaveZone.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/ChasingZone.cs" />
         <option value="$PROJECT_DIR$/Assets/hitWall.js" />
@@ -658,6 +215,7 @@
         <option value="$PROJECT_DIR$/Assets/AI/Actions/RassuringCivilian.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/HumanAI.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/Adam.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/ShopShooter.cs" />
       </list>
     </option>
   </component>
@@ -811,11 +369,12 @@
       <workItem from="1498659158894" duration="331000" />
       <workItem from="1498721076581" duration="2064000" />
       <workItem from="1498736747368" duration="6873000" />
+      <workItem from="1498819921124" duration="104000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30497000" />
+    <option name="totallyTimeSpent" value="30601000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -827,7 +386,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -866,22 +425,44 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/scripts/ShopShooter.cs">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1498819933997" expanded="false" signature="7:56" ph="..." />
+            <marker date="1498819933997" expanded="true" signature="113:4046" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="120:255" ph="/* private bool isAggressive; ... */" />
+            <marker date="1498819933997" expanded="true" signature="503:964" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="1030:2707" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="1064:2701" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="1172:2169" ph="/* if (tRig.AI.WorkingMemory.GetItem&lt;GameObject&gt;(&quot;varCivil&quot;) != null) ... */" />
+            <marker date="1498819933997" expanded="true" signature="2736:2816" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="2821:3448" ph="/* private void OnChasingModeOn() ... */" />
+            <marker date="1498819933997" expanded="true" signature="3504:3843" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="3519:3837" ph="/* if (collision.gameObject.layer == AILayerID &amp;&amp; isAggressive == true) ... */" />
+            <marker date="1498819933997" expanded="true" signature="3907:3939" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="3969:4044" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/scripts/ShopShooter.cs">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="33" column="38" lean-forward="false" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
           <folding>
-            <marker date="1498637786721" expanded="false" signature="7:56" ph="..." />
-            <marker date="1498637786721" expanded="true" signature="113:4045" ph="{...}" />
-            <marker date="1498637786721" expanded="true" signature="120:255" ph="/* private bool isAggressive; ... */" />
-            <marker date="1498637786721" expanded="true" signature="503:963" ph="{...}" />
-            <marker date="1498637786721" expanded="true" signature="1029:2706" ph="{...}" />
-            <marker date="1498637786721" expanded="true" signature="1063:2700" ph="{...}" />
-            <marker date="1498637786721" expanded="true" signature="1171:2168" ph="/* if (tRig.AI.WorkingMemory.GetItem&lt;GameObject&gt;(&quot;varCivil&quot;) != null) ... */" />
-            <marker date="1498637786721" expanded="true" signature="2735:2815" ph="{...}" />
-            <marker date="1498637786721" expanded="true" signature="2820:3447" ph="/* private void OnChasingModeOn() ... */" />
-            <marker date="1498637786721" expanded="true" signature="3503:3842" ph="{...}" />
-            <marker date="1498637786721" expanded="true" signature="3518:3836" ph="/* if (collision.gameObject.layer == AILayerID &amp;&amp; isAggressive == true) ... */" />
-            <marker date="1498637786721" expanded="true" signature="3906:3938" ph="{...}" />
-            <marker date="1498637786721" expanded="true" signature="3968:4043" ph="{...}" />
+            <marker date="1498819933997" expanded="false" signature="7:56" ph="..." />
+            <marker date="1498819933997" expanded="true" signature="113:4046" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="120:255" ph="/* private bool isAggressive; ... */" />
+            <marker date="1498819933997" expanded="true" signature="503:964" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="1030:2707" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="1064:2701" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="1172:2169" ph="/* if (tRig.AI.WorkingMemory.GetItem&lt;GameObject&gt;(&quot;varCivil&quot;) != null) ... */" />
+            <marker date="1498819933997" expanded="true" signature="2736:2816" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="2821:3448" ph="/* private void OnChasingModeOn() ... */" />
+            <marker date="1498819933997" expanded="true" signature="3504:3843" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="3519:3837" ph="/* if (collision.gameObject.layer == AILayerID &amp;&amp; isAggressive == true) ... */" />
+            <marker date="1498819933997" expanded="true" signature="3907:3939" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="3969:4044" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -892,7 +473,6 @@
           <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
           <folding>
             <marker date="1498659198957" expanded="false" signature="6:37" ph="..." />
-            <marker date="1498659198957" expanded="true" signature="94:725" ph="{...}" />
             <marker date="1498659198957" expanded="true" signature="250:723" ph="{...}" />
           </folding>
         </state>
@@ -902,14 +482,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <marker date="1498643058801" expanded="false" signature="6:87" ph="..." />
-            <marker date="1498643058801" expanded="true" signature="126:892" ph="{...}" />
-            <marker date="1498643058801" expanded="true" signature="372:433" ph="{...}" />
-            <marker date="1498643058801" expanded="true" signature="498:666" ph="{...}" />
-            <marker date="1498643058801" expanded="true" signature="601:660" ph="{...}" />
-            <marker date="1498643058801" expanded="true" signature="714:890" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -928,27 +501,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HitWall.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="41" lean-forward="false" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
-          <folding>
-            <marker date="1498721285865" expanded="false" signature="6:78" ph="..." />
-            <marker date="1498721285865" expanded="true" signature="116:476" ph="{...}" />
-            <marker date="1498721285865" expanded="true" signature="236:276" ph="{...}" />
-            <marker date="1498721285865" expanded="true" signature="331:371" ph="{...}" />
-            <marker date="1498721285865" expanded="true" signature="416:474" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HitWall.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/scripts/HumanAI.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="12" column="50" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="50" />
           <folding>
             <marker date="1498751536390" expanded="true" signature="7:188" ph="..." />
-            <marker date="1498751536390" expanded="true" signature="259:2555" ph="{...}" />
             <marker date="1498751536390" expanded="true" signature="562:597" ph="{...}" />
             <marker date="1498751536390" expanded="true" signature="628:1073" ph="{...}" />
             <marker date="1498751536390" expanded="true" signature="1103:1571" ph="{...}" />
@@ -969,24 +528,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
           <caret line="53" column="16" lean-forward="false" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
-          <folding>
-            <marker date="1498748961959" expanded="true" signature="6:55" ph="..." />
-            <marker date="1498748961959" expanded="true" signature="110:2977" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="380:712" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="778:2156" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="805:895" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="923:2150" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="1157:1240" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="1261:1353" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="1840:1923" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="1944:2117" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="2187:2339" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="2368:2565" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="2594:2878" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="2634:2746" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="2781:2872" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="2943:2975" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -995,19 +537,19 @@
         <state relative-caret-position="544">
           <caret line="33" column="38" lean-forward="false" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
           <folding>
-            <marker date="1498637786721" expanded="false" signature="7:56" ph="..." />
-            <marker date="1498637786721" expanded="true" signature="113:4045" ph="{...}" />
-            <marker date="1498637786721" expanded="true" signature="120:255" ph="/* private bool isAggressive; ... */" />
-            <marker date="1498637786721" expanded="true" signature="503:963" ph="{...}" />
-            <marker date="1498637786721" expanded="true" signature="1029:2706" ph="{...}" />
-            <marker date="1498637786721" expanded="true" signature="1063:2700" ph="{...}" />
-            <marker date="1498637786721" expanded="true" signature="1171:2168" ph="/* if (tRig.AI.WorkingMemory.GetItem&lt;GameObject&gt;(&quot;varCivil&quot;) != null) ... */" />
-            <marker date="1498637786721" expanded="true" signature="2735:2815" ph="{...}" />
-            <marker date="1498637786721" expanded="true" signature="2820:3447" ph="/* private void OnChasingModeOn() ... */" />
-            <marker date="1498637786721" expanded="true" signature="3503:3842" ph="{...}" />
-            <marker date="1498637786721" expanded="true" signature="3518:3836" ph="/* if (collision.gameObject.layer == AILayerID &amp;&amp; isAggressive == true) ... */" />
-            <marker date="1498637786721" expanded="true" signature="3906:3938" ph="{...}" />
-            <marker date="1498637786721" expanded="true" signature="3968:4043" ph="{...}" />
+            <marker date="1498819933997" expanded="false" signature="7:56" ph="..." />
+            <marker date="1498819933997" expanded="true" signature="113:4046" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="120:255" ph="/* private bool isAggressive; ... */" />
+            <marker date="1498819933997" expanded="true" signature="503:964" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="1030:2707" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="1064:2701" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="1172:2169" ph="/* if (tRig.AI.WorkingMemory.GetItem&lt;GameObject&gt;(&quot;varCivil&quot;) != null) ... */" />
+            <marker date="1498819933997" expanded="true" signature="2736:2816" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="2821:3448" ph="/* private void OnChasingModeOn() ... */" />
+            <marker date="1498819933997" expanded="true" signature="3504:3843" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="3519:3837" ph="/* if (collision.gameObject.layer == AILayerID &amp;&amp; isAggressive == true) ... */" />
+            <marker date="1498819933997" expanded="true" signature="3907:3939" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="3969:4044" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1016,14 +558,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <marker date="1498643058801" expanded="false" signature="6:87" ph="..." />
-            <marker date="1498643058801" expanded="true" signature="126:892" ph="{...}" />
-            <marker date="1498643058801" expanded="true" signature="372:433" ph="{...}" />
-            <marker date="1498643058801" expanded="true" signature="498:666" ph="{...}" />
-            <marker date="1498643058801" expanded="true" signature="601:660" ph="{...}" />
-            <marker date="1498643058801" expanded="true" signature="714:890" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1048,7 +583,6 @@
           <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="34" />
           <folding>
             <marker date="1498751536390" expanded="true" signature="7:188" ph="..." />
-            <marker date="1498751536390" expanded="true" signature="259:2555" ph="{...}" />
             <marker date="1498751536390" expanded="true" signature="562:597" ph="{...}" />
             <marker date="1498751536390" expanded="true" signature="628:1073" ph="{...}" />
             <marker date="1498751536390" expanded="true" signature="1103:1571" ph="{...}" />
@@ -1069,24 +603,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="18" column="62" lean-forward="false" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
-          <folding>
-            <marker date="1498748961959" expanded="true" signature="6:55" ph="..." />
-            <marker date="1498748961959" expanded="true" signature="110:2977" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="380:712" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="778:2156" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="805:895" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="923:2150" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="1157:1240" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="1261:1353" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="1840:1923" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="1944:2117" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="2187:2339" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="2368:2565" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="2594:2878" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="2634:2746" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="2781:2872" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="2943:2975" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1096,44 +613,30 @@
           <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
           <folding>
             <marker date="1498659198957" expanded="false" signature="6:37" ph="..." />
-            <marker date="1498659198957" expanded="true" signature="94:725" ph="{...}" />
             <marker date="1498659198957" expanded="true" signature="250:723" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HitWall.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-          <folding>
-            <marker date="1498721285865" expanded="false" signature="6:78" ph="..." />
-            <marker date="1498721285865" expanded="true" signature="116:476" ph="{...}" />
-            <marker date="1498721285865" expanded="true" signature="236:276" ph="{...}" />
-            <marker date="1498721285865" expanded="true" signature="331:371" ph="{...}" />
-            <marker date="1498721285865" expanded="true" signature="416:474" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HitWall.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/scripts/ShopShooter.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="33" column="38" lean-forward="false" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
           <folding>
-            <marker date="1498637786721" expanded="false" signature="7:56" ph="..." />
-            <marker date="1498637786721" expanded="true" signature="113:4045" ph="{...}" />
-            <marker date="1498637786721" expanded="true" signature="120:255" ph="/* private bool isAggressive; ... */" />
-            <marker date="1498637786721" expanded="true" signature="503:963" ph="{...}" />
-            <marker date="1498637786721" expanded="true" signature="1029:2706" ph="{...}" />
-            <marker date="1498637786721" expanded="true" signature="1063:2700" ph="{...}" />
-            <marker date="1498637786721" expanded="true" signature="1171:2168" ph="/* if (tRig.AI.WorkingMemory.GetItem&lt;GameObject&gt;(&quot;varCivil&quot;) != null) ... */" />
-            <marker date="1498637786721" expanded="true" signature="2735:2815" ph="{...}" />
-            <marker date="1498637786721" expanded="true" signature="2820:3447" ph="/* private void OnChasingModeOn() ... */" />
-            <marker date="1498637786721" expanded="true" signature="3503:3842" ph="{...}" />
-            <marker date="1498637786721" expanded="true" signature="3518:3836" ph="/* if (collision.gameObject.layer == AILayerID &amp;&amp; isAggressive == true) ... */" />
-            <marker date="1498637786721" expanded="true" signature="3906:3938" ph="{...}" />
-            <marker date="1498637786721" expanded="true" signature="3968:4043" ph="{...}" />
+            <marker date="1498819933997" expanded="false" signature="7:56" ph="..." />
+            <marker date="1498819933997" expanded="true" signature="113:4046" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="120:255" ph="/* private bool isAggressive; ... */" />
+            <marker date="1498819933997" expanded="true" signature="503:964" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="1030:2707" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="1064:2701" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="1172:2169" ph="/* if (tRig.AI.WorkingMemory.GetItem&lt;GameObject&gt;(&quot;varCivil&quot;) != null) ... */" />
+            <marker date="1498819933997" expanded="true" signature="2736:2816" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="2821:3448" ph="/* private void OnChasingModeOn() ... */" />
+            <marker date="1498819933997" expanded="true" signature="3504:3843" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="3519:3837" ph="/* if (collision.gameObject.layer == AILayerID &amp;&amp; isAggressive == true) ... */" />
+            <marker date="1498819933997" expanded="true" signature="3907:3939" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="3969:4044" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1142,14 +645,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <marker date="1498643058801" expanded="false" signature="6:87" ph="..." />
-            <marker date="1498643058801" expanded="true" signature="126:892" ph="{...}" />
-            <marker date="1498643058801" expanded="true" signature="372:433" ph="{...}" />
-            <marker date="1498643058801" expanded="true" signature="498:666" ph="{...}" />
-            <marker date="1498643058801" expanded="true" signature="601:660" ph="{...}" />
-            <marker date="1498643058801" expanded="true" signature="714:890" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1174,7 +670,6 @@
           <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="34" />
           <folding>
             <marker date="1498751536390" expanded="true" signature="7:188" ph="..." />
-            <marker date="1498751536390" expanded="true" signature="259:2555" ph="{...}" />
             <marker date="1498751536390" expanded="true" signature="562:597" ph="{...}" />
             <marker date="1498751536390" expanded="true" signature="628:1073" ph="{...}" />
             <marker date="1498751536390" expanded="true" signature="1103:1571" ph="{...}" />
@@ -1195,48 +690,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="18" column="62" lean-forward="false" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
-          <folding>
-            <marker date="1498748961959" expanded="true" signature="6:55" ph="..." />
-            <marker date="1498748961959" expanded="true" signature="110:2977" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="380:712" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="778:2156" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="805:895" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="923:2150" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="1157:1240" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="1261:1353" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="1840:1923" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="1944:2117" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="2187:2339" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="2368:2565" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="2594:2878" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="2634:2746" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="2781:2872" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="2943:2975" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HitWall.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-          <folding>
-            <marker date="1498721285865" expanded="false" signature="6:78" ph="..." />
-            <marker date="1498721285865" expanded="true" signature="116:476" ph="{...}" />
-            <marker date="1498721285865" expanded="true" signature="236:276" ph="{...}" />
-            <marker date="1498721285865" expanded="true" signature="331:371" ph="{...}" />
-            <marker date="1498721285865" expanded="true" signature="416:474" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HitWall.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/AI/Actions/RandomWayPoint.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="27" />
           <folding>
             <marker date="1498659198957" expanded="false" signature="6:37" ph="..." />
-            <marker date="1498659198957" expanded="true" signature="94:725" ph="{...}" />
             <marker date="1498659198957" expanded="true" signature="250:723" ph="{...}" />
           </folding>
         </state>
@@ -1247,19 +711,19 @@
         <state relative-caret-position="544">
           <caret line="33" column="38" lean-forward="false" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
           <folding>
-            <marker date="1498637786721" expanded="false" signature="7:56" ph="..." />
-            <marker date="1498637786721" expanded="true" signature="113:4045" ph="{...}" />
-            <marker date="1498637786721" expanded="true" signature="120:255" ph="/* private bool isAggressive; ... */" />
-            <marker date="1498637786721" expanded="true" signature="503:963" ph="{...}" />
-            <marker date="1498637786721" expanded="true" signature="1029:2706" ph="{...}" />
-            <marker date="1498637786721" expanded="true" signature="1063:2700" ph="{...}" />
-            <marker date="1498637786721" expanded="true" signature="1171:2168" ph="/* if (tRig.AI.WorkingMemory.GetItem&lt;GameObject&gt;(&quot;varCivil&quot;) != null) ... */" />
-            <marker date="1498637786721" expanded="true" signature="2735:2815" ph="{...}" />
-            <marker date="1498637786721" expanded="true" signature="2820:3447" ph="/* private void OnChasingModeOn() ... */" />
-            <marker date="1498637786721" expanded="true" signature="3503:3842" ph="{...}" />
-            <marker date="1498637786721" expanded="true" signature="3518:3836" ph="/* if (collision.gameObject.layer == AILayerID &amp;&amp; isAggressive == true) ... */" />
-            <marker date="1498637786721" expanded="true" signature="3906:3938" ph="{...}" />
-            <marker date="1498637786721" expanded="true" signature="3968:4043" ph="{...}" />
+            <marker date="1498819933997" expanded="false" signature="7:56" ph="..." />
+            <marker date="1498819933997" expanded="true" signature="113:4046" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="120:255" ph="/* private bool isAggressive; ... */" />
+            <marker date="1498819933997" expanded="true" signature="503:964" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="1030:2707" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="1064:2701" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="1172:2169" ph="/* if (tRig.AI.WorkingMemory.GetItem&lt;GameObject&gt;(&quot;varCivil&quot;) != null) ... */" />
+            <marker date="1498819933997" expanded="true" signature="2736:2816" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="2821:3448" ph="/* private void OnChasingModeOn() ... */" />
+            <marker date="1498819933997" expanded="true" signature="3504:3843" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="3519:3837" ph="/* if (collision.gameObject.layer == AILayerID &amp;&amp; isAggressive == true) ... */" />
+            <marker date="1498819933997" expanded="true" signature="3907:3939" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="3969:4044" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1270,7 +734,6 @@
           <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="27" />
           <folding>
             <marker date="1498659198957" expanded="false" signature="6:37" ph="..." />
-            <marker date="1498659198957" expanded="true" signature="94:725" ph="{...}" />
             <marker date="1498659198957" expanded="true" signature="250:723" ph="{...}" />
           </folding>
         </state>
@@ -1280,14 +743,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <marker date="1498643058801" expanded="false" signature="6:87" ph="..." />
-            <marker date="1498643058801" expanded="true" signature="126:892" ph="{...}" />
-            <marker date="1498643058801" expanded="true" signature="372:433" ph="{...}" />
-            <marker date="1498643058801" expanded="true" signature="498:666" ph="{...}" />
-            <marker date="1498643058801" expanded="true" signature="601:660" ph="{...}" />
-            <marker date="1498643058801" expanded="true" signature="714:890" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1312,7 +768,6 @@
           <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="34" />
           <folding>
             <marker date="1498751536390" expanded="true" signature="7:188" ph="..." />
-            <marker date="1498751536390" expanded="true" signature="259:2555" ph="{...}" />
             <marker date="1498751536390" expanded="true" signature="562:597" ph="{...}" />
             <marker date="1498751536390" expanded="true" signature="628:1073" ph="{...}" />
             <marker date="1498751536390" expanded="true" signature="1103:1571" ph="{...}" />
@@ -1333,59 +788,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="18" column="62" lean-forward="false" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
-          <folding>
-            <marker date="1498748961959" expanded="true" signature="6:55" ph="..." />
-            <marker date="1498748961959" expanded="true" signature="110:2977" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="380:712" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="778:2156" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="805:895" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="923:2150" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="1157:1240" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="1261:1353" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="1840:1923" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="1944:2117" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="2187:2339" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="2368:2565" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="2594:2878" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="2634:2746" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="2781:2872" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="2943:2975" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HitWall.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding>
-            <marker date="1498721285865" expanded="false" signature="6:78" ph="..." />
-            <marker date="1498721285865" expanded="true" signature="116:476" ph="{...}" />
-            <marker date="1498721285865" expanded="true" signature="236:276" ph="{...}" />
-            <marker date="1498721285865" expanded="true" signature="331:371" ph="{...}" />
-            <marker date="1498721285865" expanded="true" signature="416:474" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HitWall.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/scripts/ShopShooter.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="33" column="38" lean-forward="false" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
           <folding>
-            <marker date="1498637786721" expanded="false" signature="7:56" ph="..." />
-            <marker date="1498637786721" expanded="true" signature="113:4045" ph="{...}" />
-            <marker date="1498637786721" expanded="true" signature="120:255" ph="/* private bool isAggressive; ... */" />
-            <marker date="1498637786721" expanded="true" signature="503:963" ph="{...}" />
-            <marker date="1498637786721" expanded="true" signature="1029:2706" ph="{...}" />
-            <marker date="1498637786721" expanded="true" signature="1063:2700" ph="{...}" />
-            <marker date="1498637786721" expanded="true" signature="1171:2168" ph="/* if (tRig.AI.WorkingMemory.GetItem&lt;GameObject&gt;(&quot;varCivil&quot;) != null) ... */" />
-            <marker date="1498637786721" expanded="true" signature="2735:2815" ph="{...}" />
-            <marker date="1498637786721" expanded="true" signature="2820:3447" ph="/* private void OnChasingModeOn() ... */" />
-            <marker date="1498637786721" expanded="true" signature="3503:3842" ph="{...}" />
-            <marker date="1498637786721" expanded="true" signature="3518:3836" ph="/* if (collision.gameObject.layer == AILayerID &amp;&amp; isAggressive == true) ... */" />
-            <marker date="1498637786721" expanded="true" signature="3906:3938" ph="{...}" />
-            <marker date="1498637786721" expanded="true" signature="3968:4043" ph="{...}" />
+            <marker date="1498819933997" expanded="false" signature="7:56" ph="..." />
+            <marker date="1498819933997" expanded="true" signature="113:4046" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="120:255" ph="/* private bool isAggressive; ... */" />
+            <marker date="1498819933997" expanded="true" signature="503:964" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="1030:2707" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="1064:2701" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="1172:2169" ph="/* if (tRig.AI.WorkingMemory.GetItem&lt;GameObject&gt;(&quot;varCivil&quot;) != null) ... */" />
+            <marker date="1498819933997" expanded="true" signature="2736:2816" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="2821:3448" ph="/* private void OnChasingModeOn() ... */" />
+            <marker date="1498819933997" expanded="true" signature="3504:3843" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="3519:3837" ph="/* if (collision.gameObject.layer == AILayerID &amp;&amp; isAggressive == true) ... */" />
+            <marker date="1498819933997" expanded="true" signature="3907:3939" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="3969:4044" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1396,7 +821,6 @@
           <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="27" />
           <folding>
             <marker date="1498659198957" expanded="false" signature="6:37" ph="..." />
-            <marker date="1498659198957" expanded="true" signature="94:725" ph="{...}" />
             <marker date="1498659198957" expanded="true" signature="250:723" ph="{...}" />
           </folding>
         </state>
@@ -1406,14 +830,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <marker date="1498643058801" expanded="false" signature="6:87" ph="..." />
-            <marker date="1498643058801" expanded="true" signature="126:892" ph="{...}" />
-            <marker date="1498643058801" expanded="true" signature="372:433" ph="{...}" />
-            <marker date="1498643058801" expanded="true" signature="498:666" ph="{...}" />
-            <marker date="1498643058801" expanded="true" signature="601:660" ph="{...}" />
-            <marker date="1498643058801" expanded="true" signature="714:890" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1423,7 +840,6 @@
           <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="34" />
           <folding>
             <marker date="1498751536390" expanded="true" signature="7:188" ph="..." />
-            <marker date="1498751536390" expanded="true" signature="259:2555" ph="{...}" />
             <marker date="1498751536390" expanded="true" signature="562:597" ph="{...}" />
             <marker date="1498751536390" expanded="true" signature="628:1073" ph="{...}" />
             <marker date="1498751536390" expanded="true" signature="1103:1571" ph="{...}" />
@@ -1444,24 +860,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="18" column="62" lean-forward="false" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
-          <folding>
-            <marker date="1498748961959" expanded="true" signature="6:55" ph="..." />
-            <marker date="1498748961959" expanded="true" signature="110:2977" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="380:712" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="778:2156" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="805:895" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="923:2150" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="1157:1240" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="1261:1353" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="1840:1923" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="1944:2117" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="2187:2339" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="2368:2565" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="2594:2878" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="2634:2746" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="2781:2872" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="2943:2975" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1491,22 +890,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/scripts/ShopShooter.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="33" column="38" lean-forward="false" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+        <state relative-caret-position="374">
+          <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
           <folding>
-            <marker date="1498637786721" expanded="false" signature="7:56" ph="..." />
-            <marker date="1498637786721" expanded="true" signature="113:4045" ph="{...}" />
-            <marker date="1498637786721" expanded="true" signature="120:255" ph="/* private bool isAggressive; ... */" />
-            <marker date="1498637786721" expanded="true" signature="503:963" ph="{...}" />
-            <marker date="1498637786721" expanded="true" signature="1029:2706" ph="{...}" />
-            <marker date="1498637786721" expanded="true" signature="1063:2700" ph="{...}" />
-            <marker date="1498637786721" expanded="true" signature="1171:2168" ph="/* if (tRig.AI.WorkingMemory.GetItem&lt;GameObject&gt;(&quot;varCivil&quot;) != null) ... */" />
-            <marker date="1498637786721" expanded="true" signature="2735:2815" ph="{...}" />
-            <marker date="1498637786721" expanded="true" signature="2820:3447" ph="/* private void OnChasingModeOn() ... */" />
-            <marker date="1498637786721" expanded="true" signature="3503:3842" ph="{...}" />
-            <marker date="1498637786721" expanded="true" signature="3518:3836" ph="/* if (collision.gameObject.layer == AILayerID &amp;&amp; isAggressive == true) ... */" />
-            <marker date="1498637786721" expanded="true" signature="3906:3938" ph="{...}" />
-            <marker date="1498637786721" expanded="true" signature="3968:4043" ph="{...}" />
+            <marker date="1498819933997" expanded="false" signature="7:56" ph="..." />
+            <marker date="1498819933997" expanded="true" signature="113:4046" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="120:255" ph="/* private bool isAggressive; ... */" />
+            <marker date="1498819933997" expanded="true" signature="503:964" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="1030:2707" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="1064:2701" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="1172:2169" ph="/* if (tRig.AI.WorkingMemory.GetItem&lt;GameObject&gt;(&quot;varCivil&quot;) != null) ... */" />
+            <marker date="1498819933997" expanded="true" signature="2736:2816" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="2821:3448" ph="/* private void OnChasingModeOn() ... */" />
+            <marker date="1498819933997" expanded="true" signature="3504:3843" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="3519:3837" ph="/* if (collision.gameObject.layer == AILayerID &amp;&amp; isAggressive == true) ... */" />
+            <marker date="1498819933997" expanded="true" signature="3907:3939" ph="{...}" />
+            <marker date="1498819933997" expanded="true" signature="3969:4044" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1515,17 +914,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../VRKinectAmokShooter/Assets/Scripts/PlayerHealth.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
+        <state relative-caret-position="527">
           <caret line="32" column="22" lean-forward="false" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
           <folding>
             <marker date="1498742507536" expanded="false" signature="6:44" ph="..." />
-            <marker date="1498742507536" expanded="true" signature="87:2876" ph="{...}" />
             <marker date="1498742507536" expanded="true" signature="1081:1441" ph="{...}" />
             <marker date="1498742507536" expanded="true" signature="1087:1206" ph="/* Setting up the references. ... */" />
             <marker date="1498742507536" expanded="true" signature="1461:1877" ph="{...}" />
@@ -1543,11 +940,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../VRKinectAmokShooter/Assets/Scripts/EnemyShooting.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
+        <state relative-caret-position="1479">
           <caret line="88" column="73" lean-forward="false" selection-start-line="88" selection-start-column="73" selection-end-line="88" selection-end-column="73" />
           <folding>
             <marker date="1498747627246" expanded="false" signature="6:44" ph="..." />
-            <marker date="1498747627246" expanded="true" signature="88:4101" ph="{...}" />
             <marker date="1498747627246" expanded="true" signature="1283:2052" ph="{...}" />
             <marker date="1498747627246" expanded="true" signature="1836:2000" ph="/* aSources = GetComponents&lt;AudioSource&gt;();         // The AudioSources are taken in the order they appear in the ... */" />
             <marker date="1498747627246" expanded="true" signature="2073:2767" ph="{...}" />
@@ -1563,33 +959,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/scripts/SaveZone.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="306">
           <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <marker date="1498643058801" expanded="false" signature="6:87" ph="..." />
-            <marker date="1498643058801" expanded="true" signature="126:892" ph="{...}" />
-            <marker date="1498643058801" expanded="true" signature="372:433" ph="{...}" />
-            <marker date="1498643058801" expanded="true" signature="498:666" ph="{...}" />
-            <marker date="1498643058801" expanded="true" signature="601:660" ph="{...}" />
-            <marker date="1498643058801" expanded="true" signature="714:890" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HitWall.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="41" lean-forward="false" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
-          <folding>
-            <marker date="1498721285865" expanded="false" signature="6:78" ph="..." />
-            <marker date="1498721285865" expanded="true" signature="116:476" ph="{...}" />
-            <marker date="1498721285865" expanded="true" signature="236:276" ph="{...}" />
-            <marker date="1498721285865" expanded="true" signature="331:371" ph="{...}" />
-            <marker date="1498721285865" expanded="true" signature="416:474" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HitWall.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/scripts/ChasingZone.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1611,7 +987,6 @@
           <caret line="16" column="70" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="70" />
           <folding>
             <marker date="1498659198957" expanded="false" signature="6:37" ph="..." />
-            <marker date="1498659198957" expanded="true" signature="94:725" ph="{...}" />
             <marker date="1498659198957" expanded="true" signature="250:723" ph="{...}" />
           </folding>
         </state>
@@ -1623,7 +998,6 @@
           <caret line="17" column="81" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="17" selection-end-column="81" />
           <folding>
             <marker date="1498749814880" expanded="true" signature="6:157" ph="..." />
-            <marker date="1498749814880" expanded="true" signature="208:840" ph="{...}" />
             <marker date="1498749814880" expanded="true" signature="329:838" ph="{...}" />
             <marker date="1498749814880" expanded="true" signature="562:693" ph="{...}" />
             <marker date="1498749814880" expanded="true" signature="706:795" ph="{...}" />
@@ -1637,7 +1011,6 @@
           <caret line="17" column="61" lean-forward="false" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
           <folding>
             <marker date="1498751095020" expanded="true" signature="6:114" ph="..." />
-            <marker date="1498751095020" expanded="true" signature="172:615" ph="{...}" />
             <marker date="1498751095020" expanded="true" signature="335:530" ph="{...}" />
             <marker date="1498751095020" expanded="true" signature="578:613" ph="{...}" />
           </folding>
@@ -1648,34 +1021,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1649">
           <caret line="97" column="16" lean-forward="false" selection-start-line="97" selection-start-column="12" selection-end-line="97" selection-end-column="16" />
-          <folding>
-            <marker date="1498748961959" expanded="true" signature="6:55" ph="..." />
-            <marker date="1498748961959" expanded="true" signature="110:2977" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="380:712" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="778:2156" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="805:895" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="923:2150" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="1157:1240" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="1261:1353" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="1840:1923" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="1944:2117" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="2187:2339" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="2368:2565" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="2594:2878" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="2634:2746" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="2781:2872" ph="{...}" />
-            <marker date="1498748961959" expanded="true" signature="2943:2975" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/scripts/HumanAI.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
+        <state relative-caret-position="799">
           <caret line="47" column="50" lean-forward="false" selection-start-line="47" selection-start-column="50" selection-end-line="47" selection-end-column="50" />
           <folding>
             <marker date="1498751536390" expanded="true" signature="7:188" ph="..." />
-            <marker date="1498751536390" expanded="true" signature="259:2555" ph="{...}" />
             <marker date="1498751536390" expanded="true" signature="562:597" ph="{...}" />
             <marker date="1498751536390" expanded="true" signature="628:1073" ph="{...}" />
             <marker date="1498751536390" expanded="true" signature="1103:1571" ph="{...}" />
@@ -1696,15 +1051,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-          <folding>
-            <marker date="1498751582825" expanded="true" signature="7:85" ph="..." />
-            <marker date="1498751582825" expanded="true" signature="137:653" ph="{...}" />
-            <marker date="1498751582825" expanded="true" signature="220:234" ph="{...}" />
-            <marker date="1498751582825" expanded="true" signature="289:395" ph="{...}" />
-            <marker date="1498751582825" expanded="true" signature="309:347" ph="{...}" />
-            <marker date="1498751582825" expanded="true" signature="354:392" ph="{...}" />
-            <marker date="1498751582825" expanded="true" signature="424:651" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>

@@ -21,7 +21,7 @@ public class ShopShooter : HumanAI, IInputClickHandler
     private void Start()
     {
         init();
-        setState("normal");
+        setState("stopped");
         //isAggressive = false;
         tRig.AI.WorkingMemory.SetItem<int>("nbrSeenPoliceForSurr", NBR_POLICE_SEEN_FOR_SURRENDER);
         //tRig.AI.WorkingMemory.SetItem<bool>("chasingMode", false);
