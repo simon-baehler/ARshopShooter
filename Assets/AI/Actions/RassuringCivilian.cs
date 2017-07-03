@@ -14,7 +14,7 @@ public class RassuringCivilian : RAINAction
     {
         parentGO = ai.Body;
         parentGO.GetComponent<Animator>().SetFloat("Speed", 0);
-        parentGO.GetComponent<Adam>().sayRassuring();
+        parentGO.GetComponent<Adam>().SayRassuring();
         return ActionResult.SUCCESS;
     }
 }

@@ -13,7 +13,7 @@ public class ShopShooter : HumanAI, IInputClickHandler
     private void Start()
     {
         init();
-        setState("stopped");
+        SetState("stopped");
         tRig.AI.WorkingMemory.SetItem<int>("nbrSeenPoliceForSurr", NBR_POLICE_SEEN_FOR_SURRENDER);
         tRig.AI.WorkingMemory.SetItem<int>("speed", NORMAL_SPEED);
         oldLocation = transform.position;
@@ -23,7 +23,7 @@ public class ShopShooter : HumanAI, IInputClickHandler
     // Update is called once per frame
     private void Update()
     {
-        switch (getState())
+        switch (GetState())
         {
             case "normal":
                 anim.SetFloat("Speed", NORMAL_SPEED); 
@@ -43,17 +43,27 @@ public class ShopShooter : HumanAI, IInputClickHandler
                 break;
         }
     }
+    /// <summary>
+    /// Called when we do a tap movement on the hologram, this function will call OnSelect();
+    /// </summary>
+    /// <param name="eventData"></param>
     public void OnInputClicked(InputClickedEventData eventData)
     {
         OnSelect();
     }
+    /// <summary>
+    /// set the state to arrested
+    /// </summary>
     private void OnSelect()
     {
         tRig.AI.WorkingMemory.SetItem<string>("state", "arrested");
     }
+    /// <summary>
+    /// Set the state to caught when the shooter enter in the safe zone
+    /// </summary>
     private void InSafeZone()
     {
-        setState("caugth");
+        SetState("caugth");
         anim.SetFloat("Speed", 0);
     }
 }

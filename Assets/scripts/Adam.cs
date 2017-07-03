@@ -39,13 +39,13 @@ public class Adam :   HumanAI, IInputClickHandler
 
 		// Creation of the Sensor
 		tRig.AI.Body = gameObject;
-		tRig.AI.Senses.AddSensor(createVisualSensor(true, "eyes", 120, new Vector3(0,1.6f ,0), true));
+		tRig.AI.Senses.AddSensor(CreateVisualSensor(true, "eyes", 120, new Vector3(0,1.6f ,0), true));
 
    
 		//creation of the aspect
 		tEntity = entity.GetComponentInChildren<EntityRig>();
 		entity.GetComponentInChildren<EntityRig>().Entity.Form = gameObject;
-		tEntity.Entity.AddAspect(createRAINAspect("aAdam"));
+		tEntity.Entity.AddAspect(CreateRainAspect("aAdam"));
 		if (NavTargetsGO == null)
 		{
 			NavTargetsGO =  GameObject.FindWithTag("ShoppingStops");
@@ -55,12 +55,12 @@ public class Adam :   HumanAI, IInputClickHandler
 	// Update is called once per frame
 	void Update () {
 	
-		switch (getState())
+		switch (GetState())
 		{
 			case "normal":
 				tRig.AI.WorkingMemory.SetItem<float>("speed", NORMAL_SPEED);
 				anim.SetFloat("Speed", ANIM_SPEED);
-				anim.SetFloat("Speed", !isMoving() ? 0 : ANIM_SPEED);
+				anim.SetFloat("Speed", !IsMoving() ? 0 : ANIM_SPEED);
 				break;
 			case "helping":
 				tRig.AI.WorkingMemory.SetItem("speed",RUN_SPEED_MAX);
@@ -70,25 +70,35 @@ public class Adam :   HumanAI, IInputClickHandler
 				timeLeft -= Time.deltaTime;
 				if ( timeLeft < 0 )
 				{
-					setState("run");
+					SetState("run");
 				}
 				break;
 		}
 	}
-	public void sayRassuring()
+	/// <summary>
+	/// set the state of the target to run
+	/// </summary>
+	public void SayRassuring()
 	{
 		civil = tRig.AI.WorkingMemory.GetItem<RAINAspect>("moveTarget");
-		civil.MountPoint.gameObject.GetComponent<Civillian>().setState("run");
+		civil.MountPoint.gameObject.GetComponent<Civillian>().SetState("run");
 		civil.MountPoint.gameObject. GetComponent<Animator>().SetBool("panic", false);
 	}
+	/// <summary>
+	///  When we do the tap movement on a hologram
+	/// </summary>
+	/// <param name="eventData"></param>
 	public void OnInputClicked(InputClickedEventData eventData)
 	{
 		OnSelect();
 	}
+	/// <summary>
+	/// set the state to run if he is not saved
+	/// </summary>
 	private void OnSelect()
 	{
-		if (getState() == "saved") return;
-		setState("run");
+		if (GetState() == "saved") return;
+		SetState("run");
 	}
 
 

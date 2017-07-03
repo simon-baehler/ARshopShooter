@@ -16,7 +16,6 @@ public class HumanAI : MonoBehaviour, IInputClickHandler, IFocusable
     protected Vector3 oldLocation = new Vector3();
     public GameObject NavTargetsGO;
     
-
     private const float THRESHHOLD = 0.01f;
     
     protected void init()
@@ -36,39 +35,63 @@ public class HumanAI : MonoBehaviour, IInputClickHandler, IFocusable
     {
         init();
     }
-    public string getState()
+    /// <summary>
+    /// return the current state of AI
+    /// </summary>
+    /// <returns></returns>
+    public string GetState()
     {
         return tRig.AI.WorkingMemory.GetItem<string>("state");
     }
 
-    public void setState(string state)
+    /// <summary>
+    /// set the state of the AI
+    /// </summary>
+    /// <param name="state"></param>
+    public void SetState(string state)
     {
         tRig.AI.WorkingMemory.SetItem<string>("state", state);
     }
     
+    /// <summary>
+    /// When we do the tap movement on a hologram
+    /// </summary>
+    /// <param name="eventData"></param>
     public void OnInputClicked(InputClickedEventData eventData)
     {
         //throw new System.NotImplementedException();
     }
-
+    /// <summary>
+    /// When we gaze in the hologram
+    /// </summary>
     public void OnFocusEnter()
     {
         GameObject.Find("CursorOnHolograms").transform.localScale = new Vector3(3,3,3);
     }
 
+    /// <summary>
+    /// When we gaze out the hologram
+    /// </summary>
     public void OnFocusExit()
     {
         GameObject.Find("CursorOnHolograms").transform.localScale = new Vector3(1.15f ,1.15f ,1.15f);
     }
 
+    /// <summary>
+    /// Function called when the AI entre in the safe zone
+    /// </summary>
     private void InSafeZone()
     {
         var randomDist = Random.Range(0.1f, 6);
         tRig.AI.Motor.CloseEnoughDistance = randomDist;
-        setState("saved");
+        SetState("saved");
     }
 
-    protected bool isMoving()
+    /// <summary>
+    /// Function for checking if the AI is moving (used for setting the animation)
+    /// </summary>
+    /// <returns></returns>
+    protected bool IsMoving()
     {
         var resultX = oldLocation.x > transform.position.x
             ? oldLocation.x - transform.position.x
@@ -80,8 +103,16 @@ public class HumanAI : MonoBehaviour, IInputClickHandler, IFocusable
         oldLocation = transform.position;
         return THRESHHOLD < res;
     } 
-   
-    protected VisualSensor createVisualSensor(bool IsActive, string SensorName, int HorizontalAngle, Vector3 PositionOffset,
+    /// <summary>
+    /// Function for create a visual sensor on the object
+    /// </summary>
+    /// <param name="IsActive"></param>
+    /// <param name="SensorName"></param>
+    /// <param name="HorizontalAngle"></param>
+    /// <param name="PositionOffset"></param>
+    /// <param name="RequireLineOfSight"></param>
+    /// <returns></returns>
+    protected VisualSensor CreateVisualSensor(bool IsActive, string SensorName, int HorizontalAngle, Vector3 PositionOffset,
         bool RequireLineOfSight)
     {
         VisualSensor s = new VisualSensor
@@ -97,7 +128,12 @@ public class HumanAI : MonoBehaviour, IInputClickHandler, IFocusable
         return s;
     }
 
-    protected RAINAspect createRAINAspect(string name)
+    /// <summary>
+    /// Function for create a RAINAspectr on the object
+    /// </summary>
+    /// <param name="name"></param>
+    /// <returns></returns>
+    protected RAINAspect CreateRainAspect(string name)
     {
         RAINAspect aspect = new VisualAspect();
         aspect.AspectName = name;

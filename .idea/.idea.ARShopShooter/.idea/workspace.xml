@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7936bfaa-6a55-4a03-b9fa-8c39ee4540da" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/AI/Actions/RassuringCivilian.cs" afterPath="$PROJECT_DIR$/Assets/AI/Actions/RassuringCivilian.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/AI/Actions/checkPanic.cs" afterPath="$PROJECT_DIR$/Assets/AI/Actions/checkPanic.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/scripts/Adam.cs" afterPath="$PROJECT_DIR$/Assets/scripts/Adam.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/scripts/Civillian.cs" afterPath="$PROJECT_DIR$/Assets/scripts/Civillian.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/scripts/HumanAI.cs" afterPath="$PROJECT_DIR$/Assets/scripts/HumanAI.cs" />
@@ -19,26 +20,35 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HumanAI.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HumanAI.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/scripts/HumanAI.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-382">
-              <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+            <state relative-caret-position="553">
+              <caret line="56" column="7" lean-forward="false" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="49" />
               <folding>
-                <marker date="1499086850200" expanded="true" signature="7:154" ph="..." />
-                <marker date="1499086850200" expanded="true" signature="225:3133" ph="{...}" />
-                <marker date="1499086850200" expanded="true" signature="539:978" ph="{...}" />
-                <marker date="1499086850200" expanded="true" signature="1043:1071" ph="{...}" />
-                <marker date="1499086850200" expanded="true" signature="1100:1175" ph="{...}" />
-                <marker date="1499086850200" expanded="true" signature="1215:1290" ph="{...}" />
-                <marker date="1499086850200" expanded="true" signature="1359:1425" ph="{...}" />
-                <marker date="1499086850200" expanded="true" signature="1457:1557" ph="{...}" />
-                <marker date="1499086850200" expanded="true" signature="1588:1702" ph="{...}" />
-                <marker date="1499086850200" expanded="true" signature="1733:1876" ph="{...}" />
-                <marker date="1499086850200" expanded="true" signature="1907:2355" ph="{...}" />
-                <marker date="1499086850200" expanded="true" signature="2518:2908" ph="{...}" />
-                <marker date="1499086850200" expanded="true" signature="2575:2883" ph="{...}" />
-                <marker date="1499086850200" expanded="true" signature="2964:3131" ph="{...}" />
+                <marker date="1499089936056" expanded="true" signature="7:154" ph="..." />
+                <marker date="1499089936056" expanded="true" signature="225:4363" ph="{...}" />
+                <marker date="1499089936056" expanded="true" signature="538:977" ph="{...}" />
+                <marker date="1499089936056" expanded="true" signature="1042:1070" ph="{...}" />
+                <marker date="1499089936056" expanded="true" signature="1075:1174" ph="/// return the current state of AI ... " />
+                <marker date="1499089936056" expanded="true" signature="1203:1278" ph="{...}" />
+                <marker date="1499089936056" expanded="true" signature="1284:1385" ph="/// set the state of the AI ... " />
+                <marker date="1499089936056" expanded="true" signature="1424:1499" ph="{...}" />
+                <marker date="1499089936056" expanded="true" signature="1509:1632" ph="/// When we do the tap movement on a hologram ... " />
+                <marker date="1499089936056" expanded="true" signature="1696:1762" ph="{...}" />
+                <marker date="1499089936056" expanded="true" signature="1767:1836" ph="/// When we gaze in the hologram ... " />
+                <marker date="1499089936056" expanded="true" signature="1867:1967" ph="{...}" />
+                <marker date="1499089936056" expanded="true" signature="1973:2043" ph="/// When we gaze out the hologram ... " />
+                <marker date="1499089936056" expanded="true" signature="2073:2187" ph="{...}" />
+                <marker date="1499089936056" expanded="true" signature="2193:2284" ph="/// Function called when the AI entre in the safe zone ... " />
+                <marker date="1499089936056" expanded="true" signature="2314:2457" ph="{...}" />
+                <marker date="1499089936056" expanded="true" signature="2463:2606" ph="/// Function for checking if the AI is moving (used for setting the animation) ... " />
+                <marker date="1499089936056" expanded="true" signature="2636:3084" ph="{...}" />
+                <marker date="1499089936056" expanded="true" signature="3090:3433" ph="/// Function for create a visual sensor on the object ... " />
+                <marker date="1499089936056" expanded="true" signature="3591:3981" ph="{...}" />
+                <marker date="1499089936056" expanded="true" signature="3648:3956" ph="{...}" />
+                <marker date="1499089936056" expanded="true" signature="3987:4139" ph="/// Function for create a RAINAspectr on the object ... " />
+                <marker date="1499089936056" expanded="true" signature="4194:4361" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -47,19 +57,22 @@
       <file leaf-file-name="Adam.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/scripts/Adam.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+            <state relative-caret-position="513">
+              <caret line="87" column="9" lean-forward="false" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="50" />
               <folding>
-                <marker date="1499087622315" expanded="false" signature="7:106" ph="..." />
-                <marker date="1499087622315" expanded="true" signature="158:2462" ph="{...}" />
-                <marker date="1499087622315" expanded="true" signature="540:1479" ph="{...}" />
-                <marker date="1499087622315" expanded="true" signature="1408:1476" ph="{...}" />
-                <marker date="1499087622315" expanded="true" signature="1534:2035" ph="{...}" />
-                <marker date="1499087622315" expanded="true" signature="1559:2032" ph="{...}" />
-                <marker date="1499087622315" expanded="true" signature="1983:2017" ph="{...}" />
-                <marker date="1499087622315" expanded="true" signature="2063:2290" ph="{...}" />
-                <marker date="1499087622315" expanded="true" signature="2351:2371" ph="{...}" />
-                <marker date="1499087622315" expanded="true" signature="2396:2458" ph="{...}" />
+                <marker date="1499089935937" expanded="false" signature="7:106" ph="..." />
+                <marker date="1499089935937" expanded="true" signature="158:2726" ph="{...}" />
+                <marker date="1499089935937" expanded="true" signature="540:1479" ph="{...}" />
+                <marker date="1499089935937" expanded="true" signature="1408:1476" ph="{...}" />
+                <marker date="1499089935937" expanded="true" signature="1534:2035" ph="{...}" />
+                <marker date="1499089935937" expanded="true" signature="1559:2032" ph="{...}" />
+                <marker date="1499089935937" expanded="true" signature="1983:2017" ph="{...}" />
+                <marker date="1499089935937" expanded="true" signature="2037:2106" ph="/// set the state of the target to run ... " />
+                <marker date="1499089935937" expanded="true" signature="2134:2361" ph="{...}" />
+                <marker date="1499089935937" expanded="true" signature="2363:2478" ph="///  When we do the tap movement on a hologram ... " />
+                <marker date="1499089935937" expanded="true" signature="2539:2559" ph="{...}" />
+                <marker date="1499089935937" expanded="true" signature="2561:2635" ph="/// set the state to run if he is not saved ... " />
+                <marker date="1499089935937" expanded="true" signature="2660:2722" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -68,20 +81,20 @@
       <file leaf-file-name="Micheal.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/scripts/Micheal.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="927">
-              <caret line="87" column="5" lean-forward="false" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
+            <state relative-caret-position="1046">
+              <caret line="70" column="17" lean-forward="false" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
               <folding>
-                <marker date="1499086735771" expanded="true" signature="6:115" ph="..." />
-                <marker date="1499086735771" expanded="true" signature="168:2449" ph="{...}" />
-                <marker date="1499086735771" expanded="true" signature="548:1532" ph="{...}" />
-                <marker date="1499086735771" expanded="true" signature="1461:1529" ph="{...}" />
-                <marker date="1499086735771" expanded="true" signature="1587:1861" ph="{...}" />
-                <marker date="1499086735771" expanded="true" signature="1671:1857" ph="{...}" />
-                <marker date="1499086735771" expanded="true" signature="1808:1842" ph="{...}" />
-                <marker date="1499086735771" expanded="true" signature="1863:1954" ph="/// When a IA ENTER in the collider, say him he is in danger ... " />
-                <marker date="1499086735771" expanded="true" signature="1999:2141" ph="{...}" />
-                <marker date="1499086735771" expanded="true" signature="2143:2231" ph="/// When a IA IS in the collider, say him he is in danger ... " />
-                <marker date="1499086735771" expanded="true" signature="2275:2444" ph="{...}" />
+                <marker date="1499089935862" expanded="true" signature="6:115" ph="..." />
+                <marker date="1499089935862" expanded="true" signature="168:2449" ph="{...}" />
+                <marker date="1499089935862" expanded="true" signature="548:1532" ph="{...}" />
+                <marker date="1499089935862" expanded="true" signature="1461:1529" ph="{...}" />
+                <marker date="1499089935862" expanded="true" signature="1587:1861" ph="{...}" />
+                <marker date="1499089935862" expanded="true" signature="1671:1857" ph="{...}" />
+                <marker date="1499089935862" expanded="true" signature="1808:1842" ph="{...}" />
+                <marker date="1499089935862" expanded="true" signature="1863:1954" ph="/// When a IA ENTER in the collider, say him he is in danger ... " />
+                <marker date="1499089935862" expanded="true" signature="1999:2141" ph="{...}" />
+                <marker date="1499089935862" expanded="true" signature="2143:2231" ph="/// When a IA IS in the collider, say him he is in danger ... " />
+                <marker date="1499089935862" expanded="true" signature="2275:2444" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -90,39 +103,46 @@
       <file leaf-file-name="ShopShooter.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/scripts/ShopShooter.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="28" column="53" lean-forward="false" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+            <state relative-caret-position="782">
+              <caret line="46" column="93" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="93" />
               <folding>
-                <marker date="1499087622363" expanded="true" signature="93:1690" ph="{...}" />
-                <marker date="1499087622363" expanded="true" signature="340:649" ph="{...}" />
-                <marker date="1499087622363" expanded="true" signature="715:1379" ph="{...}" />
-                <marker date="1499087622363" expanded="true" signature="749:1373" ph="{...}" />
-                <marker date="1499087622363" expanded="true" signature="1443:1475" ph="{...}" />
-                <marker date="1499087622363" expanded="true" signature="1503:1583" ph="{...}" />
-                <marker date="1499087622363" expanded="true" signature="1613:1688" ph="{...}" />
+                <marker date="1499089936103" expanded="true" signature="93:2042" ph="{...}" />
+                <marker date="1499089936103" expanded="true" signature="340:649" ph="{...}" />
+                <marker date="1499089936103" expanded="true" signature="715:1379" ph="{...}" />
+                <marker date="1499089936103" expanded="true" signature="749:1373" ph="{...}" />
+                <marker date="1499089936103" expanded="true" signature="1384:1551" ph="/// Called when we do a tap movement on the hologram, this function will call OnSelect(); ... " />
+                <marker date="1499089936103" expanded="true" signature="1615:1647" ph="{...}" />
+                <marker date="1499089936103" expanded="true" signature="1652:1718" ph="/// set the state to arrested ... " />
+                <marker date="1499089936103" expanded="true" signature="1746:1826" ph="{...}" />
+                <marker date="1499089936103" expanded="true" signature="1831:1935" ph="/// Set the state to caught when the shooter enter in the safe zone ... " />
+                <marker date="1499089936103" expanded="true" signature="1965:2040" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Civillian.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Civillian.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/scripts/Civillian.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+            <state relative-caret-position="519">
+              <caret line="106" column="48" lean-forward="false" selection-start-line="106" selection-start-column="48" selection-end-line="106" selection-end-column="48" />
               <folding>
-                <marker date="1499086735895" expanded="true" signature="6:76" ph="..." />
-                <marker date="1499086735895" expanded="true" signature="131:3371" ph="{...}" />
-                <marker date="1499086735895" expanded="true" signature="513:1677" ph="{...}" />
-                <marker date="1499086735895" expanded="true" signature="1582:1671" ph="{...}" />
-                <marker date="1499086735895" expanded="true" signature="1743:2761" ph="{...}" />
-                <marker date="1499086735895" expanded="true" signature="1777:2755" ph="{...}" />
-                <marker date="1499086735895" expanded="true" signature="2445:2528" ph="{...}" />
-                <marker date="1499086735895" expanded="true" signature="2549:2722" ph="{...}" />
-                <marker date="1499086735895" expanded="true" signature="2792:2872" ph="{...}" />
-                <marker date="1499086735895" expanded="true" signature="2902:3099" ph="{...}" />
-                <marker date="1499086735895" expanded="true" signature="3128:3272" ph="{...}" />
-                <marker date="1499086735895" expanded="true" signature="3337:3369" ph="{...}" />
+                <marker date="1499089936002" expanded="true" signature="6:76" ph="..." />
+                <marker date="1499089936002" expanded="true" signature="131:3806" ph="{...}" />
+                <marker date="1499089936002" expanded="true" signature="513:1677" ph="{...}" />
+                <marker date="1499089936002" expanded="true" signature="1582:1671" ph="{...}" />
+                <marker date="1499089936002" expanded="true" signature="1743:2761" ph="{...}" />
+                <marker date="1499089936002" expanded="true" signature="1777:2755" ph="{...}" />
+                <marker date="1499089936002" expanded="true" signature="2445:2528" ph="{...}" />
+                <marker date="1499089936002" expanded="true" signature="2549:2722" ph="{...}" />
+                <marker date="1499089936002" expanded="true" signature="2767:2869" ph="/// Method called by Micheal when the IA enter in the danger zone ... " />
+                <marker date="1499089936002" expanded="true" signature="2899:2979" ph="{...}" />
+                <marker date="1499089936002" expanded="true" signature="2986:3032" ph="/// TO DO ... " />
+                <marker date="1499089936002" expanded="true" signature="3060:3257" ph="{...}" />
+                <marker date="1499089936002" expanded="true" signature="3263:3363" ph="/// Set the stat to run if the current state is normal or panic ... " />
+                <marker date="1499089936002" expanded="true" signature="3391:3535" ph="{...}" />
+                <marker date="1499089936002" expanded="true" signature="3541:3708" ph="/// Called when we do a tap movement on the hologram, this function will call OnSelect(); ... " />
+                <marker date="1499089936002" expanded="true" signature="3772:3804" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -160,11 +180,11 @@
         <option value="$PROJECT_DIR$/Assets/Micheal.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/ChasingZone.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/Micheal.cs" />
-        <option value="$PROJECT_DIR$/Assets/scripts/Civillian.cs" />
-        <option value="$PROJECT_DIR$/Assets/scripts/HumanAI.cs" />
         <option value="$PROJECT_DIR$/Assets/AI/Actions/RassuringCivilian.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/HumanAI.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/Adam.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/ShopShooter.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/Civillian.cs" />
       </list>
     </option>
   </component>
@@ -319,12 +339,12 @@
       <workItem from="1498721076581" duration="2064000" />
       <workItem from="1498736747368" duration="6873000" />
       <workItem from="1498819921124" duration="2272000" />
-      <workItem from="1498823933453" duration="23850000" />
+      <workItem from="1498823933453" duration="25605000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56619000" />
+    <option name="totallyTimeSpent" value="58374000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -416,20 +436,29 @@
         <state relative-caret-position="170">
           <caret line="12" column="50" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="50" />
           <folding>
-            <marker date="1499086850200" expanded="true" signature="7:154" ph="..." />
-            <marker date="1499086850200" expanded="true" signature="225:3133" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="539:978" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1043:1071" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1100:1175" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1215:1290" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1359:1425" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1457:1557" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1588:1702" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1733:1876" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1907:2355" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="2518:2908" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="2575:2883" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="2964:3131" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="7:154" ph="..." />
+            <marker date="1499089936056" expanded="true" signature="225:4363" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="538:977" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="1042:1070" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="1075:1174" ph="/// return the current state of AI ... " />
+            <marker date="1499089936056" expanded="true" signature="1203:1278" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="1284:1385" ph="/// set the state of the AI ... " />
+            <marker date="1499089936056" expanded="true" signature="1424:1499" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="1509:1632" ph="/// When we do the tap movement on a hologram ... " />
+            <marker date="1499089936056" expanded="true" signature="1696:1762" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="1767:1836" ph="/// When we gaze in the hologram ... " />
+            <marker date="1499089936056" expanded="true" signature="1867:1967" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="1973:2043" ph="/// When we gaze out the hologram ... " />
+            <marker date="1499089936056" expanded="true" signature="2073:2187" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="2193:2284" ph="/// Function called when the AI entre in the safe zone ... " />
+            <marker date="1499089936056" expanded="true" signature="2314:2457" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="2463:2606" ph="/// Function for checking if the AI is moving (used for setting the animation) ... " />
+            <marker date="1499089936056" expanded="true" signature="2636:3084" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="3090:3433" ph="/// Function for create a visual sensor on the object ... " />
+            <marker date="1499089936056" expanded="true" signature="3591:3981" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="3648:3956" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="3987:4139" ph="/// Function for create a RAINAspectr on the object ... " />
+            <marker date="1499089936056" expanded="true" signature="4194:4361" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -439,18 +468,22 @@
         <state relative-caret-position="884">
           <caret line="53" column="16" lean-forward="false" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
           <folding>
-            <marker date="1499086735895" expanded="true" signature="6:76" ph="..." />
-            <marker date="1499086735895" expanded="true" signature="131:3371" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="513:1677" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="1582:1671" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="1743:2761" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="1777:2755" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="2445:2528" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="2549:2722" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="2792:2872" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="2902:3099" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="3128:3272" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="3337:3369" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="6:76" ph="..." />
+            <marker date="1499089936002" expanded="true" signature="131:3806" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="513:1677" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="1582:1671" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="1743:2761" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="1777:2755" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="2445:2528" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="2549:2722" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="2767:2869" ph="/// Method called by Micheal when the IA enter in the danger zone ... " />
+            <marker date="1499089936002" expanded="true" signature="2899:2979" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="2986:3032" ph="/// TO DO ... " />
+            <marker date="1499089936002" expanded="true" signature="3060:3257" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="3263:3363" ph="/// Set the stat to run if the current state is normal or panic ... " />
+            <marker date="1499089936002" expanded="true" signature="3391:3535" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="3541:3708" ph="/// Called when we do a tap movement on the hologram, this function will call OnSelect(); ... " />
+            <marker date="1499089936002" expanded="true" signature="3772:3804" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -460,13 +493,16 @@
         <state relative-caret-position="544">
           <caret line="33" column="38" lean-forward="false" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
           <folding>
-            <marker date="1499087622363" expanded="true" signature="93:1690" ph="{...}" />
-            <marker date="1499087622363" expanded="true" signature="340:649" ph="{...}" />
-            <marker date="1499087622363" expanded="true" signature="715:1379" ph="{...}" />
-            <marker date="1499087622363" expanded="true" signature="749:1373" ph="{...}" />
-            <marker date="1499087622363" expanded="true" signature="1443:1475" ph="{...}" />
-            <marker date="1499087622363" expanded="true" signature="1503:1583" ph="{...}" />
-            <marker date="1499087622363" expanded="true" signature="1613:1688" ph="{...}" />
+            <marker date="1499089936103" expanded="true" signature="93:2042" ph="{...}" />
+            <marker date="1499089936103" expanded="true" signature="340:649" ph="{...}" />
+            <marker date="1499089936103" expanded="true" signature="715:1379" ph="{...}" />
+            <marker date="1499089936103" expanded="true" signature="749:1373" ph="{...}" />
+            <marker date="1499089936103" expanded="true" signature="1384:1551" ph="/// Called when we do a tap movement on the hologram, this function will call OnSelect(); ... " />
+            <marker date="1499089936103" expanded="true" signature="1615:1647" ph="{...}" />
+            <marker date="1499089936103" expanded="true" signature="1652:1718" ph="/// set the state to arrested ... " />
+            <marker date="1499089936103" expanded="true" signature="1746:1826" ph="{...}" />
+            <marker date="1499089936103" expanded="true" signature="1831:1935" ph="/// Set the state to caught when the shooter enter in the safe zone ... " />
+            <marker date="1499089936103" expanded="true" signature="1965:2040" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -505,20 +541,29 @@
         <state relative-caret-position="187">
           <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="34" />
           <folding>
-            <marker date="1499086850200" expanded="true" signature="7:154" ph="..." />
-            <marker date="1499086850200" expanded="true" signature="225:3133" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="539:978" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1043:1071" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1100:1175" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1215:1290" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1359:1425" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1457:1557" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1588:1702" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1733:1876" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1907:2355" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="2518:2908" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="2575:2883" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="2964:3131" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="7:154" ph="..." />
+            <marker date="1499089936056" expanded="true" signature="225:4363" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="538:977" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="1042:1070" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="1075:1174" ph="/// return the current state of AI ... " />
+            <marker date="1499089936056" expanded="true" signature="1203:1278" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="1284:1385" ph="/// set the state of the AI ... " />
+            <marker date="1499089936056" expanded="true" signature="1424:1499" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="1509:1632" ph="/// When we do the tap movement on a hologram ... " />
+            <marker date="1499089936056" expanded="true" signature="1696:1762" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="1767:1836" ph="/// When we gaze in the hologram ... " />
+            <marker date="1499089936056" expanded="true" signature="1867:1967" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="1973:2043" ph="/// When we gaze out the hologram ... " />
+            <marker date="1499089936056" expanded="true" signature="2073:2187" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="2193:2284" ph="/// Function called when the AI entre in the safe zone ... " />
+            <marker date="1499089936056" expanded="true" signature="2314:2457" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="2463:2606" ph="/// Function for checking if the AI is moving (used for setting the animation) ... " />
+            <marker date="1499089936056" expanded="true" signature="2636:3084" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="3090:3433" ph="/// Function for create a visual sensor on the object ... " />
+            <marker date="1499089936056" expanded="true" signature="3591:3981" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="3648:3956" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="3987:4139" ph="/// Function for create a RAINAspectr on the object ... " />
+            <marker date="1499089936056" expanded="true" signature="4194:4361" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -528,18 +573,22 @@
         <state relative-caret-position="289">
           <caret line="18" column="62" lean-forward="false" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
           <folding>
-            <marker date="1499086735895" expanded="true" signature="6:76" ph="..." />
-            <marker date="1499086735895" expanded="true" signature="131:3371" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="513:1677" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="1582:1671" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="1743:2761" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="1777:2755" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="2445:2528" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="2549:2722" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="2792:2872" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="2902:3099" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="3128:3272" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="3337:3369" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="6:76" ph="..." />
+            <marker date="1499089936002" expanded="true" signature="131:3806" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="513:1677" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="1582:1671" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="1743:2761" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="1777:2755" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="2445:2528" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="2549:2722" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="2767:2869" ph="/// Method called by Micheal when the IA enter in the danger zone ... " />
+            <marker date="1499089936002" expanded="true" signature="2899:2979" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="2986:3032" ph="/// TO DO ... " />
+            <marker date="1499089936002" expanded="true" signature="3060:3257" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="3263:3363" ph="/// Set the stat to run if the current state is normal or panic ... " />
+            <marker date="1499089936002" expanded="true" signature="3391:3535" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="3541:3708" ph="/// Called when we do a tap movement on the hologram, this function will call OnSelect(); ... " />
+            <marker date="1499089936002" expanded="true" signature="3772:3804" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -557,13 +606,16 @@
         <state relative-caret-position="544">
           <caret line="33" column="38" lean-forward="false" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
           <folding>
-            <marker date="1499087622363" expanded="true" signature="93:1690" ph="{...}" />
-            <marker date="1499087622363" expanded="true" signature="340:649" ph="{...}" />
-            <marker date="1499087622363" expanded="true" signature="715:1379" ph="{...}" />
-            <marker date="1499087622363" expanded="true" signature="749:1373" ph="{...}" />
-            <marker date="1499087622363" expanded="true" signature="1443:1475" ph="{...}" />
-            <marker date="1499087622363" expanded="true" signature="1503:1583" ph="{...}" />
-            <marker date="1499087622363" expanded="true" signature="1613:1688" ph="{...}" />
+            <marker date="1499089936103" expanded="true" signature="93:2042" ph="{...}" />
+            <marker date="1499089936103" expanded="true" signature="340:649" ph="{...}" />
+            <marker date="1499089936103" expanded="true" signature="715:1379" ph="{...}" />
+            <marker date="1499089936103" expanded="true" signature="749:1373" ph="{...}" />
+            <marker date="1499089936103" expanded="true" signature="1384:1551" ph="/// Called when we do a tap movement on the hologram, this function will call OnSelect(); ... " />
+            <marker date="1499089936103" expanded="true" signature="1615:1647" ph="{...}" />
+            <marker date="1499089936103" expanded="true" signature="1652:1718" ph="/// set the state to arrested ... " />
+            <marker date="1499089936103" expanded="true" signature="1746:1826" ph="{...}" />
+            <marker date="1499089936103" expanded="true" signature="1831:1935" ph="/// Set the state to caught when the shooter enter in the safe zone ... " />
+            <marker date="1499089936103" expanded="true" signature="1965:2040" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -602,20 +654,29 @@
         <state relative-caret-position="187">
           <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="34" />
           <folding>
-            <marker date="1499086850200" expanded="true" signature="7:154" ph="..." />
-            <marker date="1499086850200" expanded="true" signature="225:3133" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="539:978" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1043:1071" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1100:1175" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1215:1290" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1359:1425" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1457:1557" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1588:1702" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1733:1876" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1907:2355" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="2518:2908" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="2575:2883" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="2964:3131" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="7:154" ph="..." />
+            <marker date="1499089936056" expanded="true" signature="225:4363" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="538:977" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="1042:1070" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="1075:1174" ph="/// return the current state of AI ... " />
+            <marker date="1499089936056" expanded="true" signature="1203:1278" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="1284:1385" ph="/// set the state of the AI ... " />
+            <marker date="1499089936056" expanded="true" signature="1424:1499" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="1509:1632" ph="/// When we do the tap movement on a hologram ... " />
+            <marker date="1499089936056" expanded="true" signature="1696:1762" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="1767:1836" ph="/// When we gaze in the hologram ... " />
+            <marker date="1499089936056" expanded="true" signature="1867:1967" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="1973:2043" ph="/// When we gaze out the hologram ... " />
+            <marker date="1499089936056" expanded="true" signature="2073:2187" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="2193:2284" ph="/// Function called when the AI entre in the safe zone ... " />
+            <marker date="1499089936056" expanded="true" signature="2314:2457" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="2463:2606" ph="/// Function for checking if the AI is moving (used for setting the animation) ... " />
+            <marker date="1499089936056" expanded="true" signature="2636:3084" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="3090:3433" ph="/// Function for create a visual sensor on the object ... " />
+            <marker date="1499089936056" expanded="true" signature="3591:3981" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="3648:3956" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="3987:4139" ph="/// Function for create a RAINAspectr on the object ... " />
+            <marker date="1499089936056" expanded="true" signature="4194:4361" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -625,18 +686,22 @@
         <state relative-caret-position="289">
           <caret line="18" column="62" lean-forward="false" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
           <folding>
-            <marker date="1499086735895" expanded="true" signature="6:76" ph="..." />
-            <marker date="1499086735895" expanded="true" signature="131:3371" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="513:1677" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="1582:1671" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="1743:2761" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="1777:2755" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="2445:2528" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="2549:2722" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="2792:2872" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="2902:3099" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="3128:3272" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="3337:3369" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="6:76" ph="..." />
+            <marker date="1499089936002" expanded="true" signature="131:3806" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="513:1677" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="1582:1671" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="1743:2761" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="1777:2755" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="2445:2528" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="2549:2722" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="2767:2869" ph="/// Method called by Micheal when the IA enter in the danger zone ... " />
+            <marker date="1499089936002" expanded="true" signature="2899:2979" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="2986:3032" ph="/// TO DO ... " />
+            <marker date="1499089936002" expanded="true" signature="3060:3257" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="3263:3363" ph="/// Set the stat to run if the current state is normal or panic ... " />
+            <marker date="1499089936002" expanded="true" signature="3391:3535" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="3541:3708" ph="/// Called when we do a tap movement on the hologram, this function will call OnSelect(); ... " />
+            <marker date="1499089936002" expanded="true" signature="3772:3804" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -654,13 +719,16 @@
         <state relative-caret-position="544">
           <caret line="33" column="38" lean-forward="false" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
           <folding>
-            <marker date="1499087622363" expanded="true" signature="93:1690" ph="{...}" />
-            <marker date="1499087622363" expanded="true" signature="340:649" ph="{...}" />
-            <marker date="1499087622363" expanded="true" signature="715:1379" ph="{...}" />
-            <marker date="1499087622363" expanded="true" signature="749:1373" ph="{...}" />
-            <marker date="1499087622363" expanded="true" signature="1443:1475" ph="{...}" />
-            <marker date="1499087622363" expanded="true" signature="1503:1583" ph="{...}" />
-            <marker date="1499087622363" expanded="true" signature="1613:1688" ph="{...}" />
+            <marker date="1499089936103" expanded="true" signature="93:2042" ph="{...}" />
+            <marker date="1499089936103" expanded="true" signature="340:649" ph="{...}" />
+            <marker date="1499089936103" expanded="true" signature="715:1379" ph="{...}" />
+            <marker date="1499089936103" expanded="true" signature="749:1373" ph="{...}" />
+            <marker date="1499089936103" expanded="true" signature="1384:1551" ph="/// Called when we do a tap movement on the hologram, this function will call OnSelect(); ... " />
+            <marker date="1499089936103" expanded="true" signature="1615:1647" ph="{...}" />
+            <marker date="1499089936103" expanded="true" signature="1652:1718" ph="/// set the state to arrested ... " />
+            <marker date="1499089936103" expanded="true" signature="1746:1826" ph="{...}" />
+            <marker date="1499089936103" expanded="true" signature="1831:1935" ph="/// Set the state to caught when the shooter enter in the safe zone ... " />
+            <marker date="1499089936103" expanded="true" signature="1965:2040" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -706,20 +774,29 @@
         <state relative-caret-position="187">
           <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="34" />
           <folding>
-            <marker date="1499086850200" expanded="true" signature="7:154" ph="..." />
-            <marker date="1499086850200" expanded="true" signature="225:3133" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="539:978" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1043:1071" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1100:1175" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1215:1290" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1359:1425" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1457:1557" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1588:1702" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1733:1876" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1907:2355" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="2518:2908" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="2575:2883" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="2964:3131" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="7:154" ph="..." />
+            <marker date="1499089936056" expanded="true" signature="225:4363" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="538:977" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="1042:1070" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="1075:1174" ph="/// return the current state of AI ... " />
+            <marker date="1499089936056" expanded="true" signature="1203:1278" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="1284:1385" ph="/// set the state of the AI ... " />
+            <marker date="1499089936056" expanded="true" signature="1424:1499" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="1509:1632" ph="/// When we do the tap movement on a hologram ... " />
+            <marker date="1499089936056" expanded="true" signature="1696:1762" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="1767:1836" ph="/// When we gaze in the hologram ... " />
+            <marker date="1499089936056" expanded="true" signature="1867:1967" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="1973:2043" ph="/// When we gaze out the hologram ... " />
+            <marker date="1499089936056" expanded="true" signature="2073:2187" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="2193:2284" ph="/// Function called when the AI entre in the safe zone ... " />
+            <marker date="1499089936056" expanded="true" signature="2314:2457" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="2463:2606" ph="/// Function for checking if the AI is moving (used for setting the animation) ... " />
+            <marker date="1499089936056" expanded="true" signature="2636:3084" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="3090:3433" ph="/// Function for create a visual sensor on the object ... " />
+            <marker date="1499089936056" expanded="true" signature="3591:3981" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="3648:3956" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="3987:4139" ph="/// Function for create a RAINAspectr on the object ... " />
+            <marker date="1499089936056" expanded="true" signature="4194:4361" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -729,18 +806,22 @@
         <state relative-caret-position="289">
           <caret line="18" column="62" lean-forward="false" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
           <folding>
-            <marker date="1499086735895" expanded="true" signature="6:76" ph="..." />
-            <marker date="1499086735895" expanded="true" signature="131:3371" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="513:1677" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="1582:1671" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="1743:2761" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="1777:2755" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="2445:2528" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="2549:2722" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="2792:2872" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="2902:3099" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="3128:3272" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="3337:3369" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="6:76" ph="..." />
+            <marker date="1499089936002" expanded="true" signature="131:3806" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="513:1677" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="1582:1671" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="1743:2761" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="1777:2755" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="2445:2528" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="2549:2722" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="2767:2869" ph="/// Method called by Micheal when the IA enter in the danger zone ... " />
+            <marker date="1499089936002" expanded="true" signature="2899:2979" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="2986:3032" ph="/// TO DO ... " />
+            <marker date="1499089936002" expanded="true" signature="3060:3257" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="3263:3363" ph="/// Set the stat to run if the current state is normal or panic ... " />
+            <marker date="1499089936002" expanded="true" signature="3391:3535" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="3541:3708" ph="/// Called when we do a tap movement on the hologram, this function will call OnSelect(); ... " />
+            <marker date="1499089936002" expanded="true" signature="3772:3804" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -751,13 +832,16 @@
         <state relative-caret-position="544">
           <caret line="33" column="38" lean-forward="false" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
           <folding>
-            <marker date="1499087622363" expanded="true" signature="93:1690" ph="{...}" />
-            <marker date="1499087622363" expanded="true" signature="340:649" ph="{...}" />
-            <marker date="1499087622363" expanded="true" signature="715:1379" ph="{...}" />
-            <marker date="1499087622363" expanded="true" signature="749:1373" ph="{...}" />
-            <marker date="1499087622363" expanded="true" signature="1443:1475" ph="{...}" />
-            <marker date="1499087622363" expanded="true" signature="1503:1583" ph="{...}" />
-            <marker date="1499087622363" expanded="true" signature="1613:1688" ph="{...}" />
+            <marker date="1499089936103" expanded="true" signature="93:2042" ph="{...}" />
+            <marker date="1499089936103" expanded="true" signature="340:649" ph="{...}" />
+            <marker date="1499089936103" expanded="true" signature="715:1379" ph="{...}" />
+            <marker date="1499089936103" expanded="true" signature="749:1373" ph="{...}" />
+            <marker date="1499089936103" expanded="true" signature="1384:1551" ph="/// Called when we do a tap movement on the hologram, this function will call OnSelect(); ... " />
+            <marker date="1499089936103" expanded="true" signature="1615:1647" ph="{...}" />
+            <marker date="1499089936103" expanded="true" signature="1652:1718" ph="/// set the state to arrested ... " />
+            <marker date="1499089936103" expanded="true" signature="1746:1826" ph="{...}" />
+            <marker date="1499089936103" expanded="true" signature="1831:1935" ph="/// Set the state to caught when the shooter enter in the safe zone ... " />
+            <marker date="1499089936103" expanded="true" signature="1965:2040" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -789,20 +873,29 @@
         <state relative-caret-position="187">
           <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="34" />
           <folding>
-            <marker date="1499086850200" expanded="true" signature="7:154" ph="..." />
-            <marker date="1499086850200" expanded="true" signature="225:3133" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="539:978" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1043:1071" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1100:1175" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1215:1290" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1359:1425" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1457:1557" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1588:1702" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1733:1876" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1907:2355" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="2518:2908" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="2575:2883" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="2964:3131" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="7:154" ph="..." />
+            <marker date="1499089936056" expanded="true" signature="225:4363" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="538:977" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="1042:1070" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="1075:1174" ph="/// return the current state of AI ... " />
+            <marker date="1499089936056" expanded="true" signature="1203:1278" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="1284:1385" ph="/// set the state of the AI ... " />
+            <marker date="1499089936056" expanded="true" signature="1424:1499" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="1509:1632" ph="/// When we do the tap movement on a hologram ... " />
+            <marker date="1499089936056" expanded="true" signature="1696:1762" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="1767:1836" ph="/// When we gaze in the hologram ... " />
+            <marker date="1499089936056" expanded="true" signature="1867:1967" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="1973:2043" ph="/// When we gaze out the hologram ... " />
+            <marker date="1499089936056" expanded="true" signature="2073:2187" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="2193:2284" ph="/// Function called when the AI entre in the safe zone ... " />
+            <marker date="1499089936056" expanded="true" signature="2314:2457" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="2463:2606" ph="/// Function for checking if the AI is moving (used for setting the animation) ... " />
+            <marker date="1499089936056" expanded="true" signature="2636:3084" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="3090:3433" ph="/// Function for create a visual sensor on the object ... " />
+            <marker date="1499089936056" expanded="true" signature="3591:3981" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="3648:3956" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="3987:4139" ph="/// Function for create a RAINAspectr on the object ... " />
+            <marker date="1499089936056" expanded="true" signature="4194:4361" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -812,18 +905,22 @@
         <state relative-caret-position="289">
           <caret line="18" column="62" lean-forward="false" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
           <folding>
-            <marker date="1499086735895" expanded="true" signature="6:76" ph="..." />
-            <marker date="1499086735895" expanded="true" signature="131:3371" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="513:1677" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="1582:1671" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="1743:2761" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="1777:2755" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="2445:2528" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="2549:2722" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="2792:2872" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="2902:3099" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="3128:3272" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="3337:3369" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="6:76" ph="..." />
+            <marker date="1499089936002" expanded="true" signature="131:3806" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="513:1677" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="1582:1671" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="1743:2761" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="1777:2755" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="2445:2528" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="2549:2722" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="2767:2869" ph="/// Method called by Micheal when the IA enter in the danger zone ... " />
+            <marker date="1499089936002" expanded="true" signature="2899:2979" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="2986:3032" ph="/// TO DO ... " />
+            <marker date="1499089936002" expanded="true" signature="3060:3257" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="3263:3363" ph="/// Set the stat to run if the current state is normal or panic ... " />
+            <marker date="1499089936002" expanded="true" signature="3391:3535" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="3541:3708" ph="/// Called when we do a tap movement on the hologram, this function will call OnSelect(); ... " />
+            <marker date="1499089936002" expanded="true" signature="3772:3804" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -929,9 +1026,9 @@
         <state relative-caret-position="170">
           <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
           <folding>
-            <marker date="1499086895604" expanded="false" signature="6:114" ph="..." />
-            <marker date="1499086895604" expanded="true" signature="172:503" ph="{...}" />
-            <marker date="1499086895604" expanded="true" signature="306:501" ph="{...}" />
+            <marker date="1499089350264" expanded="false" signature="6:114" ph="..." />
+            <marker date="1499089350264" expanded="true" signature="172:503" ph="{...}" />
+            <marker date="1499089350264" expanded="true" signature="306:501" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -941,11 +1038,11 @@
         <state relative-caret-position="85">
           <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
           <folding>
-            <marker date="1498749814880" expanded="false" signature="6:157" ph="..." />
-            <marker date="1498749814880" expanded="true" signature="208:840" ph="{...}" />
-            <marker date="1498749814880" expanded="true" signature="329:838" ph="{...}" />
-            <marker date="1498749814880" expanded="true" signature="562:693" ph="{...}" />
-            <marker date="1498749814880" expanded="true" signature="706:795" ph="{...}" />
+            <marker date="1499089392850" expanded="false" signature="6:157" ph="..." />
+            <marker date="1499089392850" expanded="true" signature="208:840" ph="{...}" />
+            <marker date="1499089392850" expanded="true" signature="329:838" ph="{...}" />
+            <marker date="1499089392850" expanded="true" signature="562:693" ph="{...}" />
+            <marker date="1499089392850" expanded="true" signature="706:795" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -969,101 +1066,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/scripts/Civillian.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/scripts/HumanAI.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+        <state relative-caret-position="553">
+          <caret line="56" column="7" lean-forward="false" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="49" />
           <folding>
-            <marker date="1499086735895" expanded="true" signature="6:76" ph="..." />
-            <marker date="1499086735895" expanded="true" signature="131:3371" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="513:1677" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="1582:1671" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="1743:2761" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="1777:2755" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="2445:2528" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="2549:2722" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="2792:2872" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="2902:3099" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="3128:3272" ph="{...}" />
-            <marker date="1499086735895" expanded="true" signature="3337:3369" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/scripts/Adam.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-          <folding>
-            <marker date="1499087622315" expanded="false" signature="7:106" ph="..." />
-            <marker date="1499087622315" expanded="true" signature="158:2462" ph="{...}" />
-            <marker date="1499087622315" expanded="true" signature="540:1479" ph="{...}" />
-            <marker date="1499087622315" expanded="true" signature="1408:1476" ph="{...}" />
-            <marker date="1499087622315" expanded="true" signature="1534:2035" ph="{...}" />
-            <marker date="1499087622315" expanded="true" signature="1559:2032" ph="{...}" />
-            <marker date="1499087622315" expanded="true" signature="1983:2017" ph="{...}" />
-            <marker date="1499087622315" expanded="true" signature="2063:2290" ph="{...}" />
-            <marker date="1499087622315" expanded="true" signature="2351:2371" ph="{...}" />
-            <marker date="1499087622315" expanded="true" signature="2396:2458" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="7:154" ph="..." />
+            <marker date="1499089936056" expanded="true" signature="225:4363" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="538:977" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="1042:1070" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="1075:1174" ph="/// return the current state of AI ... " />
+            <marker date="1499089936056" expanded="true" signature="1203:1278" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="1284:1385" ph="/// set the state of the AI ... " />
+            <marker date="1499089936056" expanded="true" signature="1424:1499" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="1509:1632" ph="/// When we do the tap movement on a hologram ... " />
+            <marker date="1499089936056" expanded="true" signature="1696:1762" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="1767:1836" ph="/// When we gaze in the hologram ... " />
+            <marker date="1499089936056" expanded="true" signature="1867:1967" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="1973:2043" ph="/// When we gaze out the hologram ... " />
+            <marker date="1499089936056" expanded="true" signature="2073:2187" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="2193:2284" ph="/// Function called when the AI entre in the safe zone ... " />
+            <marker date="1499089936056" expanded="true" signature="2314:2457" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="2463:2606" ph="/// Function for checking if the AI is moving (used for setting the animation) ... " />
+            <marker date="1499089936056" expanded="true" signature="2636:3084" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="3090:3433" ph="/// Function for create a visual sensor on the object ... " />
+            <marker date="1499089936056" expanded="true" signature="3591:3981" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="3648:3956" ph="{...}" />
+            <marker date="1499089936056" expanded="true" signature="3987:4139" ph="/// Function for create a RAINAspectr on the object ... " />
+            <marker date="1499089936056" expanded="true" signature="4194:4361" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/scripts/Micheal.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="927">
-          <caret line="87" column="5" lean-forward="false" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
+        <state relative-caret-position="1046">
+          <caret line="70" column="17" lean-forward="false" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
           <folding>
-            <marker date="1499086735771" expanded="true" signature="6:115" ph="..." />
-            <marker date="1499086735771" expanded="true" signature="168:2449" ph="{...}" />
-            <marker date="1499086735771" expanded="true" signature="548:1532" ph="{...}" />
-            <marker date="1499086735771" expanded="true" signature="1461:1529" ph="{...}" />
-            <marker date="1499086735771" expanded="true" signature="1587:1861" ph="{...}" />
-            <marker date="1499086735771" expanded="true" signature="1671:1857" ph="{...}" />
-            <marker date="1499086735771" expanded="true" signature="1808:1842" ph="{...}" />
-            <marker date="1499086735771" expanded="true" signature="1863:1954" ph="/// When a IA ENTER in the collider, say him he is in danger ... " />
-            <marker date="1499086735771" expanded="true" signature="1999:2141" ph="{...}" />
-            <marker date="1499086735771" expanded="true" signature="2143:2231" ph="/// When a IA IS in the collider, say him he is in danger ... " />
-            <marker date="1499086735771" expanded="true" signature="2275:2444" ph="{...}" />
+            <marker date="1499089935862" expanded="true" signature="6:115" ph="..." />
+            <marker date="1499089935862" expanded="true" signature="168:2449" ph="{...}" />
+            <marker date="1499089935862" expanded="true" signature="548:1532" ph="{...}" />
+            <marker date="1499089935862" expanded="true" signature="1461:1529" ph="{...}" />
+            <marker date="1499089935862" expanded="true" signature="1587:1861" ph="{...}" />
+            <marker date="1499089935862" expanded="true" signature="1671:1857" ph="{...}" />
+            <marker date="1499089935862" expanded="true" signature="1808:1842" ph="{...}" />
+            <marker date="1499089935862" expanded="true" signature="1863:1954" ph="/// When a IA ENTER in the collider, say him he is in danger ... " />
+            <marker date="1499089935862" expanded="true" signature="1999:2141" ph="{...}" />
+            <marker date="1499089935862" expanded="true" signature="2143:2231" ph="/// When a IA IS in the collider, say him he is in danger ... " />
+            <marker date="1499089935862" expanded="true" signature="2275:2444" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/scripts/Adam.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="87" column="9" lean-forward="false" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="50" />
+          <folding>
+            <marker date="1499089935937" expanded="false" signature="7:106" ph="..." />
+            <marker date="1499089935937" expanded="true" signature="158:2726" ph="{...}" />
+            <marker date="1499089935937" expanded="true" signature="540:1479" ph="{...}" />
+            <marker date="1499089935937" expanded="true" signature="1408:1476" ph="{...}" />
+            <marker date="1499089935937" expanded="true" signature="1534:2035" ph="{...}" />
+            <marker date="1499089935937" expanded="true" signature="1559:2032" ph="{...}" />
+            <marker date="1499089935937" expanded="true" signature="1983:2017" ph="{...}" />
+            <marker date="1499089935937" expanded="true" signature="2037:2106" ph="/// set the state of the target to run ... " />
+            <marker date="1499089935937" expanded="true" signature="2134:2361" ph="{...}" />
+            <marker date="1499089935937" expanded="true" signature="2363:2478" ph="///  When we do the tap movement on a hologram ... " />
+            <marker date="1499089935937" expanded="true" signature="2539:2559" ph="{...}" />
+            <marker date="1499089935937" expanded="true" signature="2561:2635" ph="/// set the state to run if he is not saved ... " />
+            <marker date="1499089935937" expanded="true" signature="2660:2722" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/scripts/ShopShooter.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="28" column="53" lean-forward="false" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+        <state relative-caret-position="782">
+          <caret line="46" column="93" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="93" />
           <folding>
-            <marker date="1499087622363" expanded="true" signature="93:1690" ph="{...}" />
-            <marker date="1499087622363" expanded="true" signature="340:649" ph="{...}" />
-            <marker date="1499087622363" expanded="true" signature="715:1379" ph="{...}" />
-            <marker date="1499087622363" expanded="true" signature="749:1373" ph="{...}" />
-            <marker date="1499087622363" expanded="true" signature="1443:1475" ph="{...}" />
-            <marker date="1499087622363" expanded="true" signature="1503:1583" ph="{...}" />
-            <marker date="1499087622363" expanded="true" signature="1613:1688" ph="{...}" />
+            <marker date="1499089936103" expanded="true" signature="93:2042" ph="{...}" />
+            <marker date="1499089936103" expanded="true" signature="340:649" ph="{...}" />
+            <marker date="1499089936103" expanded="true" signature="715:1379" ph="{...}" />
+            <marker date="1499089936103" expanded="true" signature="749:1373" ph="{...}" />
+            <marker date="1499089936103" expanded="true" signature="1384:1551" ph="/// Called when we do a tap movement on the hologram, this function will call OnSelect(); ... " />
+            <marker date="1499089936103" expanded="true" signature="1615:1647" ph="{...}" />
+            <marker date="1499089936103" expanded="true" signature="1652:1718" ph="/// set the state to arrested ... " />
+            <marker date="1499089936103" expanded="true" signature="1746:1826" ph="{...}" />
+            <marker date="1499089936103" expanded="true" signature="1831:1935" ph="/// Set the state to caught when the shooter enter in the safe zone ... " />
+            <marker date="1499089936103" expanded="true" signature="1965:2040" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/scripts/HumanAI.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/scripts/Civillian.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-382">
-          <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        <state relative-caret-position="519">
+          <caret line="106" column="48" lean-forward="false" selection-start-line="106" selection-start-column="48" selection-end-line="106" selection-end-column="48" />
           <folding>
-            <marker date="1499086850200" expanded="true" signature="7:154" ph="..." />
-            <marker date="1499086850200" expanded="true" signature="225:3133" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="539:978" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1043:1071" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1100:1175" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1215:1290" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1359:1425" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1457:1557" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1588:1702" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1733:1876" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="1907:2355" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="2518:2908" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="2575:2883" ph="{...}" />
-            <marker date="1499086850200" expanded="true" signature="2964:3131" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="6:76" ph="..." />
+            <marker date="1499089936002" expanded="true" signature="131:3806" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="513:1677" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="1582:1671" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="1743:2761" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="1777:2755" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="2445:2528" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="2549:2722" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="2767:2869" ph="/// Method called by Micheal when the IA enter in the danger zone ... " />
+            <marker date="1499089936002" expanded="true" signature="2899:2979" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="2986:3032" ph="/// TO DO ... " />
+            <marker date="1499089936002" expanded="true" signature="3060:3257" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="3263:3363" ph="/// Set the stat to run if the current state is normal or panic ... " />
+            <marker date="1499089936002" expanded="true" signature="3391:3535" ph="{...}" />
+            <marker date="1499089936002" expanded="true" signature="3541:3708" ph="/// Called when we do a tap movement on the hologram, this function will call OnSelect(); ... " />
+            <marker date="1499089936002" expanded="true" signature="3772:3804" ph="{...}" />
           </folding>
         </state>
       </provider>

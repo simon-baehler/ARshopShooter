@@ -37,13 +37,13 @@ public class Civillian : HumanAI, IInputClickHandler
 
         // Creation of the Sensor
         tRig.AI.Body = gameObject;
-        tRig.AI.Senses.AddSensor(createVisualSensor(true, "eyes", 120, new Vector3(0,1.6f ,0), true));
+        tRig.AI.Senses.AddSensor(CreateVisualSensor(true, "eyes", 120, new Vector3(0,1.6f ,0), true));
 
    
         //creation of the aspect
         tEntity = entity.GetComponentInChildren<EntityRig>();
         entity.GetComponentInChildren<EntityRig>().Entity.Form = gameObject;
-        tEntity.Entity.AddAspect(createRAINAspect("aCivil"));
+        tEntity.Entity.AddAspect(CreateRainAspect("aCivil"));
         if (NavTargetsGO == null)
         {
             NavTargetsGO =  GameObject.FindWithTag("ShoppingStops");
@@ -53,13 +53,13 @@ public class Civillian : HumanAI, IInputClickHandler
     // Update is called once per frame
     private void Update()
     {
-        switch (getState())
+        switch (GetState())
         {
             case "normal":
                 //print("normal");
                 tRig.AI.WorkingMemory.SetItem<float>("speed", NORMAL_SPEED);
                 anim.SetFloat("Speed", ANIM_SPEED);
-                anim.SetFloat("Speed", !isMoving() ? 0 : ANIM_SPEED);
+                anim.SetFloat("Speed", !IsMoving() ? 0 : ANIM_SPEED);
                 break;
             case "panic":
                 //print("panic");
@@ -70,7 +70,7 @@ public class Civillian : HumanAI, IInputClickHandler
                 tRig.AI.WorkingMemory.SetItem<float>("speed", randomSpeed);
                 break;
             case "saved":        
-                if (!isMoving())
+                if (!IsMoving())
                 {
                     anim.SetFloat("Speed", 0);
                 }
@@ -83,27 +83,40 @@ public class Civillian : HumanAI, IInputClickHandler
         }
     }
 
+    /// <summary>
+    /// Method called by Micheal when the IA enter in the danger zone
+    /// </summary>
     private void OnInDanger()
     {
-        if (getState() == "panic") return;
-        setState("run");
+        if (GetState() == "panic") return;
+        SetState("run");
     }
 
 
+    /// <summary>
+    /// TO DO
+    /// </summary>
     private void OnPolice()
     {
         if (tRig.AI.WorkingMemory.GetItem("varPlayer") == null ||
-            (getState() == "panic" || getState() == "dead" || getState() == "saved")) return;
-        setState("run");
+            (GetState() == "panic" || GetState() == "dead" || GetState() == "saved")) return;
+        SetState("run");
     }
 
+    /// <summary>
+    /// Set the stat to run if the current state is normal or panic
+    /// </summary>
     private void OnSelect()
     {
-        if (getState() != "panic" && getState() != "normal") return;
+        if (GetState() != "panic" && GetState() != "normal") return;
         anim.SetBool("panic", false);
-        setState("run");
+        SetState("run");
     }
 
+    /// <summary>
+    /// Called when we do a tap movement on the hologram, this function will call OnSelect();
+    /// </summary>
+    /// <param name="eventData"></param>
     public void OnInputClicked(InputClickedEventData eventData)
     {
         OnSelect();

@@ -38,13 +38,13 @@ public class Micheal : HumanAI, IInputClickHandler {
 
 		// Creation of the Sensor
 		tRig.AI.Body = gameObject;
-		tRig.AI.Senses.AddSensor(createVisualSensor(true, "eyes", 120, new Vector3(0,1.6f ,0), true));
+		tRig.AI.Senses.AddSensor(CreateVisualSensor(true, "eyes", 120, new Vector3(0,1.6f ,0), true));
 
    
 		//creation of the aspect
 		tEntity = entity.GetComponentInChildren<EntityRig>();
 		entity.GetComponentInChildren<EntityRig>().Entity.Form = gameObject;
-		tEntity.Entity.AddAspect(createRAINAspect("aMicheal"));
+		tEntity.Entity.AddAspect(CreateRainAspect("aMicheal"));
 		if (NavTargetsGO == null)
 		{
 			NavTargetsGO =  GameObject.FindWithTag("ShoppingStops");
@@ -55,15 +55,15 @@ public class Micheal : HumanAI, IInputClickHandler {
 	// Update is called once per frame
 	 void Update ()
 	 {
-		 anim.SetFloat("Speed", !isMoving() ? 0 : ANIM_SPEED);
-		 switch (getState())
+		 anim.SetFloat("Speed", !IsMoving() ? 0 : ANIM_SPEED);
+		 switch (GetState())
 		{
 			case "helping":
 				tRig.AI.WorkingMemory.SetItem("speed",RUN_SPEED_MAX);
 				timeLeft -= Time.deltaTime;
 				if ( timeLeft < 0 )
 				{
-					setState("run");
+					SetState("run");
 				}
 				break;
 		}
@@ -73,7 +73,7 @@ public class Micheal : HumanAI, IInputClickHandler {
 	/// </summary>
 	private void OnTriggerEnter(Collider other)
 	{
-		if (getState() != "helping") return;
+		if (GetState() != "helping") return;
 		if (other.gameObject.layer != AILayerID) return;
 		other.gameObject.SendMessage("OnInDanger");
 	}
@@ -82,7 +82,7 @@ public class Micheal : HumanAI, IInputClickHandler {
 	/// </summary>
 	private void OnTriggerStay(Collider other)
 	{
-		if (getState() != "helping") return;
+		if (GetState() != "helping") return;
 		if (other.gameObject.layer != AILayerID || other.name == "shooter") return;
 		other.gameObject.SendMessage("OnInDanger");
 	}
