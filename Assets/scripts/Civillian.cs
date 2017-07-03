@@ -11,16 +11,19 @@ public class Civillian : HumanAI, IInputClickHandler
     private const float ANIM_SPEED = 0.5f;
     private const int ANIM_SPEED_RUN = 2;
     private const int NORMAL_SPEED = 1;
-    private const int RUN_SPEED_MIN = 4;
+    private const int RUN_SPEED_MIN = 3;
     private const int RUN_SPEED_MAX = 6;
     
     private const float MASS_MIN = 1;
     private const float MASS_MAX = 10;
 
+    private int randomSpeed;
+
     // Use this for initialization
     private void Start()
     {
        
+        randomSpeed = Random.Range(RUN_SPEED_MIN,RUN_SPEED_MAX);
         
         //Adding gameObject Named Entity
         GameObject entity = new GameObject("Entity");
@@ -29,12 +32,10 @@ public class Civillian : HumanAI, IInputClickHandler
         
         //Initialisation
         init();
-        HP = 100;
         rigidbody.mass = Random.Range(MASS_MIN, MASS_MAX);
         tRig.AI.WorkingMemory.SetItem<float>("speed", 1);
-        tRig.AI.WorkingMemory.SetItem<string>("state", "run");
+        tRig.AI.WorkingMemory.SetItem<string>("state", "panic");
         tRig.AI.WorkingMemory.SetItem<string>("moveESC", "ESC");
-        tRig.AI.WorkingMemory.SetItem<int>("HP", HP);
         anim.SetFloat("Speed", ANIM_SPEED);
 
         // Creation of the Sensor
@@ -55,11 +56,6 @@ public class Civillian : HumanAI, IInputClickHandler
     // Update is called once per frame
     private void Update()
     {
-        if (HP == 0)
-        {
-            setState("dead");
-            anim.SetBool("Dead", true);
-        }
         switch (getState())
         {
             case "normal":
@@ -74,19 +70,16 @@ public class Civillian : HumanAI, IInputClickHandler
                 {
                     anim.SetFloat("Speed", ANIM_SPEED);
                 }
-
                 break;
             case "panic":
                 //print("panic");
                 anim.SetBool("panic", true);
                 break;
             case "run":
-                float randomSpeed = Random.Range(RUN_SPEED_MIN, RUN_SPEED_MAX);
                 anim.SetFloat("Speed", ANIM_SPEED_RUN);
                 tRig.AI.WorkingMemory.SetItem<float>("speed", randomSpeed);
                 break;
-            case "saved":
-                
+            case "saved":        
                 if (!isMoving())
                 {
                     anim.SetFloat("Speed", 0);
@@ -117,12 +110,6 @@ public class Civillian : HumanAI, IInputClickHandler
 
     private void OnSelect()
     {
-        if (getState() == "dead")
-        {
-            setState("run");
-            anim.SetBool("Dead", false);
-            HP = 100;
-        }
         if (getState() == "panic")
         {
             anim.SetBool("panic", false);

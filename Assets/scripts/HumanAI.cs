@@ -13,29 +13,20 @@ public class HumanAI : MonoBehaviour, IInputClickHandler, IFocusable
     protected Rigidbody rigidbody = null;
     protected AIRig tRig = null;
     protected EntityRig tEntity;
-    protected int HP;
     protected Vector3 oldLocation = new Vector3();
     public GameObject NavTargetsGO;
     
-   
 
     private const float THRESHHOLD = 0.01f;
-
-    public bool isAlife()
-    {
-        return HP > 0;
-    }
     
     protected void init()
     {
-        HP = 100;
         anim = GetComponent<Animator>();
         tRig = gameObject.GetComponentInChildren<AIRig>();
         tEntity = gameObject.GetComponentInChildren<EntityRig>();
         rigidbody = gameObject.GetComponent<Rigidbody>();
         tRig.AI.WorkingMemory.SetItem<float>("speed", 2.0f);
         tRig.AI.WorkingMemory.SetItem<string>("state","normal");
-        tRig.AI.WorkingMemory.SetItem<int>("HP", HP);
         anim.SetFloat("Speed", 1);
         oldLocation = transform.position;
     }
@@ -60,11 +51,6 @@ public class HumanAI : MonoBehaviour, IInputClickHandler, IFocusable
     public void setState(string state)
     {
         tRig.AI.WorkingMemory.SetItem<string>("state", state);
-    }
-    protected void OnStabbed(int value)
-    {
-        if(HP - value >= 0)
-            HP = HP - value;
     }
     protected void onDie()
     {
