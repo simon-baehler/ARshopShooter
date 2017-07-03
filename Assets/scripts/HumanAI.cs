@@ -85,13 +85,13 @@ public class HumanAI : MonoBehaviour, IInputClickHandler, IFocusable
         //throw new System.NotImplementedException();
     }
 
-    protected VisualSensor createVisualSensor(bool IsActive, string name, int HorizontalAngle, Vector3 PositionOffset,
+    protected VisualSensor createVisualSensor(bool IsActive, string SensorName, int HorizontalAngle, Vector3 PositionOffset,
         bool RequireLineOfSight)
     {
         VisualSensor s = new VisualSensor
         {
             IsActive = IsActive,
-            SensorName = name,
+            SensorName = SensorName,
             MountPoint = gameObject.transform,
             HorizontalAngle = HorizontalAngle,
             PositionOffset = PositionOffset,

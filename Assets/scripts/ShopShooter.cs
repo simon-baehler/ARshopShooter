@@ -1,7 +1,5 @@
 ﻿
 using HoloToolkit.Unity.InputModule;
-using UnityEngine;
-
 
 public class ShopShooter : HumanAI, IInputClickHandler
 {    

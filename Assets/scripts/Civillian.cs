@@ -1,8 +1,5 @@
-﻿using System.Collections;
-using HoloToolkit.Unity.InputModule;
+﻿using HoloToolkit.Unity.InputModule;
 using RAIN.Entities;
-using RAIN.Entities.Aspects;
-using RAIN.Perception.Sensors;
 using UnityEngine;
 
 
@@ -34,7 +31,7 @@ public class Civillian : HumanAI, IInputClickHandler
         init();
         rigidbody.mass = Random.Range(MASS_MIN, MASS_MAX);
         tRig.AI.WorkingMemory.SetItem<float>("speed", 1);
-        tRig.AI.WorkingMemory.SetItem<string>("state", "panic");
+        tRig.AI.WorkingMemory.SetItem<string>("state", "normal");
         tRig.AI.WorkingMemory.SetItem<string>("moveESC", "ESC");
         anim.SetFloat("Speed", ANIM_SPEED);
 
@@ -62,14 +59,7 @@ public class Civillian : HumanAI, IInputClickHandler
                 //print("normal");
                 tRig.AI.WorkingMemory.SetItem<float>("speed", NORMAL_SPEED);
                 anim.SetFloat("Speed", ANIM_SPEED);
-                if (!isMoving())
-                {
-                    anim.SetFloat("Speed", 0);
-                }
-                else
-                {
-                    anim.SetFloat("Speed", ANIM_SPEED);
-                }
+                anim.SetFloat("Speed", !isMoving() ? 0 : ANIM_SPEED);
                 break;
             case "panic":
                 //print("panic");
@@ -93,12 +83,17 @@ public class Civillian : HumanAI, IInputClickHandler
         }
     }
 
+    private void OnInDanger()
+    {
+        if (getState() == "panic") return;
+        setState("run");
+    }
+
     private void InSafeZone()
     {
         var randomDist = Random.Range(0.1f, 6);
         tRig.AI.Motor.CloseEnoughDistance = randomDist;
-        setState("saved");
-        
+        setState("saved");    
     }
 
     private void OnPolice()
@@ -110,11 +105,9 @@ public class Civillian : HumanAI, IInputClickHandler
 
     private void OnSelect()
     {
-        if (getState() == "panic")
-        {
-            anim.SetBool("panic", false);
-            setState("run");
-        }
+        if (getState() != "panic" && getState() != "normal") return;
+        anim.SetBool("panic", false);
+        setState("run");
     }
 
     public void OnInputClicked(InputClickedEventData eventData)

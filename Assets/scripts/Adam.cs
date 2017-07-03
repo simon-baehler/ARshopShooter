@@ -34,7 +34,7 @@ public class Adam :   HumanAI, IInputClickHandler
 		init();
 		rigidbody.mass = Random.Range(MASS_MIN, MASS_MAX);
 		tRig.AI.WorkingMemory.SetItem<float>("speed", 1);
-		tRig.AI.WorkingMemory.SetItem<string>("state", "searchCivilian");
+		tRig.AI.WorkingMemory.SetItem<string>("state", "normal");
 		tRig.AI.WorkingMemory.SetItem<string>("moveESC", "ESC");
 		anim.SetFloat("Speed", ANIM_SPEED);
 
@@ -55,17 +55,14 @@ public class Adam :   HumanAI, IInputClickHandler
 	
 	// Update is called once per frame
 	void Update () {
-		if (!isMoving())
-		{
-			anim.SetFloat("Speed", 0);
-		}
-		else
-		{
-			anim.SetFloat("Speed", 2);
-		}
-
+	
 		switch (getState())
 		{
+			case "normal":
+				tRig.AI.WorkingMemory.SetItem<float>("speed", NORMAL_SPEED);
+				anim.SetFloat("Speed", ANIM_SPEED);
+				anim.SetFloat("Speed", !isMoving() ? 0 : ANIM_SPEED);
+				break;
 			case "helping":
 				tRig.AI.WorkingMemory.SetItem("speed",RUN_SPEED_MAX);
 				break;
