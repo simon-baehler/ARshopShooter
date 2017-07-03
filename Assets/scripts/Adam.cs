@@ -21,7 +21,6 @@ public class Adam :   HumanAI, IInputClickHandler
 	private float timeLeft = 30f;
 
 	
-     
 	// Use this for initialization
 	void Start () {
 
@@ -76,19 +75,15 @@ public class Adam :   HumanAI, IInputClickHandler
 				break;
 		}
 	}
-	private void InSafeZone()
-	{
-		var randomDist = Random.Range(0.1f, 6);
-		tRig.AI.Motor.CloseEnoughDistance = randomDist;
-		setState("saved");
-        
-	}
-
 	public void sayRassuring()
 	{
 		civil = tRig.AI.WorkingMemory.GetItem<RAINAspect>("moveTarget");
 		civil.MountPoint.gameObject.GetComponent<Civillian>().setState("run");
 		civil.MountPoint.gameObject. GetComponent<Animator>().SetBool("panic", false);
+	}
+	public void OnInputClicked(InputClickedEventData eventData)
+	{
+		OnSelect();
 	}
 	private void OnSelect()
 	{
@@ -96,8 +91,5 @@ public class Adam :   HumanAI, IInputClickHandler
 		setState("run");
 	}
 
-	public void OnInputClicked(InputClickedEventData eventData)
-	{
-		OnSelect();
-	}
+
 }

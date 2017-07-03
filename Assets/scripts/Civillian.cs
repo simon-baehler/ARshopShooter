@@ -89,12 +89,6 @@ public class Civillian : HumanAI, IInputClickHandler
         setState("run");
     }
 
-    private void InSafeZone()
-    {
-        var randomDist = Random.Range(0.1f, 6);
-        tRig.AI.Motor.CloseEnoughDistance = randomDist;
-        setState("saved");    
-    }
 
     private void OnPolice()
     {

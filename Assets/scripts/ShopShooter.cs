@@ -26,8 +26,7 @@ public class ShopShooter : HumanAI, IInputClickHandler
         switch (getState())
         {
             case "normal":
-                anim.SetFloat("Speed", NORMAL_SPEED);
-               
+                anim.SetFloat("Speed", NORMAL_SPEED); 
                 break;
             case "hidded":
                 anim.SetFloat("Speed", 0);
@@ -44,13 +43,13 @@ public class ShopShooter : HumanAI, IInputClickHandler
                 break;
         }
     }
-    private void OnSelect()
-    {
-        tRig.AI.WorkingMemory.SetItem<string>("state", "arrested");
-    }
     public void OnInputClicked(InputClickedEventData eventData)
     {
         OnSelect();
+    }
+    private void OnSelect()
+    {
+        tRig.AI.WorkingMemory.SetItem<string>("state", "arrested");
     }
     private void InSafeZone()
     {

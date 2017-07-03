@@ -1,4 +1,5 @@
-﻿using HoloToolkit.Unity.InputModule;
+﻿using System.Runtime.CompilerServices;
+using HoloToolkit.Unity.InputModule;
 using RAIN.Entities;
 using UnityEngine;
 
@@ -50,21 +51,6 @@ public class Micheal : HumanAI, IInputClickHandler {
 		}
 	}
 
-	private void OnTriggerEnter(Collider other)
-	{
-		if (getState() != "helping") return;
-		if (other.gameObject.layer != AILayerID) return;
-		other.gameObject.SendMessage("OnInDanger");
-		print("OnTriggerEnter");
-	}
-
-	private void OnTriggerStay(Collider other)
-	{
-		if (getState() != "helping") return;
-		if (other.gameObject.layer != AILayerID || other.name == "shooter") return;
-		other.gameObject.SendMessage("OnInDanger");
-		print("OnTriggerStay");
-	}
 
 	// Update is called once per frame
 	 void Update ()
@@ -73,7 +59,6 @@ public class Micheal : HumanAI, IInputClickHandler {
 		 switch (getState())
 		{
 			case "helping":
-				print(timeLeft);
 				tRig.AI.WorkingMemory.SetItem("speed",RUN_SPEED_MAX);
 				timeLeft -= Time.deltaTime;
 				if ( timeLeft < 0 )
@@ -83,4 +68,24 @@ public class Micheal : HumanAI, IInputClickHandler {
 				break;
 		}
 	 }
+	/// <summary>
+	/// When a IA ENTER in the collider, say him he is in danger
+	/// </summary>
+	private void OnTriggerEnter(Collider other)
+	{
+		if (getState() != "helping") return;
+		if (other.gameObject.layer != AILayerID) return;
+		other.gameObject.SendMessage("OnInDanger");
+	}
+	/// <summary>
+	/// When a IA IS in the collider, say him he is in danger
+	/// </summary>
+	private void OnTriggerStay(Collider other)
+	{
+		if (getState() != "helping") return;
+		if (other.gameObject.layer != AILayerID || other.name == "shooter") return;
+		other.gameObject.SendMessage("OnInDanger");
+	}
+
+	
 }

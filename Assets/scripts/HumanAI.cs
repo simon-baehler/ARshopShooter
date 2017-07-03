@@ -30,6 +30,44 @@ public class HumanAI : MonoBehaviour, IInputClickHandler, IFocusable
         anim.SetFloat("Speed", 1);
         oldLocation = transform.position;
     }
+    
+    // Use this for initialization
+    private void Start()
+    {
+        init();
+    }
+    public string getState()
+    {
+        return tRig.AI.WorkingMemory.GetItem<string>("state");
+    }
+
+    public void setState(string state)
+    {
+        tRig.AI.WorkingMemory.SetItem<string>("state", state);
+    }
+    
+    public void OnInputClicked(InputClickedEventData eventData)
+    {
+        //throw new System.NotImplementedException();
+    }
+
+    public void OnFocusEnter()
+    {
+        GameObject.Find("CursorOnHolograms").transform.localScale = new Vector3(3,3,3);
+    }
+
+    public void OnFocusExit()
+    {
+        GameObject.Find("CursorOnHolograms").transform.localScale = new Vector3(1.15f ,1.15f ,1.15f);
+    }
+
+    private void InSafeZone()
+    {
+        var randomDist = Random.Range(0.1f, 6);
+        tRig.AI.Motor.CloseEnoughDistance = randomDist;
+        setState("saved");
+    }
+
     protected bool isMoving()
     {
         var resultX = oldLocation.x > transform.position.x
@@ -43,48 +81,6 @@ public class HumanAI : MonoBehaviour, IInputClickHandler, IFocusable
         return THRESHHOLD < res;
     } 
    
-    public string getState()
-    {
-        return tRig.AI.WorkingMemory.GetItem<string>("state");
-    }
-
-    public void setState(string state)
-    {
-        tRig.AI.WorkingMemory.SetItem<string>("state", state);
-    }
-    protected void onDie()
-    {
-        Destroy(gameObject);
-        // Removes this script instance from the game object
-        Destroy(this);
-    }
-    
-    // Use this for initialization
-    private void Start()
-    {
-        init();
-    }
-
-    // Update is called once per frame
-    private void Update()
-    {
-    }
-
-    public void OnInputClicked(InputClickedEventData eventData)
-    {
-        //throw new System.NotImplementedException();
-    }
-
-    public void OnFocusEnter()
-    {
-        //throw new System.NotImplementedException();
-    }
-
-    public void OnFocusExit()
-    {
-        //throw new System.NotImplementedException();
-    }
-
     protected VisualSensor createVisualSensor(bool IsActive, string SensorName, int HorizontalAngle, Vector3 PositionOffset,
         bool RequireLineOfSight)
     {
