@@ -8,19 +8,8 @@ using UnityEngine;
 public class Adam :   HumanAI, IInputClickHandler
 {
 	private RAINAspect civil;
-	
-	private const float ANIM_SPEED = 0.5f;
-	private const int ANIM_SPEED_RUN = 2;
-	private const int NORMAL_SPEED = 1;
-	private const int RUN_SPEED_MIN = 3;
-	private const int RUN_SPEED_MAX = 6;
-    
-	private const float MASS_MIN = 1;
-	private const float MASS_MAX = 10;
-
 	private float timeLeft = 30f;
 
-	
 	// Use this for initialization
 	void Start () {
 
@@ -32,7 +21,7 @@ public class Adam :   HumanAI, IInputClickHandler
 		//Initialisation
 		init();
 		rigidbody.mass = Random.Range(MASS_MIN, MASS_MAX);
-		tRig.AI.WorkingMemory.SetItem<float>("speed", 1);
+		tRig.AI.WorkingMemory.SetItem<float>("speed", NORMAL_SPEED);
 		tRig.AI.WorkingMemory.SetItem<string>("state", "normal");
 		tRig.AI.WorkingMemory.SetItem<string>("moveESC", "ESC");
 		anim.SetFloat("Speed", ANIM_SPEED);
@@ -81,7 +70,7 @@ public class Adam :   HumanAI, IInputClickHandler
 	public void SayRassuring()
 	{
 		civil = tRig.AI.WorkingMemory.GetItem<RAINAspect>("moveTarget");
-		civil.MountPoint.gameObject.GetComponent<Civillian>().SetState("run");
+		civil.MountPoint.gameObject.GetComponent<Civilian>().SetState("run");
 		civil.MountPoint.gameObject. GetComponent<Animator>().SetBool("panic", false);
 	}
 	/// <summary>

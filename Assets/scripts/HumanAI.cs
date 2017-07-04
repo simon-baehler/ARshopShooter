@@ -9,6 +9,17 @@ using RAIN.Perception.Sensors;
 
 public class HumanAI : MonoBehaviour, IInputClickHandler, IFocusable
 {
+    
+    
+    protected const float ANIM_SPEED = 0.5f;
+    protected const int ANIM_SPEED_RUN = 2;
+    protected const int NORMAL_SPEED = 1;
+    protected const int RUN_SPEED_MIN = 3;
+    protected const int RUN_SPEED_MAX = 6;
+    
+    protected const float MASS_MIN = 1;
+    protected const float MASS_MAX = 10;
+    
     protected Animator anim = null;
     protected Rigidbody rigidbody = null;
     protected AIRig tRig = null;
@@ -19,7 +30,8 @@ public class HumanAI : MonoBehaviour, IInputClickHandler, IFocusable
     private const float THRESHHOLD = 0.01f;
     
     protected void init()
-    {
+    {         
+        
         anim = GetComponent<Animator>();
         tRig = gameObject.GetComponentInChildren<AIRig>();
         tEntity = gameObject.GetComponentInChildren<EntityRig>();
@@ -28,6 +40,11 @@ public class HumanAI : MonoBehaviour, IInputClickHandler, IFocusable
         tRig.AI.WorkingMemory.SetItem<string>("state","normal");
         anim.SetFloat("Speed", 1);
         oldLocation = transform.position;
+        
+        if (NavTargetsGO == null)
+        {
+            NavTargetsGO =  GameObject.FindWithTag("ShoppingStops");
+        }
     }
     
     // Use this for initialization

@@ -3,16 +3,8 @@ using RAIN.Entities;
 using UnityEngine;
 
 
-public class Civillian : HumanAI, IInputClickHandler
+public class Civilian : HumanAI, IInputClickHandler
 {
-    private const float ANIM_SPEED = 0.5f;
-    private const int ANIM_SPEED_RUN = 2;
-    private const int NORMAL_SPEED = 1;
-    private const int RUN_SPEED_MIN = 3;
-    private const int RUN_SPEED_MAX = 6;
-    
-    private const float MASS_MIN = 1;
-    private const float MASS_MAX = 10;
 
     private int randomSpeed;
 
@@ -30,7 +22,7 @@ public class Civillian : HumanAI, IInputClickHandler
         //Initialisation
         init();
         rigidbody.mass = Random.Range(MASS_MIN, MASS_MAX);
-        tRig.AI.WorkingMemory.SetItem<float>("speed", 1);
+        tRig.AI.WorkingMemory.SetItem<float>("speed", NORMAL_SPEED);
         tRig.AI.WorkingMemory.SetItem<string>("state", "normal");
         tRig.AI.WorkingMemory.SetItem<string>("moveESC", "ESC");
         anim.SetFloat("Speed", ANIM_SPEED);

@@ -15,7 +15,7 @@ public class checkPanic : RAINAction
     {
         civil = ai.WorkingMemory.GetItem<RAINAspect>("moveTarget");
         //get the list of nav target of the IA
-        state = civil.MountPoint.gameObject.GetComponent<Civillian>().GetState();
+        state = civil.MountPoint.gameObject.GetComponent<Civilian>().GetState();
         if (state == "panic")
         {
             ai.WorkingMemory.SetItem<bool>("targetPanic", true);
