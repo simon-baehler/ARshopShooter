@@ -91,8 +91,6 @@ public class Civillian : HumanAI, IInputClickHandler
         if (GetState() == "panic") return;
         SetState("run");
     }
-
-
     /// <summary>
     /// TO DO
     /// </summary>

@@ -140,4 +140,9 @@ public class HumanAI : MonoBehaviour, IInputClickHandler, IFocusable
         aspect.MountPoint = gameObject.transform;
         return aspect;
     }
+
+    private void OnInDanger()
+    {
+    }
+    
 }

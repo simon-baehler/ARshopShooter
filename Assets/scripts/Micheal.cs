@@ -59,6 +59,7 @@ public class Micheal : HumanAI, IInputClickHandler {
 		 switch (GetState())
 		{
 			case "helping":
+				anim.SetBool("Shout", true);
 				tRig.AI.WorkingMemory.SetItem("speed",RUN_SPEED_MAX);
 				timeLeft -= Time.deltaTime;
 				if ( timeLeft < 0 )
@@ -66,6 +67,10 @@ public class Micheal : HumanAI, IInputClickHandler {
 					SetState("run");
 				}
 				break;
+				default:
+					anim.SetBool("Shout", false);
+					break;
+
 		}
 	 }
 	/// <summary>
