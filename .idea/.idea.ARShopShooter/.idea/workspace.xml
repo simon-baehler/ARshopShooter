@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7936bfaa-6a55-4a03-b9fa-8c39ee4540da" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Animations/Humanoid/humanoid_shout.fbx.meta" afterPath="$PROJECT_DIR$/Assets/Animations/Humanoid/humanoid_shout.fbx.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Animations/LaraAnimator.controller" afterPath="$PROJECT_DIR$/Assets/Animations/LaraAnimator.controller" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/HoloToolkit/Input/Materials/ring_shadow.mat" afterPath="$PROJECT_DIR$/Assets/HoloToolkit/Input/Materials/ring_shadow.mat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/Interactions/HandDraggable.cs" afterPath="$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/Interactions/HandDraggable.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/Interactions/HandDraggable.cs.meta" afterPath="$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/Interactions/HandDraggable.cs.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Ressources/Models/Materials/michael_diff.mat" afterPath="$PROJECT_DIR$/Assets/Ressources/Models/Materials/michael_diff.mat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scene/scene_01_grosshandel.unity" afterPath="$PROJECT_DIR$/Assets/Scene/scene_01_grosshandel.unity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/scripts/Civillian.cs" afterPath="$PROJECT_DIR$/Assets/scripts/Civillian.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/scripts/HumanAI.cs" afterPath="$PROJECT_DIR$/Assets/scripts/HumanAI.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/scripts/Micheal.cs" afterPath="$PROJECT_DIR$/Assets/scripts/Micheal.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.ARShopShooter/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.ARShopShooter/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -82,7 +73,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Micheal.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Micheal.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/scripts/Micheal.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="434">
@@ -99,66 +90,6 @@
                 <marker date="1499091144568" expanded="true" signature="2093:2235" ph="{...}" />
                 <marker date="1499091144568" expanded="true" signature="2237:2325" ph="/// When a IA IS in the collider, say him he is in danger ... " />
                 <marker date="1499091144568" expanded="true" signature="2369:2538" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HandDraggable.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/Interactions/HandDraggable.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5508">
-              <caret line="324" column="1" lean-forward="false" selection-start-line="324" selection-start-column="1" selection-end-line="324" selection-end-column="1" />
-              <folding>
-                <marker date="1499152813500" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
-                <marker date="1499152813500" expanded="true" signature="160:186" ph="..." />
-                <marker date="1499152813500" expanded="true" signature="227:9005" ph="{...}" />
-                <marker date="1499152813500" expanded="true" signature="231:504" ph="/// Component that allows dragging an object with your hand on HoloLens. ... " />
-                <marker date="1499152813500" expanded="true" signature="602:9003" ph="{...}" />
-                <marker date="1499152813500" expanded="true" signature="608:682" ph="/// Event triggered when dragging starts. ... " />
-                <marker date="1499152813500" expanded="true" signature="725:798" ph="/// Event triggered when dragging stops. ... " />
-                <marker date="1499152813500" expanded="true" signature="1126:1224" ph="{...}" />
-                <marker date="1499152813500" expanded="true" signature="2131:2240" ph="{...}" />
-                <marker date="1499152813500" expanded="true" signature="2165:2206" ph="{...}" />
-                <marker date="1499152813500" expanded="true" signature="2268:2371" ph="{...}" />
-                <marker date="1499152813500" expanded="true" signature="2291:2321" ph="{...}" />
-                <marker date="1499152813500" expanded="true" signature="2338:2367" ph="{...}" />
-                <marker date="1499152813500" expanded="true" signature="2396:2476" ph="{...}" />
-                <marker date="1499152813500" expanded="true" signature="2440:2472" ph="{...}" />
-                <marker date="1499152813500" expanded="true" signature="2480:2544" ph="/// Starts dragging the object. ... " />
-                <marker date="1499152813500" expanded="true" signature="2574:4427" ph="{...}" />
-                <marker date="1499152813500" expanded="true" signature="2605:2627" ph="{...}" />
-                <marker date="1499152813500" expanded="true" signature="2647:2669" ph="{...}" />
-                <marker date="1499152813500" expanded="true" signature="2840:2951" ph="/* GazeCursor.Instance.SetState(GazeCursor.State.Move); ... */" />
-                <marker date="1499152813500" expanded="true" signature="4431:4606" ph="/// Gets the pivot position for the hand, which is approximated to the base of the neck. ... " />
-                <marker date="1499152813500" expanded="true" signature="4647:4815" ph="{...}" />
-                <marker date="1499152813500" expanded="true" signature="4819:4981" ph="/// Enables or disables dragging. ... " />
-                <marker date="1499152813500" expanded="true" signature="5023:5177" ph="{...}" />
-                <marker date="1499152813500" expanded="true" signature="5066:5088" ph="{...}" />
-                <marker date="1499152813500" expanded="true" signature="5143:5173" ph="{...}" />
-                <marker date="1499152813500" expanded="true" signature="5181:5266" ph="/// Update the position of the object being dragged. ... " />
-                <marker date="1499152813500" expanded="true" signature="5298:7432" ph="{...}" />
-                <marker date="1499152813500" expanded="true" signature="6340:6438" ph="{...}" />
-                <marker date="1499152813500" expanded="true" signature="6503:6560" ph="{...}" />
-                <marker date="1499152813500" expanded="true" signature="6596:6863" ph="{...}" />
-                <marker date="1499152813500" expanded="true" signature="7261:7428" ph="{...}" />
-                <marker date="1499152813500" expanded="true" signature="7436:7499" ph="/// Stops dragging the object. ... " />
-                <marker date="1499152813500" expanded="true" signature="7528:7758" ph="{...}" />
-                <marker date="1499152813500" expanded="true" signature="7552:7574" ph="{...}" />
-                <marker date="1499152813500" expanded="true" signature="7788:7904" ph="{...}" />
-                <marker date="1499152813500" expanded="true" signature="7819:7841" ph="{...}" />
-                <marker date="1499152813500" expanded="true" signature="7858:7880" ph="{...}" />
-                <marker date="1499152813500" expanded="true" signature="7933:8051" ph="{...}" />
-                <marker date="1499152813500" expanded="true" signature="7964:7986" ph="{...}" />
-                <marker date="1499152813500" expanded="true" signature="8004:8026" ph="{...}" />
-                <marker date="1499152813500" expanded="true" signature="8102:8228" ph="{...}" />
-                <marker date="1499152813500" expanded="true" signature="8194:8224" ph="{...}" />
-                <marker date="1499152813500" expanded="true" signature="8281:8729" ph="{...}" />
-                <marker date="1499152813500" expanded="true" signature="8304:8408" ph="{...}" />
-                <marker date="1499152813500" expanded="true" signature="8507:8611" ph="{...}" />
-                <marker date="1499152813500" expanded="true" signature="8793:8821" ph="{...}" />
-                <marker date="1499152813500" expanded="true" signature="8881:9000" ph="{...}" />
-                <marker date="1499152813500" expanded="true" signature="8966:8996" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -530,12 +461,12 @@
       <workItem from="1498721076581" duration="2064000" />
       <workItem from="1498736747368" duration="6873000" />
       <workItem from="1498819921124" duration="2272000" />
-      <workItem from="1498823933453" duration="30570000" />
+      <workItem from="1498823933453" duration="32899000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63339000" />
+    <option name="totallyTimeSpent" value="65668000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -547,7 +478,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1362,59 +1293,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
           <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding>
-            <marker date="1499095962699" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
-            <marker date="1499095962699" expanded="true" signature="160:246" ph="..." />
-            <marker date="1499095962699" expanded="true" signature="287:7127" ph="{...}" />
-            <marker date="1499095962699" expanded="true" signature="291:708" ph="/// The TapToPlace class is a basic way to enable users to move objects  ... " />
-            <marker date="1499095962699" expanded="true" signature="849:7125" ph="{...}" />
-            <marker date="1499095962699" expanded="true" signature="1389:1631" ph="/// Keeps track of if the user is moving the object or not. ... " />
-            <marker date="1499095962699" expanded="true" signature="2025:2112" ph="/// The default ignore raycast layer built into unity. ... " />
-            <marker date="1499095962699" expanded="true" signature="2330:3053" ph="{...}" />
-            <marker date="1499095962699" expanded="true" signature="2443:2556" ph="{...}" />
-            <marker date="1499095962699" expanded="true" signature="2601:2822" ph="{...}" />
-            <marker date="1499095962699" expanded="true" signature="2721:2817" ph="{...}" />
-            <marker date="1499095962699" expanded="true" signature="3016:3049" ph="{...}" />
-            <marker date="1499095962699" expanded="true" signature="3088:4413" ph="{...}" />
-            <marker date="1499095962699" expanded="true" signature="3787:3998" ph="/* Here is where you might consider adding intelligence ... */" />
-            <marker date="1499095962699" expanded="true" signature="4024:4156" ph="{...}" />
-            <marker date="1499095962699" expanded="true" signature="4484:4620" ph="{...}" />
-            <marker date="1499095962699" expanded="true" signature="4654:5770" ph="{...}" />
-            <marker date="1499095962699" expanded="true" signature="4680:5148" ph="{...}" />
-            <marker date="1499095962699" expanded="true" signature="4915:4988" ph="{...}" />
-            <marker date="1499095962699" expanded="true" signature="5156:5766" ph="{...}" />
-            <marker date="1499095962699" expanded="true" signature="5502:5576" ph="{...}" />
-            <marker date="1499095962699" expanded="true" signature="5804:6478" ph="{...}" />
-            <marker date="1499095962699" expanded="true" signature="5887:6268" ph="{...}" />
-            <marker date="1499095962699" expanded="true" signature="5937:6045" ph="{...}" />
-            <marker date="1499095962699" expanded="true" signature="6054:6263" ph="{...}" />
-            <marker date="1499095962699" expanded="true" signature="6379:6474" ph="{...}" />
-            <marker date="1499095962699" expanded="true" signature="6566:7122" ph="{...}" />
-            <marker date="1499095962699" expanded="true" signature="6594:6832" ph="{...}" />
-            <marker date="1499095962699" expanded="true" signature="6707:6827" ph="{...}" />
-            <marker date="1499095962699" expanded="true" signature="6840:6988" ph="{...}" />
-            <marker date="1499095962699" expanded="true" signature="7041:7118" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/scripts/Micheal.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="70" column="39" lean-forward="false" selection-start-line="70" selection-start-column="39" selection-end-line="70" selection-end-column="39" />
-          <folding>
-            <marker date="1499091144568" expanded="true" signature="6:115" ph="..." />
-            <marker date="1499091144568" expanded="true" signature="168:2543" ph="{...}" />
-            <marker date="1499091144568" expanded="true" signature="548:1532" ph="{...}" />
-            <marker date="1499091144568" expanded="true" signature="1461:1529" ph="{...}" />
-            <marker date="1499091144568" expanded="true" signature="1587:1955" ph="{...}" />
-            <marker date="1499091144568" expanded="true" signature="1671:1951" ph="{...}" />
-            <marker date="1499091144568" expanded="true" signature="1841:1875" ph="{...}" />
-            <marker date="1499091144568" expanded="true" signature="1957:2048" ph="/// When a IA ENTER in the collider, say him he is in danger ... " />
-            <marker date="1499091144568" expanded="true" signature="2093:2235" ph="{...}" />
-            <marker date="1499091144568" expanded="true" signature="2237:2325" ph="/// When a IA IS in the collider, say him he is in danger ... " />
-            <marker date="1499091144568" expanded="true" signature="2369:2538" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1472,6 +1351,26 @@
             <marker date="1499152813500" expanded="true" signature="8793:8821" ph="{...}" />
             <marker date="1499152813500" expanded="true" signature="8881:9000" ph="{...}" />
             <marker date="1499152813500" expanded="true" signature="8966:8996" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/scripts/Micheal.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="70" column="39" lean-forward="false" selection-start-line="70" selection-start-column="39" selection-end-line="70" selection-end-column="39" />
+          <folding>
+            <marker date="1499091144568" expanded="true" signature="6:115" ph="..." />
+            <marker date="1499091144568" expanded="true" signature="168:2543" ph="{...}" />
+            <marker date="1499091144568" expanded="true" signature="548:1532" ph="{...}" />
+            <marker date="1499091144568" expanded="true" signature="1461:1529" ph="{...}" />
+            <marker date="1499091144568" expanded="true" signature="1587:1955" ph="{...}" />
+            <marker date="1499091144568" expanded="true" signature="1671:1951" ph="{...}" />
+            <marker date="1499091144568" expanded="true" signature="1841:1875" ph="{...}" />
+            <marker date="1499091144568" expanded="true" signature="1957:2048" ph="/// When a IA ENTER in the collider, say him he is in danger ... " />
+            <marker date="1499091144568" expanded="true" signature="2093:2235" ph="{...}" />
+            <marker date="1499091144568" expanded="true" signature="2237:2325" ph="/// When a IA IS in the collider, say him he is in danger ... " />
+            <marker date="1499091144568" expanded="true" signature="2369:2538" ph="{...}" />
           </folding>
         </state>
       </provider>
