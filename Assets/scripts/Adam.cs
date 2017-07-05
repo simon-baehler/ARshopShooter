@@ -1,8 +1,10 @@
 ﻿
+using System;
 using HoloToolkit.Unity.InputModule;
 using RAIN.Entities;
 using RAIN.Entities.Aspects;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 
 public class Adam :   HumanAI, IInputClickHandler
@@ -22,7 +24,7 @@ public class Adam :   HumanAI, IInputClickHandler
 		init();
 		rigidbody.mass = Random.Range(MASS_MIN, MASS_MAX);
 		tRig.AI.WorkingMemory.SetItem<float>("speed", NORMAL_SPEED);
-		tRig.AI.WorkingMemory.SetItem<string>("state", "normal");
+		tRig.AI.WorkingMemory.SetItem<string>("state", EnumState.EStates.Normal.ToString());
 		tRig.AI.WorkingMemory.SetItem<string>("moveESC", "ESC");
 		anim.SetFloat("Speed", ANIM_SPEED);
 
@@ -44,33 +46,33 @@ public class Adam :   HumanAI, IInputClickHandler
 	// Update is called once per frame
 	void Update () {
 	
-		switch (GetState())
+		switch ((EnumState.EStates)Enum.Parse(typeof( EnumState.EStates), GetState()))
 		{
-			case "normal":
+			case EnumState.EStates.Normal:
 				tRig.AI.WorkingMemory.SetItem<float>("speed", NORMAL_SPEED);
 				anim.SetFloat("Speed", ANIM_SPEED);
 				anim.SetFloat("Speed", !IsMoving() ? 0 : ANIM_SPEED);
 				break;
-			case "helping":
+			case EnumState.EStates.Helping:
 				tRig.AI.WorkingMemory.SetItem("speed",RUN_SPEED_MAX);
 				break;
-			case "searchCivilian":
+			case EnumState.EStates.SearchCivilian:
 				tRig.AI.WorkingMemory.SetItem("speed",RUN_SPEED_MAX);
 				timeLeft -= Time.deltaTime;
 				if ( timeLeft < 0 )
 				{
-					SetState("run");
+					SetState(EnumState.EStates.Run);
 				}
 				break;
 		}
 	}
 	/// <summary>
-	/// set the state of the target to run
+	/// set the state of the target to run, used in the custom action script
 	/// </summary>
 	public void SayRassuring()
 	{
 		civil = tRig.AI.WorkingMemory.GetItem<RAINAspect>("moveTarget");
-		civil.MountPoint.gameObject.GetComponent<Civilian>().SetState("run");
+		civil.MountPoint.gameObject.GetComponent<Civilian>().SetState(EnumState.EStates.Run);
 		civil.MountPoint.gameObject. GetComponent<Animator>().SetBool("panic", false);
 	}
 	/// <summary>
@@ -86,9 +88,10 @@ public class Adam :   HumanAI, IInputClickHandler
 	/// </summary>
 	private void OnSelect()
 	{
-		if (GetState() == "saved") return;
-		SetState("run");
+		if (GetState() == EnumState.EStates.Saved.ToString()) return;
+		SetState(EnumState.EStates.Run);
 	}
+
 
 
 }

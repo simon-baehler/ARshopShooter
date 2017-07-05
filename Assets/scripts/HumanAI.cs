@@ -7,10 +7,8 @@ using RAIN.Entities.Aspects;
 using RAIN.Perception.Sensors;
 
 
-public class HumanAI : MonoBehaviour, IInputClickHandler, IFocusable
+public abstract class HumanAI : MonoBehaviour, IInputClickHandler, IFocusable
 {
-    
-    
     protected const float ANIM_SPEED = 0.5f;
     protected const int ANIM_SPEED_RUN = 2;
     protected const int NORMAL_SPEED = 1;
@@ -30,14 +28,13 @@ public class HumanAI : MonoBehaviour, IInputClickHandler, IFocusable
     private const float THRESHHOLD = 0.01f;
     
     protected void init()
-    {         
-        
+    {
         anim = GetComponent<Animator>();
         tRig = gameObject.GetComponentInChildren<AIRig>();
         tEntity = gameObject.GetComponentInChildren<EntityRig>();
         rigidbody = gameObject.GetComponent<Rigidbody>();
         tRig.AI.WorkingMemory.SetItem<float>("speed", 2.0f);
-        tRig.AI.WorkingMemory.SetItem<string>("state","normal");
+        tRig.AI.WorkingMemory.SetItem<string>("state",EnumState.EStates.Normal.ToString());
         anim.SetFloat("Speed", 1);
         oldLocation = transform.position;
         
@@ -50,6 +47,7 @@ public class HumanAI : MonoBehaviour, IInputClickHandler, IFocusable
     // Use this for initialization
     private void Start()
     {
+       
         init();
     }
     /// <summary>
@@ -61,6 +59,9 @@ public class HumanAI : MonoBehaviour, IInputClickHandler, IFocusable
         return tRig.AI.WorkingMemory.GetItem<string>("state");
     }
 
+    private string srt = "s";
+    
+
     /// <summary>
     /// set the state of the AI
     /// </summary>
@@ -68,6 +69,14 @@ public class HumanAI : MonoBehaviour, IInputClickHandler, IFocusable
     public void SetState(string state)
     {
         tRig.AI.WorkingMemory.SetItem<string>("state", state);
+    }
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="state"></param>
+    public void SetState(EnumState.EStates state)
+    {
+        tRig.AI.WorkingMemory.SetItem<string>("state", state.ToString());
     }
     
     /// <summary>
@@ -83,7 +92,8 @@ public class HumanAI : MonoBehaviour, IInputClickHandler, IFocusable
     /// </summary>
     public void OnFocusEnter()
     {
-        GameObject.Find("CursorOnHolograms").transform.localScale = new Vector3(3,3,3);
+        if(GameObject.Find("CursorOnHolograms") != null)
+            GameObject.Find("CursorOnHolograms").transform.localScale = new Vector3(3,3,3);
     }
 
     /// <summary>
@@ -101,7 +111,7 @@ public class HumanAI : MonoBehaviour, IInputClickHandler, IFocusable
     {
         var randomDist = Random.Range(0.1f, 6);
         tRig.AI.Motor.CloseEnoughDistance = randomDist;
-        SetState("saved");
+        SetState(EnumState.EStates.Saved);
     }
 
     /// <summary>
@@ -157,9 +167,4 @@ public class HumanAI : MonoBehaviour, IInputClickHandler, IFocusable
         aspect.MountPoint = gameObject.transform;
         return aspect;
     }
-
-    private void OnInDanger()
-    {
-    }
-    
 }

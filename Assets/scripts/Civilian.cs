@@ -1,6 +1,8 @@
-﻿using HoloToolkit.Unity.InputModule;
+﻿using System;
+using HoloToolkit.Unity.InputModule;
 using RAIN.Entities;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 
 public class Civilian : HumanAI, IInputClickHandler
@@ -23,7 +25,7 @@ public class Civilian : HumanAI, IInputClickHandler
         init();
         rigidbody.mass = Random.Range(MASS_MIN, MASS_MAX);
         tRig.AI.WorkingMemory.SetItem<float>("speed", NORMAL_SPEED);
-        tRig.AI.WorkingMemory.SetItem<string>("state", "normal");
+        tRig.AI.WorkingMemory.SetItem<string>("state", EnumState.EStates.Normal.ToString());
         tRig.AI.WorkingMemory.SetItem<string>("moveESC", "ESC");
         anim.SetFloat("Speed", ANIM_SPEED);
 
@@ -45,23 +47,23 @@ public class Civilian : HumanAI, IInputClickHandler
     // Update is called once per frame
     private void Update()
     {
-        switch (GetState())
+        switch ((EnumState.EStates)Enum.Parse(typeof( EnumState.EStates), GetState()))
         {
-            case "normal":
+            case EnumState.EStates.Normal:
                 //print("normal");
                 tRig.AI.WorkingMemory.SetItem<float>("speed", NORMAL_SPEED);
                 anim.SetFloat("Speed", ANIM_SPEED);
                 anim.SetFloat("Speed", !IsMoving() ? 0 : ANIM_SPEED);
                 break;
-            case "panic":
+            case EnumState.EStates.Panic:
                 //print("panic");
                 anim.SetBool("panic", true);
                 break;
-            case "run":
+            case EnumState.EStates.Run:
                 anim.SetFloat("Speed", ANIM_SPEED_RUN);
                 tRig.AI.WorkingMemory.SetItem<float>("speed", randomSpeed);
                 break;
-            case "saved":        
+            case EnumState.EStates.Saved:  
                 if (!IsMoving())
                 {
                     anim.SetFloat("Speed", 0);
@@ -80,17 +82,16 @@ public class Civilian : HumanAI, IInputClickHandler
     /// </summary>
     private void OnInDanger()
     {
-        if (GetState() == "panic") return;
-        SetState("run");
+        if (GetState() == EnumState.EStates.Panic.ToString() && GetState() == EnumState.EStates.Saved.ToString()) return;
+        SetState(EnumState.EStates.Run);
     }
     /// <summary>
     /// TO DO
     /// </summary>
     private void OnPolice()
     {
-        if (tRig.AI.WorkingMemory.GetItem("varPlayer") == null ||
-            (GetState() == "panic" || GetState() == "dead" || GetState() == "saved")) return;
-        SetState("run");
+        if (GetState() != EnumState.EStates.Normal.ToString()) return;
+        SetState(EnumState.EStates.Run);
     }
 
     /// <summary>
@@ -98,9 +99,10 @@ public class Civilian : HumanAI, IInputClickHandler
     /// </summary>
     private void OnSelect()
     {
-        if (GetState() != "panic" && GetState() != "normal") return;
+        if (GetState() != EnumState.EStates.Panic.ToString() &&
+            GetState() != EnumState.EStates.Normal.ToString()) return;
         anim.SetBool("panic", false);
-        SetState("run");
+        SetState(EnumState.EStates.Run);
     }
 
     /// <summary>
@@ -111,4 +113,5 @@ public class Civilian : HumanAI, IInputClickHandler
     {
         OnSelect();
     }
+
 }

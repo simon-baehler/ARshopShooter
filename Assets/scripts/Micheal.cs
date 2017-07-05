@@ -1,16 +1,17 @@
-﻿using System.Runtime.CompilerServices;
+﻿using System;
+using System.Runtime.CompilerServices;
 using HoloToolkit.Unity.InputModule;
 using RAIN.Entities;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class Micheal : HumanAI, IInputClickHandler {
 	
-	private float timeLeft = 30f;
-	private int AILayerID;
+	private float timeLeft = 10f;
+
 
 	// Use this for initialization
 	void Start () {
-		AILayerID = LayerMask.NameToLayer("IA");
 		//Adding gameObject Named Entity
 		GameObject entity = new GameObject("Entity");
 		entity.transform.parent = gameObject.transform;
@@ -20,7 +21,7 @@ public class Micheal : HumanAI, IInputClickHandler {
 		init();
 		rigidbody.mass = Random.Range(MASS_MIN, MASS_MAX);
 		tRig.AI.WorkingMemory.SetItem<float>("speed", NORMAL_SPEED);
-		tRig.AI.WorkingMemory.SetItem<string>("state", "normal");
+		tRig.AI.WorkingMemory.SetItem<string>("state", EnumState.EStates.Normal.ToString());
 		tRig.AI.WorkingMemory.SetItem<string>("moveESC", "ESC");
 		anim.SetFloat("Speed", ANIM_SPEED);
 
@@ -43,16 +44,25 @@ public class Micheal : HumanAI, IInputClickHandler {
 	// Update is called once per frame
 	 void Update ()
 	 {
-		 anim.SetFloat("Speed", !IsMoving() ? 0 : ANIM_SPEED);
-		 switch (GetState())
+		 anim.SetFloat("Speed", !IsMoving() ? 0 : ANIM_SPEED_RUN);
+		 switch ((EnumState.EStates)Enum.Parse(typeof( EnumState.EStates), GetState()))
 		{
-			case "helping":
-				anim.SetBool("Shout", true);
-				tRig.AI.WorkingMemory.SetItem("speed",RUN_SPEED_MAX);
-				timeLeft -= Time.deltaTime;
+			case EnumState.EStates.Helping:
+				if (timeLeft > 0)
+				{
+					anim.SetBool("Shout", true);
+					tRig.AI.WorkingMemory.SetItem("speed", RUN_SPEED_MAX);
+					timeLeft -= Time.deltaTime;
+				}
 				if ( timeLeft < 0 )
 				{
-					SetState("run");
+					anim.SetBool("Shout", false);
+					
+				}
+				if (timeLeft < 0 && !anim.GetCurrentAnimatorStateInfo(0).IsName("Shout"))
+				{
+					SetState(EnumState.EStates.Run);
+					gameObject.GetComponents<Collider>()[0].enabled = false;
 				}
 				break;
 				default:
@@ -67,18 +77,19 @@ public class Micheal : HumanAI, IInputClickHandler {
 	private void OnTriggerEnter(Collider other)
 	{
 		if (GetState() != "helping") return;
-		if (other.gameObject.layer != AILayerID) return;
-		other.gameObject.SendMessage("OnInDanger");
+		if(other.gameObject.GetComponent<Civilian>() != null)
+			other.gameObject.SendMessage("OnInDanger");
 	}
 	/// <summary>
 	/// When a IA IS in the collider, say him he is in danger
 	/// </summary>
 	private void OnTriggerStay(Collider other)
 	{
-		if (GetState() != "helping") return;
-		if (other.gameObject.layer != AILayerID || other.name == "shooter") return;
-		other.gameObject.SendMessage("OnInDanger");
+		if (GetState() != EnumState.EStates.Helping.ToString()) return;
+		if(other.gameObject.GetComponent<Civilian>() != null)
+			other.gameObject.SendMessage("OnInDanger");
 	}
+
 
 	
 }
