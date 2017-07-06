@@ -58,18 +58,6 @@ public abstract class HumanAI : MonoBehaviour, IInputClickHandler, IFocusable
     {
         return tRig.AI.WorkingMemory.GetItem<string>("state");
     }
-
-    private string srt = "s";
-    
-
-    /// <summary>
-    /// set the state of the AI
-    /// </summary>
-    /// <param name="state"></param>
-    public void SetState(string state)
-    {
-        tRig.AI.WorkingMemory.SetItem<string>("state", state);
-    }
     /// <summary>
     /// 
     /// </summary>

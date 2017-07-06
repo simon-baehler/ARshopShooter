@@ -44,9 +44,17 @@ public class Micheal : HumanAI, IInputClickHandler {
 	// Update is called once per frame
 	 void Update ()
 	 {
-		 anim.SetFloat("Speed", !IsMoving() ? 0 : ANIM_SPEED_RUN);
+		 
 		 switch ((EnumState.EStates)Enum.Parse(typeof( EnumState.EStates), GetState()))
 		{
+			case EnumState.EStates.Normal:
+				anim.SetBool("Shout", false);
+				anim.SetFloat("Speed", !IsMoving() ? 0 : ANIM_SPEED);
+				break;
+			case EnumState.EStates.Run:
+				anim.SetBool("Shout", false);
+				anim.SetFloat("Speed", !IsMoving() ? 0 : ANIM_SPEED_RUN);
+				break;
 			case EnumState.EStates.Helping:
 				if (timeLeft > 0)
 				{
