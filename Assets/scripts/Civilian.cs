@@ -18,6 +18,7 @@ public class Civilian : HumanAI, IInputClickHandler
         
         //Adding gameObject Named Entity
         GameObject entity = new GameObject("Entity");
+        entity.tag = "aCivil";
         entity.transform.parent = gameObject.transform;
         entity.AddComponent<EntityRig>();
         

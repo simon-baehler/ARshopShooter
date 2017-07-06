@@ -11,6 +11,7 @@ TagManager:
   - TagAlong
   - Tip
   - ShoppingStops
+  - aCivil
   layers:
   - Default
   - TransparentFX
@@ -25,7 +26,7 @@ TagManager:
   - wall
   - player
   - detect
-  - 
+  - aCivil
   - 
   - 
   - 
