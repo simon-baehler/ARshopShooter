@@ -117,5 +117,4 @@ public class Civilian : HumanAI, IInputClickHandler
     {
         OnSelect();
     }
-
 }
