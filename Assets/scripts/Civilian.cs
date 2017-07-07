@@ -1,5 +1,6 @@
 ﻿using System;
 using HoloToolkit.Unity.InputModule;
+using Polarith.AI.Move;
 using RAIN.Entities;
 using UnityEngine;
 using Random = UnityEngine.Random;
@@ -91,8 +92,10 @@ public class Civilian : HumanAI, IInputClickHandler
     /// </summary>
     private void OnPolice()
     {
-        if (GetState() != EnumState.EStates.Normal.ToString()) return;
-        SetState(EnumState.EStates.Run);
+        if (GetState() == EnumState.EStates.Saved.ToString()) return;
+        print("lol");
+        if(isFocused)
+            SetState(EnumState.EStates.Run);
     }
 
     /// <summary>

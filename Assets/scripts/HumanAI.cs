@@ -26,10 +26,12 @@ public abstract class HumanAI : MonoBehaviour, IInputClickHandler, IFocusable
     public GameObject NavTargetsGO;
     
     private const float THRESHHOLD = 0.01f;
+    protected bool isFocused;
     
     protected void init()
     {
         anim = GetComponent<Animator>();
+        isFocused = false;
         tRig = gameObject.GetComponentInChildren<AIRig>();
         tEntity = gameObject.GetComponentInChildren<EntityRig>();
         rigidbody = gameObject.GetComponent<Rigidbody>();
@@ -47,7 +49,6 @@ public abstract class HumanAI : MonoBehaviour, IInputClickHandler, IFocusable
     // Use this for initialization
     private void Start()
     {
-       
         init();
     }
     /// <summary>
@@ -80,8 +81,11 @@ public abstract class HumanAI : MonoBehaviour, IInputClickHandler, IFocusable
     /// </summary>
     public void OnFocusEnter()
     {
-        if(GameObject.Find("CursorOnHolograms") != null)
-            GameObject.Find("CursorOnHolograms").transform.localScale = new Vector3(3,3,3);
+        if (GameObject.Find("CursorOnHolograms") != null)
+        {
+            isFocused = true;
+            GameObject.Find("CursorOnHolograms").transform.localScale = new Vector3(3, 3, 3);
+        }
     }
 
     /// <summary>
@@ -89,18 +93,11 @@ public abstract class HumanAI : MonoBehaviour, IInputClickHandler, IFocusable
     /// </summary>
     public void OnFocusExit()
     {
+        isFocused = false;
         GameObject.Find("CursorOnHolograms").transform.localScale = new Vector3(1.15f ,1.15f ,1.15f);
     }
 
-    /// <summary>
-    /// Function called when the AI entre in the safe zone
-    /// </summary>
-    private void InSafeZone()
-    {
-        var randomDist = Random.Range(0.1f, 6);
-        tRig.AI.Motor.CloseEnoughDistance = randomDist;
-        SetState(EnumState.EStates.Saved);
-    }
+  
 
     /// <summary>
     /// Function for checking if the AI is moving (used for setting the animation)
@@ -154,5 +151,19 @@ public abstract class HumanAI : MonoBehaviour, IInputClickHandler, IFocusable
         aspect.AspectName = name;
         aspect.MountPoint = gameObject.transform;
         return aspect;
+    }
+    
+    /// <summary>
+    /// Function called when the AI entre in the safe zone
+    /// </summary>
+    private void InSafeZone()
+    {
+        var randomDist = Random.Range(0.1f, 6);
+        tRig.AI.Motor.CloseEnoughDistance = randomDist;
+        SetState(EnumState.EStates.Saved);
+    }
+
+    private void OnSelect()
+    {
     }
 }

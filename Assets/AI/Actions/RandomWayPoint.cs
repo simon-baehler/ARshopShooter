@@ -19,6 +19,7 @@ public class randomWayPoint : RAINAction
         int randomInt = Random.Range(1, ts.Length-1);
         rand = WayPointStops.transform.GetChild(randomInt).name;
         ai.WorkingMemory.SetItem<string>("target", rand);
+        ai.WorkingMemory.SetItem("lock",true);
         base.Start(ai);
         return ActionResult.SUCCESS;
     }

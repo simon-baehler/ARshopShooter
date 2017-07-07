@@ -14,16 +14,21 @@ public class checkPaincRun : RAINAction
     {
         civil = ai.WorkingMemory.GetItem<RAINAspect>("moveTarget");
         //get the list of nav target of the IA
-        state = civil.MountPoint.gameObject.GetComponent<Civilian>().GetState();
-
-
-        if (state == "panic" || state == "run")
+        if (civil != null)
         {
-            ai.WorkingMemory.SetItem<bool>("targetPanic", true);
+            state = civil.MountPoint.gameObject.GetComponent<Civilian>().GetState();
+            if (state == "panic" || state == "run")
+            {
+                ai.WorkingMemory.SetItem<bool>("targetPanic", true);
+            }
+            else
+            {
+                ai.WorkingMemory.SetItem<bool>("targetPanic", false);
+            }
         }
         else
         {
-            ai.WorkingMemory.SetItem<bool>("targetPanic", false);   
+            ai.WorkingMemory.SetItem<bool>("targetPanic", false);
         }
         return ActionResult.SUCCESS;
     }
