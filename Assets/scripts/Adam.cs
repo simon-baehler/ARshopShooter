@@ -45,7 +45,6 @@ public class Adam :   HumanAI, IInputClickHandler
 	
 	// Update is called once per frame
 	void Update () {
-	
 		switch ((EnumState.EStates)Enum.Parse(typeof( EnumState.EStates), GetState()))
 		{
 			case EnumState.EStates.Normal:
