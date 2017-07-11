@@ -85,4 +85,10 @@ public class ShopShooter : HumanAI, IInputClickHandler
         SetState(EnumState.EStates.Caught);
         anim.SetFloat("Speed", 0);
     }
+
+    private void OnStop()
+    {
+        if (GetState() == EnumState.EStates.Caught.ToString()) return;
+        SetState(EnumState.EStates.Stopped);
+    }
 }
