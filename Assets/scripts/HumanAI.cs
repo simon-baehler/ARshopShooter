@@ -125,7 +125,7 @@ public abstract class HumanAI : MonoBehaviour, IInputClickHandler, IFocusable
     /// <param name="RequireLineOfSight"></param>
     /// <returns></returns>
     protected VisualSensor CreateVisualSensor(bool IsActive, string SensorName, int HorizontalAngle, Vector3 PositionOffset,
-        bool RequireLineOfSight)
+        bool RequireLineOfSight, float rang = 10f, Color color = default(Color))
     {
         VisualSensor s = new VisualSensor
         {
@@ -135,7 +135,10 @@ public abstract class HumanAI : MonoBehaviour, IInputClickHandler, IFocusable
             HorizontalAngle = HorizontalAngle,
             PositionOffset = PositionOffset,
             RequireLineOfSight = RequireLineOfSight,
-            LineOfSightMask = 1024
+            LineOfSightMask = 1024,
+            Range = rang,
+            SensorColor = color
+            
         };
         return s;
     }

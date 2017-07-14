@@ -16,8 +16,8 @@ MonoBehaviour:
   - AssetPath: .currentai
     BehaviorTreeName: (No AI Selected)
     BehaviorTreeID: 1
-    LastUpdate: 636350314194706482
-    LastModified: 636350196548224167
+    LastUpdate: 636353916008341051
+    LastModified: 636353916018466068
     Errored: 0
   - AssetPath: .createxml
     BehaviorTreeName: Create New Behavior Tree
@@ -31,17 +31,11 @@ MonoBehaviour:
     LastUpdate: 0
     LastModified: 0
     Errored: 0
-  - AssetPath: Assets/AI/BehaviorTrees/C06 - Copie.txt
-    BehaviorTreeName: C06 - Copie
-    BehaviorTreeID: 0
-    LastUpdate: 0
-    LastModified: 0
-    Errored: 0
   - AssetPath: Assets/AI/BehaviorTrees/C06.txt
     BehaviorTreeName: C06
     BehaviorTreeID: 1
-    LastUpdate: 636350314194706482
-    LastModified: 636350196548224167
+    LastUpdate: 636353916008341051
+    LastModified: 636353916018466068
     Errored: 0
   - AssetPath: Assets/AI/BehaviorTrees/Michael.txt
     BehaviorTreeName: Michael
@@ -101,7 +95,7 @@ MonoBehaviour:
       _type: 4
       _stateIndex: 1
       _parent: 0
-      _lastUpdate: 636350314194706482
+      _lastUpdate: 636353916900984449
       _children: 02000000
       _variables: 
       _focused: 0
@@ -153,8 +147,8 @@ MonoBehaviour:
       _type: 16
       _stateIndex: 2
       _parent: 1
-      _lastUpdate: 636350314194711486
-      _children: 030000000400000005000000
+      _lastUpdate: 636353915188743258
+      _children: 03000000040000002f0000003000000005000000
       _variables: 
       _focused: 0
     - _fields:
@@ -2283,6 +2277,122 @@ MonoBehaviour:
       _stateIndex: 46
       _parent: 44
       _lastUpdate: 0
+      _children: 
+      _variables: 
+      _focused: 0
+    - _fields:
+      - _field: name
+        _currentValue: detect
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: running
+        _recordChange: 1
+        _changed: 0
+      - _field: debugbreak
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      - _field: startingpriority
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: runningpriority
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: priority
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: weight
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: sensor
+        _currentValue: '"eyes"'
+        _recordChange: 1
+        _changed: 0
+      - _field: aspect
+        _currentValue: '"aCivil"'
+        _recordChange: 1
+        _changed: 0
+      - _field: aspectvariable
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: entityobjectvariable
+        _currentValue: varAvoid
+        _recordChange: 1
+        _changed: 0
+      - _field: aspectobjectvariable
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: matchtype
+        _currentValue: best
+        _recordChange: 1
+        _changed: 0
+      - _field: consistent
+        _currentValue: True
+        _recordChange: 1
+        _changed: 0
+      _type: 7
+      _stateIndex: 47
+      _parent: 2
+      _lastUpdate: 636353916900984449
+      _children: 
+      _variables: 
+      _focused: 1
+    - _fields:
+      - _field: name
+        _currentValue: action
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debugbreak
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      - _field: startingpriority
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: runningpriority
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: priority
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: weight
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: namespace
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: classname
+        _currentValue: PlayerAvoidance
+        _recordChange: 1
+        _changed: 0
+      - _field: parameters
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: parametervalues
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      _type: 1
+      _stateIndex: 48
+      _parent: 2
+      _lastUpdate: 636353915212937263
       _children: 
       _variables: 
       _focused: 0

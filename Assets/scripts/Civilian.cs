@@ -2,6 +2,7 @@
 using HoloToolkit.Unity.InputModule;
 using Polarith.AI.Move;
 using RAIN.Entities;
+using UnityEditor;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -9,14 +10,18 @@ using Random = UnityEngine.Random;
 public class Civilian : HumanAI, IInputClickHandler
 {
 
+    public GameObject aimSeekList;
     private int randomSpeed;
+    private AIMContext AimContext;
+    private AIMSeek AimSeek;
+    private AIMSimpleController AimSimpleController;
 
     // Use this for initialization
     private void Start()
     {
-       
         randomSpeed = Random.Range(RUN_SPEED_MIN,RUN_SPEED_MAX);
-        
+        if(aimSeekList == null)
+            aimSeekList = GameObject.Find("civils");
         //Adding gameObject Named Entity
         GameObject entity = new GameObject("Entity");
         entity.tag = "aCivil";
@@ -33,7 +38,8 @@ public class Civilian : HumanAI, IInputClickHandler
 
         // Creation of the Sensor
         tRig.AI.Body = gameObject;
-        tRig.AI.Senses.AddSensor(CreateVisualSensor(true, "eyes", 120, new Vector3(0,1.6f ,0), true));
+        tRig.AI.Senses.AddSensor(CreateVisualSensor(true, "eyes", 120, new Vector3(0,1.6f ,0), true, 10, Color.green));
+        //tRig.AI.Senses.AddSensor(CreateVisualSensor(true, "avoid", 30, new Vector3(0,1.6f ,0), true, 5, Color.red));
 
    
         //creation of the aspect
@@ -44,6 +50,22 @@ public class Civilian : HumanAI, IInputClickHandler
         {
             NavTargetsGO =  GameObject.FindWithTag("ShoppingStops");
         }
+
+        AimContext = gameObject.AddComponent<AIMContext>();
+        AimContext.AddObjective(false, true);
+        AimContext.AddObjective(true, true);
+        AimContext.Sensor =  Resources.Load<AIMSensor>("Circle16XZ");
+        AimContext.BuildContext();
+        print(AimContext.ObjectiveCount);
+        AimContext.ResizeObjectives(2);
+
+        AimSeek = gameObject.AddComponent<AIMSeek>();
+        AimSeek.SteeringBehaviour.TargetObjective = 1;
+        for(int i = 0 ; i < aimSeekList.transform.childCount ; i++)
+            AimSeek.GameObjects.Add(aimSeekList.transform.GetChild(i).gameObject);
+        AimSimpleController = gameObject.AddComponent<AIMSimpleController>();
+        
+
     }
 
     // Update is called once per frame
@@ -52,9 +74,7 @@ public class Civilian : HumanAI, IInputClickHandler
         switch ((EnumState.EStates)Enum.Parse(typeof( EnumState.EStates), GetState()))
         {
             case EnumState.EStates.Normal:
-                //print("normal");
-                tRig.AI.WorkingMemory.SetItem<float>("speed", NORMAL_SPEED);
-                anim.SetFloat("Speed", ANIM_SPEED);
+                tRig.AI.WorkingMemory.SetItem<float>("speed", NORMAL_SPEED/2);
                 anim.SetFloat("Speed", !IsMoving() ? 0 : ANIM_SPEED);
                 break;
             case EnumState.EStates.Panic:
