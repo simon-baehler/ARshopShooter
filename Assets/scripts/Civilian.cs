@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography;
 using HoloToolkit.Unity.InputModule;
 using Polarith.AI.Move;
 using RAIN.Entities;
@@ -30,14 +31,19 @@ public class Civilian : HumanAI, IInputClickHandler
         
         //Initialisation
         init();
+        
+        
+        
+        
         rigidbody.mass = Random.Range(MASS_MIN, MASS_MAX);
         tRig.AI.WorkingMemory.SetItem<float>("speed", NORMAL_SPEED);
         tRig.AI.WorkingMemory.SetItem<string>("state", EnumState.EStates.Normal.ToString());
         tRig.AI.WorkingMemory.SetItem<string>("moveESC", "ESC");
         anim.SetFloat("Speed", ANIM_SPEED);
 
-        // Creation of the Sensor
+        //attaching the gameObject to the AI
         tRig.AI.Body = gameObject;
+        // Creation of the Sensor
         tRig.AI.Senses.AddSensor(CreateVisualSensor(true, "eyes", 120, new Vector3(0,1.6f ,0), true, 10, Color.green));
         //tRig.AI.Senses.AddSensor(CreateVisualSensor(true, "avoid", 30, new Vector3(0,1.6f ,0), true, 5, Color.red));
 
@@ -50,19 +56,19 @@ public class Civilian : HumanAI, IInputClickHandler
         {
             NavTargetsGO =  GameObject.FindWithTag("ShoppingStops");
         }
-
-        AimContext = gameObject.AddComponent<AIMContext>();
-        AimContext.AddObjective(false, true);
-        AimContext.AddObjective(true, true);
-        AimContext.Sensor =  Resources.Load<AIMSensor>("Circle16XZ");
-        AimContext.BuildContext();
-        print("lol");
+       
+        /*AimContext = gameObject.GetComponent<AIMContext>();
 
         AimSeek = gameObject.AddComponent<AIMSeek>();
-        //AimSeek.SteeringBehaviour.TargetObjective = 1;
-        for(int i = 0 ; i < aimSeekList.transform.childCount ; i++)
-            AimSeek.GameObjects.Add(aimSeekList.transform.GetChild(i).gameObject);
+        AimSeek.SteeringBehaviour.TargetObjective = 1;
+        for (int i = 0; i < aimSeekList.transform.childCount; i++)
+        {
+            if(gameObject != aimSeekList.transform.GetChild(i).gameObject && aimSeekList.transform.GetChild(i).gameObject.active == true)
+                AimSeek.GameObjects.Add(aimSeekList.transform.GetChild(i).gameObject);
+        }
+        AimSeek.RadiusSteeringBehaviour.OuterRadius = 5;
         AimSimpleController = gameObject.AddComponent<AIMSimpleController>();
+        gameObject.GetComponent<AIMSimpleController>().Speed = 2;*/
         
 
     }

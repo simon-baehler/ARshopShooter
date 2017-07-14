@@ -4,6 +4,7 @@ using UnityEngine;
 using RAIN.Core;
 using RAIN.Entities;
 using RAIN.Entities.Aspects;
+using RAIN.Minds;
 using RAIN.Perception.Sensors;
 
 
@@ -32,6 +33,7 @@ public abstract class HumanAI : MonoBehaviour, IInputClickHandler, IFocusable
     {
         anim = GetComponent<Animator>();
         isFocused = false;
+
         tRig = gameObject.GetComponentInChildren<AIRig>();
         tEntity = gameObject.GetComponentInChildren<EntityRig>();
         rigidbody = gameObject.GetComponent<Rigidbody>();

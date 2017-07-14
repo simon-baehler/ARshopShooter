@@ -4,7 +4,7 @@ using UnityEngine;
 
 
 [RAINAction]
-public class randomWayPoint : RAINAction
+public class RandomWayPoint : RAINAction
 {
     public GameObject WayPointStops = null;
     private GameObject parentGO;
@@ -21,6 +21,7 @@ public class randomWayPoint : RAINAction
         ai.WorkingMemory.SetItem<string>("target", rand);
         ai.WorkingMemory.SetItem("lock",true);
         base.Start(ai);
+        
         return ActionResult.SUCCESS;
     }
 }
