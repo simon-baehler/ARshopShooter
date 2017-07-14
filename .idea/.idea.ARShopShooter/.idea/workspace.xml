@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7936bfaa-6a55-4a03-b9fa-8c39ee4540da" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/AI/Actions/AvoidCollision.cs.meta" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Assets/AI/Actions/AvoidCollision.cs" afterPath="$PROJECT_DIR$/Assets/AI/Actions/PlayerAvoidance.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.ARShopShooter/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.ARShopShooter/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/AI/BehaviorTrees/C06.txt" afterPath="$PROJECT_DIR$/Assets/AI/BehaviorTrees/C06.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/AI/Cache/BTEditorWindowState.asset" afterPath="$PROJECT_DIR$/Assets/AI/Cache/BTEditorWindowState.asset" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/scripts/Civilian.cs" afterPath="$PROJECT_DIR$/Assets/scripts/Civilian.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/scripts/HumanAI.cs" afterPath="$PROJECT_DIR$/Assets/scripts/HumanAI.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -60,25 +55,25 @@
       <file leaf-file-name="Civilian.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/scripts/Civilian.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="57" column="34" lean-forward="false" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+            <state relative-caret-position="680">
+              <caret line="58" column="18" lean-forward="false" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
               <folding>
-                <marker date="1500028475515" expanded="false" signature="6:168" ph="..." />
-                <marker date="1500028475515" expanded="true" signature="222:4902" ph="{...}" />
-                <marker date="1500028475515" expanded="true" signature="467:2592" ph="{...}" />
-                <marker date="1500028475515" expanded="true" signature="1809:1898" ph="{...}" />
-                <marker date="1500028475515" expanded="true" signature="2658:3708" ph="{...}" />
-                <marker date="1500028475515" expanded="true" signature="2751:3702" ph="{...}" />
-                <marker date="1500028475515" expanded="true" signature="3392:3475" ph="{...}" />
-                <marker date="1500028475515" expanded="true" signature="3496:3669" ph="{...}" />
-                <marker date="1500028475515" expanded="true" signature="3714:3816" ph="/// Method called by Micheal when the IA enter in the danger zone ... " />
-                <marker date="1500028475515" expanded="true" signature="3846:4021" ph="{...}" />
-                <marker date="1500028475515" expanded="true" signature="4026:4072" ph="/// TO DO ... " />
-                <marker date="1500028475515" expanded="true" signature="4100:4271" ph="{...}" />
-                <marker date="1500028475515" expanded="true" signature="4277:4377" ph="/// Set the stat to run if the current state is normal or panic ... " />
-                <marker date="1500028475515" expanded="true" signature="4405:4631" ph="{...}" />
-                <marker date="1500028475515" expanded="true" signature="4637:4804" ph="/// Called when we do a tap movement on the hologram, this function will call OnSelect(); ... " />
-                <marker date="1500028475515" expanded="true" signature="4868:4900" ph="{...}" />
+                <marker date="1500029241479" expanded="false" signature="6:168" ph="..." />
+                <marker date="1500029241479" expanded="true" signature="222:4844" ph="{...}" />
+                <marker date="1500029241479" expanded="true" signature="467:2534" ph="{...}" />
+                <marker date="1500029241479" expanded="true" signature="1809:1898" ph="{...}" />
+                <marker date="1500029241479" expanded="true" signature="2600:3650" ph="{...}" />
+                <marker date="1500029241479" expanded="true" signature="2693:3644" ph="{...}" />
+                <marker date="1500029241479" expanded="true" signature="3334:3417" ph="{...}" />
+                <marker date="1500029241479" expanded="true" signature="3438:3611" ph="{...}" />
+                <marker date="1500029241479" expanded="true" signature="3656:3758" ph="/// Method called by Micheal when the IA enter in the danger zone ... " />
+                <marker date="1500029241479" expanded="true" signature="3788:3963" ph="{...}" />
+                <marker date="1500029241479" expanded="true" signature="3968:4014" ph="/// TO DO ... " />
+                <marker date="1500029241479" expanded="true" signature="4042:4213" ph="{...}" />
+                <marker date="1500029241479" expanded="true" signature="4219:4319" ph="/// Set the stat to run if the current state is normal or panic ... " />
+                <marker date="1500029241479" expanded="true" signature="4347:4573" ph="{...}" />
+                <marker date="1500029241479" expanded="true" signature="4579:4746" ph="/// Called when we do a tap movement on the hologram, this function will call OnSelect(); ... " />
+                <marker date="1500029241479" expanded="true" signature="4810:4842" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -618,12 +613,12 @@
       <workItem from="1499699010630" duration="756000" />
       <workItem from="1499771858681" duration="8163000" />
       <workItem from="1499863224575" duration="6710000" />
-      <workItem from="1499945305537" duration="14677000" />
+      <workItem from="1499945305537" duration="15585000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135694000" />
+    <option name="totallyTimeSpent" value="136602000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -760,22 +755,22 @@
         <state relative-caret-position="289">
           <caret line="18" column="62" lean-forward="false" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
           <folding>
-            <marker date="1500028475515" expanded="false" signature="6:168" ph="..." />
-            <marker date="1500028475515" expanded="true" signature="222:4902" ph="{...}" />
-            <marker date="1500028475515" expanded="true" signature="467:2592" ph="{...}" />
-            <marker date="1500028475515" expanded="true" signature="1809:1898" ph="{...}" />
-            <marker date="1500028475515" expanded="true" signature="2658:3708" ph="{...}" />
-            <marker date="1500028475515" expanded="true" signature="2751:3702" ph="{...}" />
-            <marker date="1500028475515" expanded="true" signature="3392:3475" ph="{...}" />
-            <marker date="1500028475515" expanded="true" signature="3496:3669" ph="{...}" />
-            <marker date="1500028475515" expanded="true" signature="3714:3816" ph="/// Method called by Micheal when the IA enter in the danger zone ... " />
-            <marker date="1500028475515" expanded="true" signature="3846:4021" ph="{...}" />
-            <marker date="1500028475515" expanded="true" signature="4026:4072" ph="/// TO DO ... " />
-            <marker date="1500028475515" expanded="true" signature="4100:4271" ph="{...}" />
-            <marker date="1500028475515" expanded="true" signature="4277:4377" ph="/// Set the stat to run if the current state is normal or panic ... " />
-            <marker date="1500028475515" expanded="true" signature="4405:4631" ph="{...}" />
-            <marker date="1500028475515" expanded="true" signature="4637:4804" ph="/// Called when we do a tap movement on the hologram, this function will call OnSelect(); ... " />
-            <marker date="1500028475515" expanded="true" signature="4868:4900" ph="{...}" />
+            <marker date="1500029241479" expanded="false" signature="6:168" ph="..." />
+            <marker date="1500029241479" expanded="true" signature="222:4844" ph="{...}" />
+            <marker date="1500029241479" expanded="true" signature="467:2534" ph="{...}" />
+            <marker date="1500029241479" expanded="true" signature="1809:1898" ph="{...}" />
+            <marker date="1500029241479" expanded="true" signature="2600:3650" ph="{...}" />
+            <marker date="1500029241479" expanded="true" signature="2693:3644" ph="{...}" />
+            <marker date="1500029241479" expanded="true" signature="3334:3417" ph="{...}" />
+            <marker date="1500029241479" expanded="true" signature="3438:3611" ph="{...}" />
+            <marker date="1500029241479" expanded="true" signature="3656:3758" ph="/// Method called by Micheal when the IA enter in the danger zone ... " />
+            <marker date="1500029241479" expanded="true" signature="3788:3963" ph="{...}" />
+            <marker date="1500029241479" expanded="true" signature="3968:4014" ph="/// TO DO ... " />
+            <marker date="1500029241479" expanded="true" signature="4042:4213" ph="{...}" />
+            <marker date="1500029241479" expanded="true" signature="4219:4319" ph="/// Set the stat to run if the current state is normal or panic ... " />
+            <marker date="1500029241479" expanded="true" signature="4347:4573" ph="{...}" />
+            <marker date="1500029241479" expanded="true" signature="4579:4746" ph="/// Called when we do a tap movement on the hologram, this function will call OnSelect(); ... " />
+            <marker date="1500029241479" expanded="true" signature="4810:4842" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -856,22 +851,22 @@
         <state relative-caret-position="289">
           <caret line="18" column="62" lean-forward="false" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
           <folding>
-            <marker date="1500028475515" expanded="false" signature="6:168" ph="..." />
-            <marker date="1500028475515" expanded="true" signature="222:4902" ph="{...}" />
-            <marker date="1500028475515" expanded="true" signature="467:2592" ph="{...}" />
-            <marker date="1500028475515" expanded="true" signature="1809:1898" ph="{...}" />
-            <marker date="1500028475515" expanded="true" signature="2658:3708" ph="{...}" />
-            <marker date="1500028475515" expanded="true" signature="2751:3702" ph="{...}" />
-            <marker date="1500028475515" expanded="true" signature="3392:3475" ph="{...}" />
-            <marker date="1500028475515" expanded="true" signature="3496:3669" ph="{...}" />
-            <marker date="1500028475515" expanded="true" signature="3714:3816" ph="/// Method called by Micheal when the IA enter in the danger zone ... " />
-            <marker date="1500028475515" expanded="true" signature="3846:4021" ph="{...}" />
-            <marker date="1500028475515" expanded="true" signature="4026:4072" ph="/// TO DO ... " />
-            <marker date="1500028475515" expanded="true" signature="4100:4271" ph="{...}" />
-            <marker date="1500028475515" expanded="true" signature="4277:4377" ph="/// Set the stat to run if the current state is normal or panic ... " />
-            <marker date="1500028475515" expanded="true" signature="4405:4631" ph="{...}" />
-            <marker date="1500028475515" expanded="true" signature="4637:4804" ph="/// Called when we do a tap movement on the hologram, this function will call OnSelect(); ... " />
-            <marker date="1500028475515" expanded="true" signature="4868:4900" ph="{...}" />
+            <marker date="1500029241479" expanded="false" signature="6:168" ph="..." />
+            <marker date="1500029241479" expanded="true" signature="222:4844" ph="{...}" />
+            <marker date="1500029241479" expanded="true" signature="467:2534" ph="{...}" />
+            <marker date="1500029241479" expanded="true" signature="1809:1898" ph="{...}" />
+            <marker date="1500029241479" expanded="true" signature="2600:3650" ph="{...}" />
+            <marker date="1500029241479" expanded="true" signature="2693:3644" ph="{...}" />
+            <marker date="1500029241479" expanded="true" signature="3334:3417" ph="{...}" />
+            <marker date="1500029241479" expanded="true" signature="3438:3611" ph="{...}" />
+            <marker date="1500029241479" expanded="true" signature="3656:3758" ph="/// Method called by Micheal when the IA enter in the danger zone ... " />
+            <marker date="1500029241479" expanded="true" signature="3788:3963" ph="{...}" />
+            <marker date="1500029241479" expanded="true" signature="3968:4014" ph="/// TO DO ... " />
+            <marker date="1500029241479" expanded="true" signature="4042:4213" ph="{...}" />
+            <marker date="1500029241479" expanded="true" signature="4219:4319" ph="/// Set the stat to run if the current state is normal or panic ... " />
+            <marker date="1500029241479" expanded="true" signature="4347:4573" ph="{...}" />
+            <marker date="1500029241479" expanded="true" signature="4579:4746" ph="/// Called when we do a tap movement on the hologram, this function will call OnSelect(); ... " />
+            <marker date="1500029241479" expanded="true" signature="4810:4842" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1295,25 +1290,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/scripts/Civilian.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="57" column="34" lean-forward="false" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+        <state relative-caret-position="680">
+          <caret line="58" column="18" lean-forward="false" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
           <folding>
-            <marker date="1500028475515" expanded="false" signature="6:168" ph="..." />
-            <marker date="1500028475515" expanded="true" signature="222:4902" ph="{...}" />
-            <marker date="1500028475515" expanded="true" signature="467:2592" ph="{...}" />
-            <marker date="1500028475515" expanded="true" signature="1809:1898" ph="{...}" />
-            <marker date="1500028475515" expanded="true" signature="2658:3708" ph="{...}" />
-            <marker date="1500028475515" expanded="true" signature="2751:3702" ph="{...}" />
-            <marker date="1500028475515" expanded="true" signature="3392:3475" ph="{...}" />
-            <marker date="1500028475515" expanded="true" signature="3496:3669" ph="{...}" />
-            <marker date="1500028475515" expanded="true" signature="3714:3816" ph="/// Method called by Micheal when the IA enter in the danger zone ... " />
-            <marker date="1500028475515" expanded="true" signature="3846:4021" ph="{...}" />
-            <marker date="1500028475515" expanded="true" signature="4026:4072" ph="/// TO DO ... " />
-            <marker date="1500028475515" expanded="true" signature="4100:4271" ph="{...}" />
-            <marker date="1500028475515" expanded="true" signature="4277:4377" ph="/// Set the stat to run if the current state is normal or panic ... " />
-            <marker date="1500028475515" expanded="true" signature="4405:4631" ph="{...}" />
-            <marker date="1500028475515" expanded="true" signature="4637:4804" ph="/// Called when we do a tap movement on the hologram, this function will call OnSelect(); ... " />
-            <marker date="1500028475515" expanded="true" signature="4868:4900" ph="{...}" />
+            <marker date="1500029241479" expanded="false" signature="6:168" ph="..." />
+            <marker date="1500029241479" expanded="true" signature="222:4844" ph="{...}" />
+            <marker date="1500029241479" expanded="true" signature="467:2534" ph="{...}" />
+            <marker date="1500029241479" expanded="true" signature="1809:1898" ph="{...}" />
+            <marker date="1500029241479" expanded="true" signature="2600:3650" ph="{...}" />
+            <marker date="1500029241479" expanded="true" signature="2693:3644" ph="{...}" />
+            <marker date="1500029241479" expanded="true" signature="3334:3417" ph="{...}" />
+            <marker date="1500029241479" expanded="true" signature="3438:3611" ph="{...}" />
+            <marker date="1500029241479" expanded="true" signature="3656:3758" ph="/// Method called by Micheal when the IA enter in the danger zone ... " />
+            <marker date="1500029241479" expanded="true" signature="3788:3963" ph="{...}" />
+            <marker date="1500029241479" expanded="true" signature="3968:4014" ph="/// TO DO ... " />
+            <marker date="1500029241479" expanded="true" signature="4042:4213" ph="{...}" />
+            <marker date="1500029241479" expanded="true" signature="4219:4319" ph="/// Set the stat to run if the current state is normal or panic ... " />
+            <marker date="1500029241479" expanded="true" signature="4347:4573" ph="{...}" />
+            <marker date="1500029241479" expanded="true" signature="4579:4746" ph="/// Called when we do a tap movement on the hologram, this function will call OnSelect(); ... " />
+            <marker date="1500029241479" expanded="true" signature="4810:4842" ph="{...}" />
           </folding>
         </state>
       </provider>

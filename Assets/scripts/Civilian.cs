@@ -56,11 +56,10 @@ public class Civilian : HumanAI, IInputClickHandler
         AimContext.AddObjective(true, true);
         AimContext.Sensor =  Resources.Load<AIMSensor>("Circle16XZ");
         AimContext.BuildContext();
-        print(AimContext.ObjectiveCount);
-        AimContext.ResizeObjectives(2);
+        print("lol");
 
         AimSeek = gameObject.AddComponent<AIMSeek>();
-        AimSeek.SteeringBehaviour.TargetObjective = 1;
+        //AimSeek.SteeringBehaviour.TargetObjective = 1;
         for(int i = 0 ; i < aimSeekList.transform.childCount ; i++)
             AimSeek.GameObjects.Add(aimSeekList.transform.GetChild(i).gameObject);
         AimSimpleController = gameObject.AddComponent<AIMSimpleController>();
