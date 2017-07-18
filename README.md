@@ -61,7 +61,7 @@ Suivez l'installation en laissant les paramètres par défaut, assurez-vous just
 
 ## Déploiement de l'application
 
-Le déploiement de l'application commence sur Unity. Un fois le projet ouvert sur \Unity allez dans :
+Le déploiement de l'application commence sur Unity. Un fois le projet ouvert sur Unity allez dans :
 
 * File -> Build Settings
 * Assurez vous que Windows Store soit bien selectionné (Logo Unity en regard)
