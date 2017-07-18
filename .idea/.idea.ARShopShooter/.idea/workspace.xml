@@ -3,12 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="7936bfaa-6a55-4a03-b9fa-8c39ee4540da" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.ARShopShooter/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.ARShopShooter/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/AI/Actions/RandomWayPoint.cs" afterPath="$PROJECT_DIR$/Assets/AI/Actions/RandomWayPoint.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/AI/Actions/RassuringCivilian.cs" afterPath="$PROJECT_DIR$/Assets/AI/Actions/RassuringCivilian.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/AI/BehaviorTrees/Adam.txt" afterPath="$PROJECT_DIR$/Assets/AI/BehaviorTrees/Adam.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/AI/BehaviorTrees/C06.txt" afterPath="$PROJECT_DIR$/Assets/AI/BehaviorTrees/C06.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/scripts/Civilian.cs" afterPath="$PROJECT_DIR$/Assets/scripts/Civilian.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/scripts/HumanAI.cs" afterPath="$PROJECT_DIR$/Assets/scripts/HumanAI.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/AI/Cache/BTEditorWindowState.asset" afterPath="$PROJECT_DIR$/Assets/AI/Cache/BTEditorWindowState.asset" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/Unity3DRider.cs" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/Unity3DRider.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scene/ClickThroughExample.unity" afterPath="$PROJECT_DIR$/Assets/Scene/ClickThroughExample.unity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scene/scene_01_grosshandel.unity" afterPath="$PROJECT_DIR$/Assets/Scene/scene_01_grosshandel.unity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/scripts/KeywordHandler.cs" afterPath="$PROJECT_DIR$/Assets/scripts/KeywordHandler.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,7 +22,7 @@
       <file leaf-file-name="HumanAI.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/scripts/HumanAI.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
+            <state relative-caret-position="-1493">
               <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding>
                 <marker date="1500039652849" expanded="false" signature="7:172" ph="..." />
@@ -60,11 +59,10 @@
       <file leaf-file-name="Civilian.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/scripts/Civilian.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
+            <state relative-caret-position="1071">
               <caret line="70" column="67" lean-forward="false" selection-start-line="70" selection-start-column="67" selection-end-line="70" selection-end-column="67" />
               <folding>
                 <marker date="1500039652928" expanded="false" signature="6:204" ph="..." />
-                <marker date="1500039652928" expanded="true" signature="258:5036" ph="{...}" />
                 <marker date="1500039652928" expanded="true" signature="503:2726" ph="{...}" />
                 <marker date="1500039652928" expanded="true" signature="1926:2015" ph="{...}" />
                 <marker date="1500039652928" expanded="true" signature="2032:2710" ph="/* AimContext = gameObject.GetComponent&lt;AIMContext&gt;(); ... */" />
@@ -102,7 +100,7 @@
       <file leaf-file-name="Micheal.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/scripts/Micheal.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1176">
+            <state relative-caret-position="1360">
               <caret line="85" column="5" lean-forward="false" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
               <folding>
                 <marker date="1499329364275" expanded="false" signature="6:164" ph="..." />
@@ -168,16 +166,30 @@
       <file leaf-file-name="KeywordHandler.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/scripts/KeywordHandler.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="26" column="72" lean-forward="false" selection-start-line="26" selection-start-column="66" selection-end-line="26" selection-end-column="72" />
+            <state relative-caret-position="459">
+              <caret line="30" column="28" lean-forward="false" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
               <folding>
-                <marker date="1499437559765" expanded="false" signature="6:115" ph="..." />
-                <marker date="1499437559765" expanded="true" signature="160:779" ph="{...}" />
-                <marker date="1499437559765" expanded="true" signature="235:296" ph="{...}" />
-                <marker date="1499437559765" expanded="true" signature="323:535" ph="{...}" />
-                <marker date="1499437559765" expanded="true" signature="403:532" ph="{...}" />
-                <marker date="1499437559765" expanded="true" signature="561:777" ph="{...}" />
-                <marker date="1499437559765" expanded="true" signature="644:774" ph="{...}" />
+                <marker date="1500297587256" expanded="false" signature="6:115" ph="..." />
+                <marker date="1500297587256" expanded="true" signature="160:878" ph="{...}" />
+                <marker date="1500297587256" expanded="true" signature="235:296" ph="{...}" />
+                <marker date="1500297587256" expanded="true" signature="323:535" ph="{...}" />
+                <marker date="1500297587256" expanded="true" signature="403:532" ph="{...}" />
+                <marker date="1500297587256" expanded="true" signature="561:778" ph="{...}" />
+                <marker date="1500297587256" expanded="true" signature="644:775" ph="{...}" />
+                <marker date="1500297587256" expanded="true" signature="805:876" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InteractiveLoad.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/scripts/InteractiveLoad.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding>
+                <marker date="1499772276879" expanded="true" signature="119:211" ph="{...}" />
+                <marker date="1499772276879" expanded="true" signature="158:209" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -186,10 +198,10 @@
       <file leaf-file-name="checkPanic.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/AI/Actions/checkPanic.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="153">
               <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="13" />
               <folding>
-                <marker date="1499176958748" expanded="true" signature="6:157" ph="..." />
+                <marker date="1499176958748" expanded="false" signature="6:157" ph="..." />
                 <marker date="1499176958748" expanded="true" signature="208:839" ph="{...}" />
                 <marker date="1499176958748" expanded="true" signature="329:837" ph="{...}" />
                 <marker date="1499176958748" expanded="true" signature="561:692" ph="{...}" />
@@ -236,6 +248,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/HumanAI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AI/Actions/RandomWayPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AI/Actions/RassuringCivilian.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AI/Actions/checkPanic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/InteractiveLoad.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/KeywordHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AI/Actions/checkPaincRun.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/Civilian.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/Adam.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/Micheal.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -261,7 +285,6 @@
         <option value="$PROJECT_DIR$/Assets/scripts/IKeyWordListener.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/KeyWordListener.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/KeywordListener.cs" />
-        <option value="$PROJECT_DIR$/Assets/scripts/KeywordHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/InteractiveLoad.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/ShopShooter.cs" />
         <option value="$PROJECT_DIR$/Assets/AI/Actions/AvoidCollision.cs" />
@@ -277,6 +300,7 @@
         <option value="$PROJECT_DIR$/Assets/AI/Actions/RandomWayPoint.cs" />
         <option value="$PROJECT_DIR$/Assets/AI/Actions/RassuringCivilian.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/Adam.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/KeywordHandler.cs" />
       </list>
     </option>
   </component>
@@ -287,10 +311,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1918" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -308,125 +332,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ARShopShooter (3 projects)" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ARShopShooter (3 projects)" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assembly-CSharp" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assets" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ARShopShooter (3 projects)" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assembly-CSharp" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assets" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ARShopShooter (3 projects)" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assembly-CSharp" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assets" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AI" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ARShopShooter (3 projects)" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assembly-CSharp" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assets" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AI" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Actions" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ARShopShooter (3 projects)" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assembly-CSharp" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -539,11 +461,12 @@
       <workItem from="1499863224575" duration="6710000" />
       <workItem from="1499945305537" duration="19027000" />
       <workItem from="1500035706604" duration="8915000" />
+      <workItem from="1500277701707" duration="2956000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148959000" />
+    <option name="totallyTimeSpent" value="151915000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -555,7 +478,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="1" y="1" width="1918" height="1038" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -566,8 +489,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25236592" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -577,6 +499,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -681,7 +604,6 @@
           <caret line="18" column="62" lean-forward="false" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
           <folding>
             <marker date="1500039652928" expanded="false" signature="6:204" ph="..." />
-            <marker date="1500039652928" expanded="true" signature="258:5036" ph="{...}" />
             <marker date="1500039652928" expanded="true" signature="503:2726" ph="{...}" />
             <marker date="1500039652928" expanded="true" signature="1926:2015" ph="{...}" />
             <marker date="1500039652928" expanded="true" signature="2032:2710" ph="/* AimContext = gameObject.GetComponent&lt;AIMContext&gt;(); ... */" />
@@ -706,20 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="33" column="38" lean-forward="false" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
-          <folding>
-            <marker date="1499782217579" expanded="false" signature="7:91" ph="..." />
-            <marker date="1499782217579" expanded="true" signature="147:3192" ph="{...}" />
-            <marker date="1499782217579" expanded="true" signature="400:1440" ph="{...}" />
-            <marker date="1499782217579" expanded="true" signature="1506:2309" ph="{...}" />
-            <marker date="1499782217579" expanded="true" signature="1599:2303" ph="{...}" />
-            <marker date="1499782217579" expanded="true" signature="2314:2481" ph="/// Called when we do a tap movement on the hologram, this function will call OnSelect(); ... " />
-            <marker date="1499782217579" expanded="true" signature="2545:2577" ph="{...}" />
-            <marker date="1499782217579" expanded="true" signature="2582:2648" ph="/// set the state to arrested ... " />
-            <marker date="1499782217579" expanded="true" signature="2676:2805" ph="{...}" />
-            <marker date="1499782217579" expanded="true" signature="2810:2914" ph="/// Set the state to caught when the shooter enter in the safe zone ... " />
-            <marker date="1499782217579" expanded="true" signature="2944:3035" ph="{...}" />
-            <marker date="1499782217579" expanded="true" signature="3062:3190" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -778,7 +686,6 @@
           <caret line="18" column="62" lean-forward="false" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
           <folding>
             <marker date="1500039652928" expanded="false" signature="6:204" ph="..." />
-            <marker date="1500039652928" expanded="true" signature="258:5036" ph="{...}" />
             <marker date="1500039652928" expanded="true" signature="503:2726" ph="{...}" />
             <marker date="1500039652928" expanded="true" signature="1926:2015" ph="{...}" />
             <marker date="1500039652928" expanded="true" signature="2032:2710" ph="/* AimContext = gameObject.GetComponent&lt;AIMContext&gt;(); ... */" />
@@ -909,13 +816,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/scripts/InteractiveLoad.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Collision Avoidance/Assets/IA.cs" />
     <entry file="file://$PROJECT_DIR$/../Collision Avoidance/Assets/AI/Actions/StartAIM.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -943,17 +843,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
           <caret line="48" column="4" lean-forward="false" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/scripts/Civilian.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
+        <state relative-caret-position="1071">
           <caret line="70" column="67" lean-forward="false" selection-start-line="70" selection-start-column="67" selection-end-line="70" selection-end-column="67" />
           <folding>
             <marker date="1500039652928" expanded="false" signature="6:204" ph="..." />
-            <marker date="1500039652928" expanded="true" signature="258:5036" ph="{...}" />
             <marker date="1500039652928" expanded="true" signature="503:2726" ph="{...}" />
             <marker date="1500039652928" expanded="true" signature="1926:2015" ph="{...}" />
             <marker date="1500039652928" expanded="true" signature="2032:2710" ph="/* AimContext = gameObject.GetComponent&lt;AIMContext&gt;(); ... */" />
@@ -973,50 +871,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/scripts/HumanAI.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding>
-            <marker date="1500039652849" expanded="false" signature="7:172" ph="..." />
-            <marker date="1500039652849" expanded="true" signature="252:5239" ph="{...}" />
-            <marker date="1500039652849" expanded="true" signature="903:1529" ph="{...}" />
-            <marker date="1500039652849" expanded="true" signature="1434:1523" ph="{...}" />
-            <marker date="1500039652849" expanded="true" signature="1594:1622" ph="{...}" />
-            <marker date="1500039652849" expanded="true" signature="1627:1726" ph="/// return the current state of AI ... " />
-            <marker date="1500039652849" expanded="true" signature="1755:1830" ph="{...}" />
-            <marker date="1500039652849" expanded="true" signature="1835:1913" ph="///  ... " />
-            <marker date="1500039652849" expanded="true" signature="1963:2049" ph="{...}" />
-            <marker date="1500039652849" expanded="true" signature="2059:2182" ph="/// When we do the tap movement on a hologram ... " />
-            <marker date="1500039652849" expanded="true" signature="2246:2312" ph="{...}" />
-            <marker date="1500039652849" expanded="true" signature="2317:2386" ph="/// When we gaze in the hologram ... " />
-            <marker date="1500039652849" expanded="true" signature="2417:2631" ph="{...}" />
-            <marker date="1500039652849" expanded="true" signature="2481:2625" ph="{...}" />
-            <marker date="1500039652849" expanded="true" signature="2637:2707" ph="/// When we gaze out the hologram ... " />
-            <marker date="1500039652849" expanded="true" signature="2737:2878" ph="{...}" />
-            <marker date="1500039652849" expanded="true" signature="2888:3031" ph="/// Function for checking if the AI is moving (used for setting the animation) ... " />
-            <marker date="1500039652849" expanded="true" signature="3061:3509" ph="{...}" />
-            <marker date="1500039652849" expanded="true" signature="3515:3858" ph="/// Function for create a visual sensor on the object ... " />
-            <marker date="1500039652849" expanded="true" signature="4064:4526" ph="{...}" />
-            <marker date="1500039652849" expanded="true" signature="4121:4501" ph="{...}" />
-            <marker date="1500039652849" expanded="true" signature="4532:4684" ph="/// Function for create a RAINAspectr on the object ... " />
-            <marker date="1500039652849" expanded="true" signature="4739:4906" ph="{...}" />
-            <marker date="1500039652849" expanded="true" signature="4916:5007" ph="/// Function called when the AI entre in the safe zone ... " />
-            <marker date="1500039652849" expanded="true" signature="5037:5196" ph="{...}" />
-            <marker date="1500039652849" expanded="true" signature="5225:5237" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/AI/Actions/StartAIM.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding>
-            <marker date="1499948219930" expanded="false" signature="6:138" ph="..." />
-            <marker date="1499948219930" expanded="true" signature="187:406" ph="{...}" />
-            <marker date="1499948219930" expanded="true" signature="237:404" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1024,83 +882,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="30" column="35" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="35" />
-          <folding>
-            <marker date="1492489526000" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
-            <marker date="1492489526000" expanded="false" signature="160:238" ph="..." />
-            <marker date="1492489526000" expanded="true" signature="286:422" ph="/// The gaze manager manages everything related to a gaze ray that can interact with other objects. ... " />
-            <marker date="1492489526000" expanded="true" signature="476:14790" ph="{...}" />
-            <marker date="1492489526000" expanded="true" signature="594:703" ph="/// Indicates whether the user is currently gazing at an object. ... " />
-            <marker date="1492489526000" expanded="true" signature="772:903" ph="/// HitInfo property gives access to information at the object being gazed at, if any. ... " />
-            <marker date="1492489526000" expanded="true" signature="1011:1117" ph="/// The game object that is currently being gazed at, if any. ... " />
-            <marker date="1492489526000" expanded="true" signature="1185:1369" ph="/// Position at which the gaze manager hit an object. ... " />
-            <marker date="1492489526000" expanded="true" signature="1436:1504" ph="/// Origin of the gaze. ... " />
-            <marker date="1492489526000" expanded="true" signature="1570:1638" ph="/// Normal of the gaze. ... " />
-            <marker date="1492489526000" expanded="true" signature="1704:1815" ph="/// Maximum distance at which the gaze can collide with an object. ... " />
-            <marker date="1492489526000" expanded="true" signature="1880:2390" ph="/// The LayerMasks, in prioritized order, that are used to determine the HitObject when raycasting. ... " />
-            <marker date="1492489526000" expanded="true" signature="2897:3075" ph="/// Current stabilization method, used to smooth out the gaze ray data. ... " />
-            <marker date="1492489526000" expanded="true" signature="3216:3387" ph="/// Transform that should be used as the source of the gaze position and orientation. ... " />
-            <marker date="1492489526000" expanded="true" signature="3560:3702" ph="/// Dispatched when focus shifts to a new object, or focus on current object ... " />
-            <marker date="1492489526000" expanded="true" signature="3825:3964" ph="/// Unity UI pointer event.  This will be null if the EventSystem is not defined in the scene. ... " />
-            <marker date="1492489526000" expanded="true" signature="4048:4130" ph="/// Cached results of racast results. ... " />
-            <marker date="1492489526000" expanded="true" signature="4254:4555" ph="{...}" />
-            <marker date="1492489526000" expanded="true" signature="4431:4545" ph="{...}" />
-            <marker date="1492489526000" expanded="true" signature="4585:4988" ph="{...}" />
-            <marker date="1492489526000" expanded="true" signature="4634:4978" ph="{...}" />
-            <marker date="1492489526000" expanded="true" signature="4689:4784" ph="{...}" />
-            <marker date="1492489526000" expanded="true" signature="4805:4964" ph="{...}" />
-            <marker date="1492489526000" expanded="true" signature="5019:5904" ph="{...}" />
-            <marker date="1492489526000" expanded="true" signature="5068:5120" ph="{...}" />
-            <marker date="1492489526000" expanded="true" signature="5433:5653" ph="{...}" />
-            <marker date="1492489526000" expanded="true" signature="5796:5894" ph="{...}" />
-            <marker date="1492489526000" expanded="true" signature="5914:6049" ph="/// Updates the current gaze information, so that the gaze origin and normal are accurate. ... " />
-            <marker date="1492489526000" expanded="true" signature="6087:6626" ph="{...}" />
-            <marker date="1492489526000" expanded="true" signature="6301:6535" ph="{...}" />
-            <marker date="1492489526000" expanded="true" signature="6636:6802" ph="/// Perform a Unity physics Raycast to determine which scene objects with a collider is currently being gazed at, ... " />
-            <marker date="1492489526000" expanded="true" signature="6846:8012" ph="{...}" />
-            <marker date="1492489526000" expanded="true" signature="7023:7188" ph="{...}" />
-            <marker date="1492489526000" expanded="true" signature="7205:7591" ph="{...}" />
-            <marker date="1492489526000" expanded="true" signature="7500:7577" ph="{...}" />
-            <marker date="1492489526000" expanded="true" signature="7626:7808" ph="{...}" />
-            <marker date="1492489526000" expanded="true" signature="7825:7962" ph="{...}" />
-            <marker date="1492489526000" expanded="true" signature="8022:8189" ph="/// Perform a Unity UI Raycast, compare with the latest 3D raycast, and overwrite the hit object info if the UI g ... " />
-            <marker date="1492489526000" expanded="true" signature="8227:11471" ph="{...}" />
-            <marker date="1492489526000" expanded="true" signature="8282:8391" ph="{...}" />
-            <marker date="1492489526000" expanded="true" signature="9150:11461" ph="{...}" />
-            <marker date="1492489526000" expanded="true" signature="9434:10646" ph="{...}" />
-            <marker date="1492489526000" expanded="true" signature="9556:10386" ph="{...}" />
-            <marker date="1492489526000" expanded="true" signature="9949:10056" ph="{...}" />
-            <marker date="1492489526000" expanded="true" signature="10123:10364" ph="{...}" />
-            <marker date="1492489526000" expanded="true" signature="10219:10338" ph="{...}" />
-            <marker date="1492489526000" expanded="true" signature="10411:10628" ph="{...}" />
-            <marker date="1492489526000" expanded="true" signature="10499:10606" ph="{...}" />
-            <marker date="1492489526000" expanded="true" signature="10777:11447" ph="{...}" />
-            <marker date="1492489526000" expanded="true" signature="11079:11262" ph="{...}" />
-            <marker date="1492489526000" expanded="true" signature="11481:14784" ph="Helpers" />
-            <marker date="1492489526000" expanded="true" signature="11506:11924" ph="/// Find the closest raycast hit in the list of RaycastResults that is also included in the LayerMask list.   ... " />
-            <marker date="1492489526000" expanded="true" signature="12047:12811" ph="{...}" />
-            <marker date="1492489526000" expanded="true" signature="12155:12263" ph="{...}" />
-            <marker date="1492489526000" expanded="true" signature="12361:12749" ph="{...}" />
-            <marker date="1492489526000" expanded="true" signature="12503:12569" ph="{...}" />
-            <marker date="1492489526000" expanded="true" signature="12655:12735" ph="{...}" />
-            <marker date="1492489526000" expanded="true" signature="12829:13189" ph="/// Look through the layerMaskList and find the index in that list for which the supplied layer is part of ... " />
-            <marker date="1492489526000" expanded="true" signature="13266:13534" ph="{...}" />
-            <marker date="1492489526000" expanded="true" signature="13335:13500" ph="{...}" />
-            <marker date="1492489526000" expanded="true" signature="13420:13486" ph="{...}" />
-            <marker date="1492489526000" expanded="true" signature="13601:13673" ph="{...}" />
-            <marker date="1492489526000" expanded="true" signature="13736:14756" ph="{...}" />
-            <marker date="1492489526000" expanded="true" signature="13780:13837" ph="{...}" />
-            <marker date="1492489526000" expanded="true" signature="13851:14013" ph="/* Return the minimum distance hit within the first layer that has hits. ... */" />
-            <marker date="1492489526000" expanded="true" signature="14109:14720" ph="{...}" />
-            <marker date="1492489526000" expanded="true" signature="14236:14598" ph="{...}" />
-            <marker date="1492489526000" expanded="true" signature="14498:14580" ph="{...}" />
-            <marker date="1492489526000" expanded="true" signature="14635:14706" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/scripts/Micheal.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1176">
+        <state relative-caret-position="1360">
           <caret line="85" column="5" lean-forward="false" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
           <folding>
             <marker date="1499329364275" expanded="false" signature="6:164" ph="..." />
@@ -1124,20 +911,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
           <caret line="88" column="25" lean-forward="false" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="25" />
-          <folding>
-            <marker date="1499782217579" expanded="false" signature="7:91" ph="..." />
-            <marker date="1499782217579" expanded="true" signature="147:3192" ph="{...}" />
-            <marker date="1499782217579" expanded="true" signature="400:1440" ph="{...}" />
-            <marker date="1499782217579" expanded="true" signature="1506:2309" ph="{...}" />
-            <marker date="1499782217579" expanded="true" signature="1599:2303" ph="{...}" />
-            <marker date="1499782217579" expanded="true" signature="2314:2481" ph="/// Called when we do a tap movement on the hologram, this function will call OnSelect(); ... " />
-            <marker date="1499782217579" expanded="true" signature="2545:2577" ph="{...}" />
-            <marker date="1499782217579" expanded="true" signature="2582:2648" ph="/// set the state to arrested ... " />
-            <marker date="1499782217579" expanded="true" signature="2676:2805" ph="{...}" />
-            <marker date="1499782217579" expanded="true" signature="2810:2914" ph="/// Set the state to caught when the shooter enter in the safe zone ... " />
-            <marker date="1499782217579" expanded="true" signature="2944:3035" ph="{...}" />
-            <marker date="1499782217579" expanded="true" signature="3062:3190" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1159,19 +932,6 @@
             <marker date="1500043798724" expanded="true" signature="2523:2543" ph="{...}" />
             <marker date="1500043798724" expanded="true" signature="2545:2619" ph="/// set the state to run if he is not saved ... " />
             <marker date="1500043798724" expanded="true" signature="2644:2749" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/AI/Actions/RassuringCivilian.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="69" lean-forward="false" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
-          <folding>
-            <marker date="1500043016694" expanded="false" signature="6:114" ph="..." />
-            <marker date="1500043016694" expanded="true" signature="172:599" ph="{...}" />
-            <marker date="1500043016694" expanded="true" signature="179:343" ph="/// Stop the movement of the AI and call the methode SayRassuring ... " />
-            <marker date="1500043016694" expanded="true" signature="391:597" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1204,12 +964,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AI/Actions/RassuringCivilian.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="69" lean-forward="false" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
+          <folding>
+            <marker date="1500043016694" expanded="false" signature="6:114" ph="..." />
+            <marker date="1500043016694" expanded="true" signature="172:599" ph="{...}" />
+            <marker date="1500043016694" expanded="true" signature="179:343" ph="/// Stop the movement of the AI and call the methode SayRassuring ... " />
+            <marker date="1500043016694" expanded="true" signature="391:597" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/scripts/InteractiveLoad.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <marker date="1499772276879" expanded="true" signature="119:211" ph="{...}" />
+            <marker date="1499772276879" expanded="true" signature="158:209" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/AI/Actions/checkPanic.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="153">
           <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="13" />
           <folding>
-            <marker date="1499176958748" expanded="true" signature="6:157" ph="..." />
+            <marker date="1499176958748" expanded="false" signature="6:157" ph="..." />
             <marker date="1499176958748" expanded="true" signature="208:839" ph="{...}" />
             <marker date="1499176958748" expanded="true" signature="329:837" ph="{...}" />
             <marker date="1499176958748" expanded="true" signature="561:692" ph="{...}" />
@@ -1218,18 +1002,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/scripts/HumanAI.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1493">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <marker date="1500039652849" expanded="false" signature="7:172" ph="..." />
+            <marker date="1500039652849" expanded="true" signature="252:5239" ph="{...}" />
+            <marker date="1500039652849" expanded="true" signature="903:1529" ph="{...}" />
+            <marker date="1500039652849" expanded="true" signature="1434:1523" ph="{...}" />
+            <marker date="1500039652849" expanded="true" signature="1594:1622" ph="{...}" />
+            <marker date="1500039652849" expanded="true" signature="1627:1726" ph="/// return the current state of AI ... " />
+            <marker date="1500039652849" expanded="true" signature="1755:1830" ph="{...}" />
+            <marker date="1500039652849" expanded="true" signature="1835:1913" ph="///  ... " />
+            <marker date="1500039652849" expanded="true" signature="1963:2049" ph="{...}" />
+            <marker date="1500039652849" expanded="true" signature="2059:2182" ph="/// When we do the tap movement on a hologram ... " />
+            <marker date="1500039652849" expanded="true" signature="2246:2312" ph="{...}" />
+            <marker date="1500039652849" expanded="true" signature="2317:2386" ph="/// When we gaze in the hologram ... " />
+            <marker date="1500039652849" expanded="true" signature="2417:2631" ph="{...}" />
+            <marker date="1500039652849" expanded="true" signature="2481:2625" ph="{...}" />
+            <marker date="1500039652849" expanded="true" signature="2637:2707" ph="/// When we gaze out the hologram ... " />
+            <marker date="1500039652849" expanded="true" signature="2737:2878" ph="{...}" />
+            <marker date="1500039652849" expanded="true" signature="2888:3031" ph="/// Function for checking if the AI is moving (used for setting the animation) ... " />
+            <marker date="1500039652849" expanded="true" signature="3061:3509" ph="{...}" />
+            <marker date="1500039652849" expanded="true" signature="3515:3858" ph="/// Function for create a visual sensor on the object ... " />
+            <marker date="1500039652849" expanded="true" signature="4064:4526" ph="{...}" />
+            <marker date="1500039652849" expanded="true" signature="4121:4501" ph="{...}" />
+            <marker date="1500039652849" expanded="true" signature="4532:4684" ph="/// Function for create a RAINAspectr on the object ... " />
+            <marker date="1500039652849" expanded="true" signature="4739:4906" ph="{...}" />
+            <marker date="1500039652849" expanded="true" signature="4916:5007" ph="/// Function called when the AI entre in the safe zone ... " />
+            <marker date="1500039652849" expanded="true" signature="5037:5196" ph="{...}" />
+            <marker date="1500039652849" expanded="true" signature="5225:5237" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/scripts/KeywordHandler.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="26" column="72" lean-forward="false" selection-start-line="26" selection-start-column="66" selection-end-line="26" selection-end-column="72" />
+        <state relative-caret-position="459">
+          <caret line="30" column="28" lean-forward="false" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
           <folding>
-            <marker date="1499437559765" expanded="false" signature="6:115" ph="..." />
-            <marker date="1499437559765" expanded="true" signature="160:779" ph="{...}" />
-            <marker date="1499437559765" expanded="true" signature="235:296" ph="{...}" />
-            <marker date="1499437559765" expanded="true" signature="323:535" ph="{...}" />
-            <marker date="1499437559765" expanded="true" signature="403:532" ph="{...}" />
-            <marker date="1499437559765" expanded="true" signature="561:777" ph="{...}" />
-            <marker date="1499437559765" expanded="true" signature="644:774" ph="{...}" />
+            <marker date="1500297587256" expanded="false" signature="6:115" ph="..." />
+            <marker date="1500297587256" expanded="true" signature="160:878" ph="{...}" />
+            <marker date="1500297587256" expanded="true" signature="235:296" ph="{...}" />
+            <marker date="1500297587256" expanded="true" signature="323:535" ph="{...}" />
+            <marker date="1500297587256" expanded="true" signature="403:532" ph="{...}" />
+            <marker date="1500297587256" expanded="true" signature="561:778" ph="{...}" />
+            <marker date="1500297587256" expanded="true" signature="644:775" ph="{...}" />
+            <marker date="1500297587256" expanded="true" signature="805:876" ph="{...}" />
           </folding>
         </state>
       </provider>

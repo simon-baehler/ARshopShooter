@@ -2515,7 +2515,7 @@ TextMesh:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 535987401}
-  m_Text: CANCEL
+  m_Text: FERMER
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -3584,7 +3584,7 @@ TextMesh:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 668712092}
-  m_Text: CANCEL
+  m_Text: FERMER
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -4579,7 +4579,7 @@ TextMesh:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 944633514}
-  m_Text: CANCEL
+  m_Text: FERMER
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -4866,7 +4866,7 @@ TextMesh:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 970960647}
-  m_Text: CANCEL
+  m_Text: FERMER
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -4988,7 +4988,7 @@ TextMesh:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 992885903}
-  m_Text: CANCEL
+  m_Text: FERMER
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -6232,7 +6232,7 @@ TextMesh:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1236817226}
-  m_Text: CANCEL
+  m_Text: FERMER
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -7079,7 +7079,7 @@ TextMesh:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1409290155}
-  m_Text: CANCEL
+  m_Text: FERMER
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -8360,7 +8360,7 @@ TextMesh:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1683051249}
   m_Text: "La safe zone est le zone o\xF9 il faut amener le shooter et les\ncivils
-    pour terminer le sc\xE9nario. Elle est repr\xE9sent\xE9e pas\ndes n\xE9ons verts."
+    pour terminer le sc\xE9nario. Elle est repr\xE9sent\xE9e par\ndes n\xE9ons verts."
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -8640,7 +8640,7 @@ TextMesh:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1717087492}
-  m_Text: CANCEL
+  m_Text: FERMER
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -10120,7 +10120,7 @@ TextMesh:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2006737021}
-  m_Text: CANCEL
+  m_Text: FERMER
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -10630,7 +10630,7 @@ TextMesh:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2069344884}
-  m_Text: CANCEL
+  m_Text: FERMER
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1

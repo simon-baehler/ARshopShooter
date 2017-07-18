@@ -23,8 +23,14 @@ public class KeywordHandler : MonoBehaviour
 	{
 		if (gm.HitObject != null && gm.HitObject.GetComponent<ShopShooter>() != null)
 		{
-			//gm.HitObject.GetComponent<Civilian>().OnPolice();
+			//gm.HitObject.GetComponent<ShopShooter>().OnStop();
 			gm.HitObject.GetComponent<ShopShooter>().SendMessage("OnStop");
 		}
+	}
+
+	public void OnSayReset()
+	{
+		InteractiveLoad il = new InteractiveLoad();
+		il.LoadLevel(0);
 	}
 }
