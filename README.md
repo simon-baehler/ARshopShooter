@@ -62,7 +62,7 @@ Le déploiement de l'application commence sur *Unity*. Une fois le projet ouvert
 * Assurez-vous que *Windows Store* soit bien selectionné (Logo *Unity* en regard)
 * Définissez le SDK à **Universal 10**
 * *UWP Build* type doit etre à **D3D**
-* *UWP SDK* doit etre à Last installed
+* *UWP SDK* doit etre à **Last installed**
 * *Unity C#* Project doit etre coché
 
 
@@ -78,4 +78,4 @@ Pour terminer cliquez sur build et créez un dossier du nom de **App** dans lequ
 
 Une fois le build terminé, allez dans le dossier **App** et cliquez sur **.sln**, normalement *Visual Studio* se lance automatiquement.
 
-Pour un déploiement sur **Hololens**, branchez le **Hololens** en USB. Pour la configuration de déploiement choisissez **Release**, **x86** et **Device**
+Pour un déploiement sur **Hololens**, branchez le *Hololens* en USB. Pour la configuration de déploiement choisissez **Release**, **x86** et **Device**
