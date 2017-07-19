@@ -17,7 +17,7 @@ public class checkPaincRun : RAINAction
         if (civil != null)
         {
             state = civil.MountPoint.gameObject.GetComponent<Civilian>().GetState();
-            if (state == "panic" || state == "run")
+            if (state == EnumState.EStates.Panic.ToString() || state == EnumState.EStates.Run.ToString())
             {
                 ai.WorkingMemory.SetItem<bool>("targetPanic", true);
             }

@@ -16,7 +16,7 @@ public class checkPanic : RAINAction
         civil = ai.WorkingMemory.GetItem<RAINAspect>("moveTarget");
         //get the list of nav target of the IA
         state = civil.MountPoint.gameObject.GetComponent<Civilian>().GetState();
-        if (state == "panic")
+        if (state == EnumState.EStates.Panic.ToString())
         {
             ai.WorkingMemory.SetItem<bool>("targetPanic", true);
             ai.Motor.CloseEnoughDistance = 1;

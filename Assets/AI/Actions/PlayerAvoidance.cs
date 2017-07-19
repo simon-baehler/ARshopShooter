@@ -48,7 +48,6 @@ public class PlayerAvoidance : RAINAction
 				} 
 			} 
 		}
-
 		return ActionResult.SUCCESS; 
 	}
 
@@ -61,18 +60,14 @@ public class PlayerAvoidance : RAINAction
 	{ 
 		var direction = ai.Kinematic.Position - aspect.Position; 
 		direction.Normalize(); 
-		
-		Log.Info("lol");
 		ai.Motor.MoveTo(ai.Kinematic.Position + direction); 
 	}
 
 	private bool isToClose(AI ai, RAINAspect aspect) 
 	{ 
 		var dist = Vector3.Distance(ai.Kinematic.Position, aspect.Position);
-
 		if(dist <= MINIMUM_DISTANCE) 
 			return true;
-
 		return false; 
 	} 
 	#endregion 
