@@ -57,11 +57,19 @@ public class Adam :   HumanAI, IInputClickHandler
 				break;
 			case EnumState.EStates.SearchCivilian:
 				tRig.AI.WorkingMemory.SetItem("speed",RUN_SPEED_MAX);
+				anim.SetFloat("Speed", !IsMoving() ? 0 : RUN_SPEED_MAX);
 				timeLeft -= Time.deltaTime;
 				if ( timeLeft < 0 )
 				{
 					SetState(EnumState.EStates.Run);
 				}
+				break;
+			case EnumState.EStates.Run:
+				anim.SetFloat("Speed", !IsMoving() ? 0 : RUN_SPEED_MAX);
+				break;			
+			case EnumState.EStates.Saved: 
+				anim.SetFloat("Speed", !IsMoving() ? 0 : ANIM_SPEED);
+				tRig.AI.WorkingMemory.SetItem<float>("speed", NORMAL_SPEED);
 				break;
 		}
 	}

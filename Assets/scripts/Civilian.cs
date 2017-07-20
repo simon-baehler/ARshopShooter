@@ -91,15 +91,8 @@ public class Civilian : HumanAI, IInputClickHandler
                 tRig.AI.WorkingMemory.SetItem<float>("speed", randomSpeed);
                 break;
             case EnumState.EStates.Saved:  
-                if (!IsMoving())
-                {
-                    anim.SetFloat("Speed", 0);
-                }
-                else
-                {
-                    anim.SetFloat("Speed", ANIM_SPEED);
-                    tRig.AI.WorkingMemory.SetItem<float>("speed", NORMAL_SPEED);
-                }
+                anim.SetFloat("Speed", !IsMoving() ? 0 : ANIM_SPEED);
+                tRig.AI.WorkingMemory.SetItem<float>("speed", NORMAL_SPEED);
                 break;
         }
     }

@@ -44,7 +44,8 @@ public class ShopShooter : HumanAI, IInputClickHandler
         switch ((EnumState.EStates)Enum.Parse(typeof( EnumState.EStates), GetState()))
         {
             case EnumState.EStates.Normal:
-                anim.SetFloat("Speed", NORMAL_SPEED); 
+                anim.SetFloat("Speed", NORMAL_SPEED);
+                tRig.AI.WorkingMemory.SetItem<float>("speed", NORMAL_SPEED);
                 break;
             case EnumState.EStates.Hidded:
                 anim.SetFloat("Speed", 0);

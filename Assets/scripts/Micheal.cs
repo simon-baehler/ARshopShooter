@@ -73,6 +73,10 @@ public class Micheal : HumanAI, IInputClickHandler {
 					gameObject.GetComponents<Collider>()[0].enabled = false;
 				}
 				break;
+			case EnumState.EStates.Saved:  
+				anim.SetFloat("Speed", !IsMoving() ? 0 : ANIM_SPEED);
+				tRig.AI.WorkingMemory.SetItem<float>("speed", NORMAL_SPEED);
+				break;
 				default:
 					anim.SetBool("Shout", false);
 					break;
@@ -84,7 +88,7 @@ public class Micheal : HumanAI, IInputClickHandler {
 	/// </summary>
 	private void OnTriggerEnter(Collider other)
 	{
-		if (GetState() != "helping") return;
+		if (GetState() != EnumState.EStates.Helping.ToString()) return;
 		if(other.gameObject.GetComponent<Civilian>() != null)
 			other.gameObject.SendMessage("OnInDanger");
 	}
