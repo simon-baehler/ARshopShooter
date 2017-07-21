@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7936bfaa-6a55-4a03-b9fa-8c39ee4540da" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.ARShopShooter/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.ARShopShooter/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/AI/BehaviorTrees/Adam.txt" afterPath="$PROJECT_DIR$/Assets/AI/BehaviorTrees/Adam.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/AI/BehaviorTrees/Michael.txt" afterPath="$PROJECT_DIR$/Assets/AI/BehaviorTrees/Michael.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/AI/BehaviorTrees/shopShooter.txt" afterPath="$PROJECT_DIR$/Assets/AI/BehaviorTrees/shopShooter.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/AI/Cache/BTEditorWindowState.asset" afterPath="$PROJECT_DIR$/Assets/AI/Cache/BTEditorWindowState.asset" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scene/scene_01_grosshandel.unity" afterPath="$PROJECT_DIR$/Assets/Scene/scene_01_grosshandel.unity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/scripts/Adam.cs" afterPath="$PROJECT_DIR$/Assets/scripts/Adam.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/scripts/Civilian.cs" afterPath="$PROJECT_DIR$/Assets/scripts/Civilian.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/scripts/Micheal.cs" afterPath="$PROJECT_DIR$/Assets/scripts/Micheal.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/scripts/ShopShooter.cs" afterPath="$PROJECT_DIR$/Assets/scripts/ShopShooter.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -63,8 +54,8 @@
       <file leaf-file-name="Civilian.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/scripts/Civilian.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="94" column="76" lean-forward="false" selection-start-line="94" selection-start-column="76" selection-end-line="94" selection-end-column="76" />
+            <state relative-caret-position="802">
+              <caret line="136" column="5" lean-forward="true" selection-start-line="121" selection-start-column="3" selection-end-line="136" selection-end-column="5" />
               <folding>
                 <marker date="1500554944907" expanded="false" signature="6:204" ph="..." />
                 <marker date="1500554944907" expanded="true" signature="258:4873" ph="{...}" />
@@ -131,7 +122,7 @@
       <file leaf-file-name="Micheal.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/scripts/Micheal.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
+            <state relative-caret-position="309">
               <caret line="77" column="76" lean-forward="false" selection-start-line="77" selection-start-column="76" selection-end-line="77" selection-end-column="76" />
               <folding>
                 <marker date="1500554945914" expanded="false" signature="6:164" ph="..." />
@@ -155,7 +146,7 @@
       <file leaf-file-name="Adam.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/scripts/Adam.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
+            <state relative-caret-position="241">
               <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="71" selection-end-column="76" />
               <folding>
                 <marker date="1500554945956" expanded="false" signature="7:155" ph="..." />
@@ -213,8 +204,8 @@
       <file leaf-file-name="ShopShooter.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/scripts/ShopShooter.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="60" column="50" lean-forward="false" selection-start-line="60" selection-start-column="50" selection-end-line="60" selection-end-column="50" />
+            <state relative-caret-position="445">
+              <caret line="72" column="17" lean-forward="true" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="17" />
               <folding>
                 <marker date="1500554759869" expanded="false" signature="7:91" ph="..." />
                 <marker date="1500554759869" expanded="true" signature="147:3268" ph="{...}" />
@@ -539,12 +530,12 @@
       <workItem from="1499863224575" duration="6710000" />
       <workItem from="1499945305537" duration="19027000" />
       <workItem from="1500035706604" duration="8915000" />
-      <workItem from="1500277701707" duration="10114000" />
+      <workItem from="1500277701707" duration="11921000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159073000" />
+    <option name="totallyTimeSpent" value="160880000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1096,54 +1087,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/scripts/Adam.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="71" selection-end-column="76" />
-          <folding>
-            <marker date="1500554945956" expanded="false" signature="7:155" ph="..." />
-            <marker date="1500554945956" expanded="true" signature="207:3089" ph="{...}" />
-            <marker date="1500554945956" expanded="true" signature="316:1293" ph="{...}" />
-            <marker date="1500554945956" expanded="true" signature="1222:1290" ph="{...}" />
-            <marker date="1500554945956" expanded="true" signature="1348:2305" ph="{...}" />
-            <marker date="1500554945956" expanded="true" signature="1430:2302" ph="{...}" />
-            <marker date="1500554945956" expanded="true" signature="1963:2013" ph="{...}" />
-            <marker date="1500554945956" expanded="true" signature="2307:2410" ph="/// set the state of the target to run, used in the custom action script ... " />
-            <marker date="1500554945956" expanded="true" signature="2438:2680" ph="{...}" />
-            <marker date="1500554945956" expanded="true" signature="2682:2797" ph="///  When we do the tap movement on a hologram ... " />
-            <marker date="1500554945956" expanded="true" signature="2858:2878" ph="{...}" />
-            <marker date="1500554945956" expanded="true" signature="2880:2954" ph="/// set the state to run if he is not saved ... " />
-            <marker date="1500554945956" expanded="true" signature="2979:3084" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/scripts/Micheal.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="77" column="76" lean-forward="false" selection-start-line="77" selection-start-column="76" selection-end-line="77" selection-end-column="76" />
-          <folding>
-            <marker date="1500554945914" expanded="false" signature="6:164" ph="..." />
-            <marker date="1500554945914" expanded="true" signature="217:3044" ph="{...}" />
-            <marker date="1500554945914" expanded="true" signature="301:1280" ph="{...}" />
-            <marker date="1500554945914" expanded="true" signature="1209:1277" ph="{...}" />
-            <marker date="1500554945914" expanded="true" signature="1335:2416" ph="{...}" />
-            <marker date="1500554945914" expanded="true" signature="1425:2412" ph="{...}" />
-            <marker date="1500554945914" expanded="true" signature="1761:1900" ph="{...}" />
-            <marker date="1500554945914" expanded="true" signature="1924:1977" ph="{...}" />
-            <marker date="1500554945914" expanded="true" signature="2055:2167" ph="{...}" />
-            <marker date="1500554945914" expanded="true" signature="2418:2509" ph="/// When a IA ENTER in the collider, say him he is in danger ... " />
-            <marker date="1500554945914" expanded="true" signature="2554:2729" ph="{...}" />
-            <marker date="1500554945914" expanded="true" signature="2731:2819" ph="/// When a IA IS in the collider, say him he is in danger ... " />
-            <marker date="1500554945914" expanded="true" signature="2863:3038" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/scripts/Civilian.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="94" column="76" lean-forward="false" selection-start-line="94" selection-start-column="76" selection-end-line="94" selection-end-column="76" />
+        <state relative-caret-position="802">
+          <caret line="136" column="5" lean-forward="true" selection-start-line="121" selection-start-column="3" selection-end-line="136" selection-end-column="5" />
           <folding>
             <marker date="1500554944907" expanded="false" signature="6:204" ph="..." />
             <marker date="1500554944907" expanded="true" signature="258:4873" ph="{...}" />
@@ -1164,10 +1111,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/scripts/Micheal.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="77" column="76" lean-forward="false" selection-start-line="77" selection-start-column="76" selection-end-line="77" selection-end-column="76" />
+          <folding>
+            <marker date="1500554945914" expanded="false" signature="6:164" ph="..." />
+            <marker date="1500554945914" expanded="true" signature="217:3044" ph="{...}" />
+            <marker date="1500554945914" expanded="true" signature="301:1280" ph="{...}" />
+            <marker date="1500554945914" expanded="true" signature="1209:1277" ph="{...}" />
+            <marker date="1500554945914" expanded="true" signature="1335:2416" ph="{...}" />
+            <marker date="1500554945914" expanded="true" signature="1425:2412" ph="{...}" />
+            <marker date="1500554945914" expanded="true" signature="1761:1900" ph="{...}" />
+            <marker date="1500554945914" expanded="true" signature="1924:1977" ph="{...}" />
+            <marker date="1500554945914" expanded="true" signature="2055:2167" ph="{...}" />
+            <marker date="1500554945914" expanded="true" signature="2418:2509" ph="/// When a IA ENTER in the collider, say him he is in danger ... " />
+            <marker date="1500554945914" expanded="true" signature="2554:2729" ph="{...}" />
+            <marker date="1500554945914" expanded="true" signature="2731:2819" ph="/// When a IA IS in the collider, say him he is in danger ... " />
+            <marker date="1500554945914" expanded="true" signature="2863:3038" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/scripts/Adam.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="71" selection-end-column="76" />
+          <folding>
+            <marker date="1500554945956" expanded="false" signature="7:155" ph="..." />
+            <marker date="1500554945956" expanded="true" signature="207:3089" ph="{...}" />
+            <marker date="1500554945956" expanded="true" signature="316:1293" ph="{...}" />
+            <marker date="1500554945956" expanded="true" signature="1222:1290" ph="{...}" />
+            <marker date="1500554945956" expanded="true" signature="1348:2305" ph="{...}" />
+            <marker date="1500554945956" expanded="true" signature="1430:2302" ph="{...}" />
+            <marker date="1500554945956" expanded="true" signature="1963:2013" ph="{...}" />
+            <marker date="1500554945956" expanded="true" signature="2307:2410" ph="/// set the state of the target to run, used in the custom action script ... " />
+            <marker date="1500554945956" expanded="true" signature="2438:2680" ph="{...}" />
+            <marker date="1500554945956" expanded="true" signature="2682:2797" ph="///  When we do the tap movement on a hologram ... " />
+            <marker date="1500554945956" expanded="true" signature="2858:2878" ph="{...}" />
+            <marker date="1500554945956" expanded="true" signature="2880:2954" ph="/// set the state to run if he is not saved ... " />
+            <marker date="1500554945956" expanded="true" signature="2979:3084" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/scripts/ShopShooter.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="60" column="50" lean-forward="false" selection-start-line="60" selection-start-column="50" selection-end-line="60" selection-end-column="50" />
+        <state relative-caret-position="445">
+          <caret line="72" column="17" lean-forward="true" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="17" />
           <folding>
             <marker date="1500554759869" expanded="false" signature="7:91" ph="..." />
             <marker date="1500554759869" expanded="true" signature="147:3268" ph="{...}" />
