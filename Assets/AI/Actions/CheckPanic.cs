@@ -1,17 +1,12 @@
-using System;
-using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
 using RAIN.Action;
-using RAIN.Core;
 using RAIN.Entities.Aspects;
 
 [RAINAction]
-public class checkPanic : RAINAction
+public class CheckPanic : RAINAction
 {
     private string state = "";
     private RAINAspect civil;
-    public override ActionResult Execute(RAIN.Core.AI ai)
+    public  ActionResult Execute(RAIN.Core.AI ai)
     {
         civil = ai.WorkingMemory.GetItem<RAINAspect>("moveTarget");
         //get the list of nav target of the IA

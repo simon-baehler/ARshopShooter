@@ -1,11 +1,9 @@
 using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
 using RAIN.Action;
 using RAIN.Core;
 
 [RAINAction]
-public class RassuringCivilian : RAINAction
+public class ReassuringCivilian : RAINAction
 {
     /// <summary>
     /// Stop the movement of the AI and call the methode SayRassuring

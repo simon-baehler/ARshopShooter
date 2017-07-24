@@ -4,7 +4,6 @@ using UnityEngine;
 using RAIN.Core;
 using RAIN.Entities;
 using RAIN.Entities.Aspects;
-using RAIN.Minds;
 using RAIN.Perception.Sensors;
 
 
@@ -99,8 +98,6 @@ public abstract class HumanAI : MonoBehaviour, IInputClickHandler, IFocusable
         GameObject.Find("CursorOnHolograms").transform.localScale = new Vector3(1.15f ,1.15f ,1.15f);
     }
 
-  
-
     /// <summary>
     /// Function for checking if the AI is moving (used for setting the animation)
     /// </summary>
@@ -166,9 +163,5 @@ public abstract class HumanAI : MonoBehaviour, IInputClickHandler, IFocusable
         var randomDist = Random.Range(0.1f, 6);
         tRig.AI.Motor.CloseEnoughDistance = randomDist;
         SetState(EnumState.EStates.Saved);
-    }
-
-    private void OnSelect()
-    {
     }
 }

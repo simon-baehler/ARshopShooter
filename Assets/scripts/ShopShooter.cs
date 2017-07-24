@@ -86,10 +86,14 @@ public class ShopShooter : HumanAI, IInputClickHandler
         SetState(EnumState.EStates.Caught);
         anim.SetFloat("Speed", 0);
     }
-
+    /// <summary>
+    ///  Method called by the KeywordHandler when the player say "Stop", this method set the state of the shooter
+    /// to "Stopped" if he is not caught. The shooter must be focused
+    /// </summary>
     private void OnStop()
     {
         if (GetState() == EnumState.EStates.Caught.ToString()) return;
-        SetState(EnumState.EStates.Stopped);
+        if(isFocused)
+            SetState(EnumState.EStates.Stopped);
     }
 }

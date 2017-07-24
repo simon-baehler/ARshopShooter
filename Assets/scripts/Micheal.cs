@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Runtime.CompilerServices;
 using HoloToolkit.Unity.InputModule;
 using RAIN.Entities;
 using UnityEngine;
@@ -11,7 +10,7 @@ public class Micheal : HumanAI, IInputClickHandler {
 
 
 	// Use this for initialization
-	void Start () {
+	private void Start () {
 		//Adding gameObject Named Entity
 		GameObject entity = new GameObject("Entity");
 		entity.transform.parent = gameObject.transform;
@@ -42,7 +41,7 @@ public class Micheal : HumanAI, IInputClickHandler {
 
 
 	// Update is called once per frame
-	 void Update ()
+	 private void Update ()
 	 {
 		 
 		 switch ((EnumState.EStates)Enum.Parse(typeof( EnumState.EStates), GetState()))
@@ -80,11 +79,10 @@ public class Micheal : HumanAI, IInputClickHandler {
 				default:
 					anim.SetBool("Shout", false);
 					break;
-
 		}
 	 }
 	/// <summary>
-	/// When a IA ENTER in the collider, say him he is in danger
+	/// When a IA ENTER in the collider, if he is a Civilian, say him he is in danger
 	/// </summary>
 	private void OnTriggerEnter(Collider other)
 	{
@@ -101,7 +99,4 @@ public class Micheal : HumanAI, IInputClickHandler {
 		if(other.gameObject.GetComponent<Civilian>() != null)
 			other.gameObject.SendMessage("OnInDanger");
 	}
-
-
-	
 }

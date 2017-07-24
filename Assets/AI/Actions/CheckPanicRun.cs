@@ -1,12 +1,8 @@
-using System;
-using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
+
 using RAIN.Action;
-using RAIN.Core;
 using RAIN.Entities.Aspects;
 [RAINAction]
-public class checkPaincRun : RAINAction
+public class CheckPanicRun : RAINAction
 {
     private string state = "";
     private RAINAspect civil;

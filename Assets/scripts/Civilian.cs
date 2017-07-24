@@ -1,6 +1,5 @@
 ﻿using System;
 using HoloToolkit.Unity.InputModule;
-using Polarith.AI.Move;
 using RAIN.Entities;
 using UnityEngine;
 using Random = UnityEngine.Random;
@@ -8,12 +7,11 @@ using Random = UnityEngine.Random;
 
 public class Civilian : HumanAI, IInputClickHandler
 {
-
     public GameObject aimSeekList;
     private int randomSpeed;
-    private AIMContext AimContext;
+    /*private AIMContext AimContext;
     private AIMSeek AimSeek;
-    private AIMSimpleController AimSimpleController;
+    private AIMSimpleController AimSimpleController;*/
 
     // Use this for initialization
     private void Start()
@@ -29,10 +27,6 @@ public class Civilian : HumanAI, IInputClickHandler
         
         //Initialisation
         init();
-        
-        
-        
-        
         rigidbody.mass = Random.Range(MASS_MIN, MASS_MAX);
         tRig.AI.WorkingMemory.SetItem<float>("speed", NORMAL_SPEED);
         tRig.AI.WorkingMemory.SetItem<string>("state", EnumState.EStates.Normal.ToString());
@@ -70,7 +64,6 @@ public class Civilian : HumanAI, IInputClickHandler
         
 
     }
-
     // Update is called once per frame
     private void Update()
     {
@@ -104,18 +97,18 @@ public class Civilian : HumanAI, IInputClickHandler
         SetState(EnumState.EStates.Run);
     }
     /// <summary>
-    /// TO DO
+    /// Method called by the KeywordHandler when the player say "Police", this method set the state of the civilian
+    /// to "Run" if he is not saved. The civilian must be focused
     /// </summary>
     private void OnPolice()
     {
         if (GetState() == EnumState.EStates.Saved.ToString()) return;
-        print("lol");
         if(isFocused)
             SetState(EnumState.EStates.Run);
     }
 
     /// <summary>
-    /// Set the stat to run if the current state is normal or panic
+    /// Set the state to run if the current state is normal or panic
     /// </summary>
     private void OnSelect()
     {

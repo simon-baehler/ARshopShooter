@@ -1,13 +1,9 @@
 ﻿using UnityEngine; 
-using System.Collections; 
 using System.Collections.Generic;
-using HoloToolkit.Sharing;
 using RAIN.Core; 
 using RAIN.Action; 
-//using RAIN.BehaviorTrees; 
 using RAIN.Entities.Aspects; 
-//using RAIN.Minds; 
-//using RAIN.Memory;
+//source :http://legacy.rivaltheory.com/forums/topic/ai-collision-solutions/page/2/
 
 
 [RAINAction] 
@@ -49,11 +45,6 @@ public class PlayerAvoidance : RAINAction
 			} 
 		}
 		return ActionResult.SUCCESS; 
-	}
-
-	public override void Stop(AI ai) 
-	{ 
-		base.Stop(ai); 
 	}
 	#region 
 	private void doAvoidance(AI ai, RAINAspect aspect) 

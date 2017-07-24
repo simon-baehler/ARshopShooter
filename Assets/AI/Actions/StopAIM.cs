@@ -6,7 +6,7 @@ using RAIN.Action;
 using RAIN.Core;
 
 [RAINAction]
-public class stopAIM : RAINAction
+public class StopAIM : RAINAction
 {
     public override void Start(RAIN.Core.AI ai)
     {

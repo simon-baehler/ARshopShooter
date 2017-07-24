@@ -1,11 +1,9 @@
-﻿
-using System;
+﻿using System;
 using HoloToolkit.Unity.InputModule;
 using RAIN.Entities;
 using RAIN.Entities.Aspects;
 using UnityEngine;
 using Random = UnityEngine.Random;
-
 
 public class Adam :   HumanAI, IInputClickHandler
 {
@@ -76,7 +74,7 @@ public class Adam :   HumanAI, IInputClickHandler
 	/// <summary>
 	/// set the state of the target to run, used in the custom action script
 	/// </summary>
-	public void SayRassuring()
+	public void SayReassuring()
 	{
 		civil = tRig.AI.WorkingMemory.GetItem<RAINAspect>("moveTarget");
 		civil.MountPoint.gameObject.GetComponent<Civilian>().SetState(EnumState.EStates.Run);
