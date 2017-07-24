@@ -403,7 +403,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 70921346}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.000000003608875, y: -0.196, z: -0.008000061}
+  m_LocalPosition: {x: -0.000000003608875, y: -0.225, z: -0.008000061}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2059001466}
@@ -1201,7 +1201,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &293165103
 Transform:
   m_ObjectHideFlags: 0
@@ -1814,10 +1814,11 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 393691123}
-  m_Text: "Mot cl\xE9 : Police\nL'utilisation du mot \"Police\" tout en ciblant un
-    civil aura l'effet\nde passer le civil dans un \xE9tat de fuite vers la safeZone\n\nMot
-    cl\xE9 : Stop\nL'utilisation du mot \"Stop\" tout en ciblant le shooter aura l'effet\nde
-    passer le shooter dans un \xE9tat stopp\xE9, \xE9tat o\xF9 il ne \nbouge plus."
+  m_Text: "Mot cl\xE9 : Police\r\nL'utilisation du mot \"Police\" tout en ciblant
+    un civil aura l'effet\r\nde passer le civil dans un \xE9tat de fuite vers la safeZone\r\n\r\nMot
+    cl\xE9 : Stop\r\nL'utilisation du mot \"Stop\" tout en ciblant le shooter aura
+    l'effet\r\nde passer le shooter dans un \xE9tat stopp\xE9, \xE9tat o\xF9 il ne
+    \r\nbouge plus.\r\n\r\nMot Cl\xE9 : Reset\r\nQuitte le jeu et charge le menu\r\n"
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -6857,7 +6858,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1393823118
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6873,7 +6874,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0.207}
+  m_AnchoredPosition: {x: 0, y: 0.23}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1393823119
@@ -7771,10 +7772,11 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1514308598}
-  m_Text: "Le but de cette mission est de faire sortire du batiment,\n l'integralit\xE9
-    des civil. Il faut \xE9galement retrouver le Shooter, \nqui prend la fuite \xE0
-    la vue de la police, et le mener vers un \npoint de raseblement. Le sc\xE9nario
-    prend fin quand \nTOUS les IA sont \xE0 l'interieur des safe Zone"
+  m_Text: "Le but de cette mission est de faire sortir du b\xE2timent,\r\n l\u2019int\xE9gralit\xE9
+    des civils. Il faut \xE9galement retrouver le Shooter, \r\nqui prend la fuite
+    \xE0 la vue de la police, et le mener vers un \r\npoint de rassemblement. Le sc\xE9nario
+    prend fin quand \r\nTOUS les IA sont \xE0 l'int\xE9rieur des \xAB safes Zones
+    \xBB\r\n"
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -8523,7 +8525,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1696292040
 Transform:
   m_ObjectHideFlags: 0
@@ -9015,10 +9017,11 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1736226374}
-  m_Text: "Tap movement : mouvement de pincement avec le pouce et\nl'index, puis relachement.\nCible
-    possible : \nCivil : Fait passer le civil d'un \xE9tat normal/panqiue \xE0\nun
-    \xE9tat de fuite vers la safe Zone\nShooter : Le fait pass\xE9 d'un \xE9tat stopp\xE9
-    \xE0 un \xE9tat \narr\xE9t\xE9 (le shooter va suivre le joueur)"
+  m_Text: "Tap movement : mouvement de pincement avec le pouce et\r\nl'index, puis
+    rel\xE2chement.\r\nCible possible : \r\nCivil : Fait passer le civil d'un \xE9tat
+    normal/panique \xE0\r\nun \xE9tat de fuite vers la safe Zone\r\nShooter : Le fait
+    pass\xE9 d'un \xE9tat stopp\xE9 \xE0 un \xE9tat \r\narr\xEAt\xE9 (le shooter va
+    suivre le joueur)\r"
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -9315,7 +9318,7 @@ Transform:
   m_GameObject: {fileID: 1743408000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5292969, z: 0.009765625}
+  m_LocalScale: {x: 0.5023438, y: 0.58754885, z: 0.009765625}
   m_Children: []
   m_Father: {fileID: 1696292040}
   m_RootOrder: 0
@@ -9333,7 +9336,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BasePixelScale: 2048
-  ItemSize: {x: 1024, y: 1084, z: 20}
+  ItemSize: {x: 1028.8, y: 1203.3, z: 20}
 --- !u!23 &1743408003
 MeshRenderer:
   m_ObjectHideFlags: 0

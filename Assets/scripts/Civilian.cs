@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Security.Cryptography;
 using HoloToolkit.Unity.InputModule;
 using Polarith.AI.Move;
 using RAIN.Entities;
-using UnityEditor;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
