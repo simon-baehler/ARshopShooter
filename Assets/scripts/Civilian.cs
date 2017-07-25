@@ -7,9 +7,10 @@ using Random = UnityEngine.Random;
 
 public class Civilian : HumanAI, IInputClickHandler
 {
-    public GameObject aimSeekList;
+   
     private int randomSpeed;
-    /*private AIMContext AimContext;
+    /*public GameObject aimSeekList;
+    /private AIMContext AimContext;
     private AIMSeek AimSeek;
     private AIMSimpleController AimSimpleController;*/
 
@@ -17,8 +18,8 @@ public class Civilian : HumanAI, IInputClickHandler
     private void Start()
     {
         randomSpeed = Random.Range(RUN_SPEED_MIN,RUN_SPEED_MAX);
-        if(aimSeekList == null)
-            aimSeekList = GameObject.Find("civils");
+        /*if(aimSeekList == null)
+            aimSeekList = GameObject.Find("civils");*/
         //Adding gameObject Named Entity
         GameObject entity = new GameObject("Entity");
         entity.tag = "aCivil";
